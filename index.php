@@ -12,17 +12,17 @@
     <title>Hello, world!</title>
   </head>
   <body>
-
-        <div class="row">
-          <div class="col-12">
-            <?php include("./pagina-start/banner.php"); ?>
-          </div>
-        </div>
         <div class="row">
           <div class="col-12">
             <?php include("./pagina-start/navbar.php"); ?>
           </div>
         </div>
+        <div class="row">
+          <div class="col-12">
+            <?php include("./pagina-start/banner.php"); ?>
+          </div>
+        </div>
+        
 
         <div class="row">
             <div class="col-12">
