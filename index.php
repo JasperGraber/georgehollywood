@@ -15,18 +15,18 @@
 
         <div class="row">
           <div class="col-12">
-            <?php include("./pagina-s/banner.php"); ?>
+            <?php include("./pagina-start/banner.php"); ?>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <?php include("./pagina-s/navbar.php"); ?>
+            <?php include("./pagina-start/navbar.php"); ?>
           </div>
         </div>
 
         <div class="row">
             <div class="col-12">
-              <?php include("./pagina-s/content.php"); ?>
+              <?php include("./pagina-start/content.php"); ?>
             </div>
         </div>
 
