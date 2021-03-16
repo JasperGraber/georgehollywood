@@ -9,11 +9,15 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.php?content=home">home<span                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.php?content=home">home
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.php?content=contact-route">Contact & Route</a>
+                        </li>
                 </div>
             </nav>
         </div>
