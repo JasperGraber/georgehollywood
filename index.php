@@ -12,7 +12,23 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>George hollywood</h1>
+
+        <div class="row">
+          <div class="col-12">
+            <?php include("./pagina-s/banner.php"); ?>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <?php include("./pagina-s/navbar.php"); ?>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+              <?php include("./pagina-s/content.php"); ?>
+            </div>
+        </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
