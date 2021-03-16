@@ -10,7 +10,7 @@
             {
                 include 'scripts/' . $_GET['content'] . '.php';
             }
-            elseif (file_exists('home/' . $_GET['content'] . '.php'))
+            elseif (file_exists('pagina/' . $_GET['content'] . '.php'))
             {
                 include 'pagina/' . $_GET['content'] . '.php';
             }
