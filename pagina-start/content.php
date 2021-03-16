@@ -14,6 +14,10 @@
             {
                 include 'pagina/' . $_GET['content'] . '.php';
             }
+            elseif (file_exists('pagina-reserveren/' . $_GET['content'] . '.php'))
+            {
+                include 'pagina-reserveren/' . $_GET['content'] . '.php';
+            }
         }
            
     ?>
