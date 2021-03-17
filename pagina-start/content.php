@@ -3,7 +3,7 @@
    
         if (isset($_GET['content'])) 
         {
-            if (file_exists('pagina-bezoeker/' . $_GET['content'] . '.php')) {
+            if (file_exists('pagina-start/' . $_GET['content'] . '.php')) {
                 include 'pagina-start/' . $_GET['content'] . '.php';
             }
             elseif (file_exists('scripts/' . $_GET['content'] . '.php'))

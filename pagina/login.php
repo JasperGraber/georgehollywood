@@ -1,10 +1,10 @@
 <div class="login">
     <div class="row">
         <div class="col-6">
-            <img src="./img/logo.svg" width="500px" alt="">
+            <img src="./img/logo.svg" width="80%" alt="">
         </div>
         <div class="col-6">
-            <form action="./index.php?content=login-script" method="post">
+            <form action="./scripts/login-script.php" method="post">
                 <div class="form-group">
                     <label for="exampleInputEmail">E-mail adres</label>
                     <input name="email" type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" autofocus>
