@@ -11,7 +11,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 175%;
 }
 
 .overflow {
@@ -27,10 +27,18 @@
 }
 
 .menukaart {
-    width: 10rem;
-    height: 5rem;
+    width: 75%;
+    height: 3rem;
     background-color: black;
     color: orange;
+    font-family: baskerville-urw, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1%;
+}
+
+body {
+    font-family: baskerville-urw, sans-serif;
 }
 
 
