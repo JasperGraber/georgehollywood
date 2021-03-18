@@ -17,12 +17,24 @@
                         <select id="tijdslot" name="tijdsloten">
                             <option value="12:00">12:00</option>
                             <option value="12:15">12:15</option>
-                            <option value="fiat">12:30</option>
-                            <option value="audi">13:00</option>
-                            <option value="volvo">13:15</option>
-                            <option value="saab">13:30</option>
-                            <option value="fiat">13:45</option>
+                            <option value="12:30">12:30</option>
+                            <option value="12:45">12:45</option>
+                            <option value="13:00">13:00</option>
+                            <option value="13:15">13:15</option>
+                            <option value="13:30">13:30</option>
+                            <option value="13:45">13:45</option>
                         </select>
+                </div>
+                <div class="col-3">
+                <label for="tijdsloten">Met hoeveel personen</label>
+                        <select id="personen" name="personen">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                
                 </div>
                 <!-- <INPUT TYPE="file" NAME="upload"> -->
                 <br>

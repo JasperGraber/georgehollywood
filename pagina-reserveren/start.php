@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col-4">
-                    <a type="button" href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f3eced0f51a7667d8989478_MARINA%20MENU.pdf" class="menukaart">Menukaart</a>
+                    <a type="button" href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f3eced0f51a7667d8989478_MARINA%20MENU.pdf" class="button">Menukaart</a>
                 </div>
                 <div class="col-4"></div>
             </div>
@@ -36,10 +36,10 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <a type="button" href="./index.php?content=reserveren_lunch" class="menukaart">Lunch</a>
+                    <a type="button" href="./index.php?content=reserveren_lunch" class="button">Lunch</a>
                 </div>
                 <div class="col-6">
-                    <a type="button" href="" class="menukaart">Diner</a>
+                    <a type="button" href="" class="button">Diner</a>
                 </div>        
             </div>
             <br>
