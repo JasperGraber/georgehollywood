@@ -1,4 +1,6 @@
-
+<div class="header parkeergelegenheid">
+    <h1>Reserveren</h1>
+</div>
 
 <div class="reserveren">
     <div class="row">
@@ -34,7 +36,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <a type="button" href="" class="menukaart">Lunch</a>
+                    <a type="button" href="./index.php?content=reserveren_lunch" class="menukaart">Lunch</a>
                 </div>
                 <div class="col-6">
                     <a type="button" href="" class="menukaart">Diner</a>
@@ -44,7 +46,7 @@
             <br>
             <br>
             <div class="row">
-                <img src="./img/logo.svg" width="100%" heigt="100%" alt="">
+                <img src="./img/logo.svg" alt="">
             </div>
         </div>
     </div>
