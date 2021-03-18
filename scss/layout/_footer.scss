@@ -1,0 +1,6 @@
+footer {
+    @include flexcenter(column,center);
+    height: 10vh;
+    min-height: 25px;
+    text-align: center;
+}

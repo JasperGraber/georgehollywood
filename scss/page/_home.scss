@@ -1,0 +1,31 @@
+.content {
+    @include flexcenter(column,center);
+    height: 21vh;
+    min-height: 300px;
+    text-align: center;
+}
+
+.buttons {
+    @include flexcenter(row,center);
+    height: 13vh;
+    text-align: center;
+
+    > a > div {
+        @include flexcenter(row,center);
+        border: 1px solid $black;
+        color: $text;
+        font-size: 1.1rem;
+        height: 3rem;
+        margin: 0rem 1.2rem;
+        text-decoration: none;
+        transition: .5s;
+        transition-timing-function: ease-in-out;
+        min-width: 120px;
+        width: 200px;
+
+        &:hover {
+            background: $text;
+            color: $main;
+        }
+    }
+}
