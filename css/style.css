@@ -47,3 +47,16 @@ body
 {
     font-family: baskerville-urw, sans-serif;
 }
+
+/* Styling voor contact & route */
+.routebeschrijving>h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    border-bottom: 5px solid orange;
+    
+}
+
+.routebeschrijving>p {
+    color: #6B6B6B;
+    font-size: 1.2rem;
+}
