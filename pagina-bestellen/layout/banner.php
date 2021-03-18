@@ -1,1 +1,3 @@
-banner
+<div class="banner">
+    
+</div>

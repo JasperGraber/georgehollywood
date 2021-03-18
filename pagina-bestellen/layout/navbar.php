@@ -1,20 +1,18 @@
 <header>
     <nav>
-        <ul id="leftmenu">
+        <ul id="mainmenu">
             <li>
-                <a href="#">
+                <a href="#locations">
                     Locations
                 </a>
             </li>
-        </ul>
-
-        <div id="logo">
-            Logo
-        </div>
-
-        <ul id="rightmenu">
             <li>
-                <a href="#">
+                <a href="#logo">
+                    <img src="/img/logo.svg" alt="Logo George-Hollywood" width="200px" />
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
                     Contact
                 </a>
             </li>

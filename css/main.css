@@ -8,81 +8,87 @@
 }
 
 html, body {
-  width: 100%;
+  color: #333;
+  font-family: "Times New Roman", "Libre Baskerville", sans-serif;
+  font-size: 18px;
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 18px;
-  font-family: "Libre Baskerville", sans-serif;
+  width: 100%;
 }
 
+/*
 body * {
-  display: block;
+    display: block;
 }
-
+*/
 header {
   position: relative;
+  height: 8rem;
 }
 
 header nav {
+  background: white;
+  border-bottom: 1px solid black;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 10rem;
-  background-color: gray;
+  z-index: 2;
 }
 
-header nav div#logo {
-  display: block;
-  width: auto;
-  height: 100%;
-  color: black;
-  float: left;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: .9rem .5rem;
-}
-
-header nav ul#mainmenu {
-  float: right;
+header nav > ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   list-style-type: none;
-  padding: 0;
-  height: 100%;
-  margin: 0;
+  margin: 0rem 2%;
+  padding: 0rem;
 }
 
-header nav ul#mainmenu > li {
-  float: left;
-  height: 100%;
+header nav > ul > li {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+  width: 33%;
 }
 
-header nav ul#mainmenu > li > a {
-  float: left;
-  height: 100%;
-  padding: 1rem .5rem;
+header nav > ul > li > a {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ff8000;
+  font-size: 1.1rem;
+  height: 8rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+header nav > ul > li > a:hover {
+  background-color: rgba(255, 128, 0, 0.2);
   color: black;
   text-decoration: none;
 }
 
-header nav ul#mainmenu > li > ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  display: none;
-  width: auto;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.banner {
+  background-color: #ff8000;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%), url("/img/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  height: 48vh;
 }
 
-header nav ul#mainmenu > li > ul.show {
-  display: block;
-}
-
-header nav ul#mainmenu > li > ul li {
-  display: block;
-  width: 100%;
-  padding: .3rem .1rem;
-  background: gray;
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  height: 22vh;
+  text-align: center;
 }

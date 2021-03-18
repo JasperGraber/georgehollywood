@@ -11,7 +11,7 @@
         <?php
             require_once("./layout/navbar.php");
             require_once("./layout/banner.php");
-            
+            require_once("./layout/content.php");
             require_once("./layout/footer.php");
         ?>
     </body>

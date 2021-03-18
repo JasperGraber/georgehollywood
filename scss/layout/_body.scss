@@ -1,12 +1,14 @@
 html, body {
-    width: 100%;
+    color: $text;
+    font-family: 'Times New Roman', $normalfont, sans-serif;
+    font-size: 18px;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    font-family: $normalfont, sans-serif;
+    width: 100%;
 }
-
+/*
 body * {
     display: block;
 }
+*/
