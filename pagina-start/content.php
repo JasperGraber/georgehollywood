@@ -1,6 +1,5 @@
 <div class="container">
-<?php
-   
+    <?php
         if (isset($_GET['content'])) 
         {
             if (file_exists('pagina-start/' . $_GET['content'] . '.php')) {
@@ -19,6 +18,5 @@
                 include 'pagina-reserveren/' . $_GET['content'] . '.php';
             }
         }
-           
     ?>
 </div>
