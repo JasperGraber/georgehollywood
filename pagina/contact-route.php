@@ -19,9 +19,18 @@
         <div class="container">
             <h1>Routebeschrijving</h1>
             <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
-            <p>Sla links af de Johannes Blookerweg (s111) op en de neem de eerste afslag rechts.
+            <br>
+            <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+            <p>Neem afslag 11 (Amsterdam -Overamstel) richting de s111 op de A10. 
+                Sla links af de s111 op en de neem de eerste afslag rechts.
                 Neem bij de rotonde de eerste afslag en ga de Joop Geesinkweg op.
-                Rij deze weg uit tot u bij de Duivendrechtsekade aankomt en sla daar links af.
+                Rij deze weg helemaal uit tot u bij de Duivendrechtsekade aankomt en sla hier links af.
+                Na 100m zult u restaurant George Hollywood vinden aan uw linkerkant.</p>
+            <img src="../img/train.svg" alt="trein" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+            <p>(17 min lopen) Stap uit bij metrostation Van der Madeweg en ga naar links. 
+                Neem daarna de tweede links en ga De Slinger op. 
+                Loop dit fietspad helemaal uit en neem na de tunnel de eerste rechts.
+                Loop deze weg helemaal uit tot u bij de Duivendrechtsekade aankomt en ga hier links af.
                 Na 100m zult u restaurant George Hollywood vinden aan uw linkerkant.</p>
         </div>
         <div class="container-cards">
