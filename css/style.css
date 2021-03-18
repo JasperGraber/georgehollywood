@@ -1,53 +1,65 @@
-
 .topnav {
     height: 50px;
     background-color: white;
     overflow: hidden;
-  }
-
-  .topnav a {
-  float: left;
-  color: black;
-  font-family: baskerville-urw, sans-serif;;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
 }
 
-.overflow
-{
+.topnav a {
+    float: left;
+    color: black;
+    font-family: baskerville-urw, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.overflow {
     overflow: visible;
 }
 
-.login
-{
+.login {
     padding-top: 125px;
 }
 
-
-.reserveren
-{
+.reserveren {
     padding-top: 50px;
 }
 
-.menukaart 
-{
+.menukaart {
     width: 10rem;
     height: 5rem;
     background-color: black;
-    color: orange; 
+    color: orange;
 }
+
 
 /* Styling voor contact & route */
-.routebeschrijving>h1 {
+
+.header>h1 {
     text-align: center;
     font-size: 2.1rem;
-    border-bottom: 5px solid orange;
-    
+    text-decoration: underline orange;
 }
 
-.routebeschrijving>p {
-    color: #6B6B6B;
+.routebeschrijving>.row>.col-3>p {
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
+}
+
+.routebeschrijving>.row>.col-3>a {
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 1.7rem 6rem;
+    text-decoration: none;
+}
+
+.routebeschrijving>.row>.col-3>a:hover {
+    color: white;
+    background-color: #333;
+    transition: .7s;
 }
