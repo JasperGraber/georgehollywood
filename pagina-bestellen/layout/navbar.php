@@ -1,17 +1,17 @@
 <header>
     <nav>
         <ul id="mainmenu">
-            <li>
+            <li id="left">
                 <a href="#locations">
                     Locations
                 </a>
             </li>
-            <li>
-                <a href="#logo">
+            <li id="center">
+                <a href="#home">
                     <img src="/img/logo.svg" alt="Logo George-Hollywood" width="200px" />
                 </a>
             </li>
-            <li>
+            <li id="right">
                 <a href="#contact">
                     Contact
                 </a>

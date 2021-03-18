@@ -1,13 +1,13 @@
 .content {
     @include flexcenter(column,center);
-    height: 21vh;
-    min-height: 300px;
+    height: 16vh;
+    min-height: 230px;
     text-align: center;
 }
 
 .buttons {
     @include flexcenter(row,center);
-    height: 13vh;
+    height: 8vh;
     text-align: center;
 
     > a > div {
@@ -20,12 +20,27 @@
         text-decoration: none;
         transition: .5s;
         transition-timing-function: ease-in-out;
-        min-width: 110px;
         width: 200px;
 
         &:hover {
             background: $text;
             color: $main;
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .content {
+        min-height: 140px;
+    }
+
+    .buttons {
+        > a > div {
+            font-size: 1rem;
+            height: 3rem;
+            margin: 0rem 1rem;
+            max-width: 80px;
+            width: 65px;
         }
     }
 }

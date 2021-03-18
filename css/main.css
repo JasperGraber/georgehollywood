@@ -22,6 +22,12 @@ body * {
     display: block;
 }
 */
+@media only screen and (max-width: 740px) {
+  html, body {
+    font-size: 12px;
+  }
+}
+
 header {
   position: relative;
   height: 8rem;
@@ -76,6 +82,32 @@ header nav > ul > li > a:hover {
   transition: .5s;
 }
 
+@media only screen and (max-width: 740px) {
+  header {
+    height: 6rem;
+  }
+  header nav > ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+  }
+  header nav > ul > li {
+    width: 100%;
+  }
+  header nav > ul > li#center > a {
+    height: 8rem;
+    width: 100%;
+  }
+  header nav > ul > li > a {
+    height: 3rem;
+    width: 100%;
+  }
+}
+
 .banner {
   background-color: #ff8000;
   background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("/img/banner3.png");
@@ -91,7 +123,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 10vh;
+  height: 8vh;
   min-height: 25px;
   text-align: center;
 }
@@ -101,8 +133,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 21vh;
-  min-height: 300px;
+  height: 16vh;
+  min-height: 230px;
   text-align: center;
 }
 
@@ -111,7 +143,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 13vh;
+  height: 8vh;
   text-align: center;
 }
 
@@ -128,11 +160,23 @@ footer {
   text-decoration: none;
   transition: .5s;
   transition-timing-function: ease-in-out;
-  min-width: 110px;
   width: 200px;
 }
 
 .buttons > a > div:hover {
   background: #333;
   color: white;
+}
+
+@media only screen and (max-width: 740px) {
+  .content {
+    min-height: 140px;
+  }
+  .buttons > a > div {
+    font-size: 1rem;
+    height: 3rem;
+    margin: 0rem 1rem;
+    max-width: 80px;
+    width: 65px;
+  }
 }

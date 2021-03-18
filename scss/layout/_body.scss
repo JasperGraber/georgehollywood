@@ -7,8 +7,15 @@ html, body {
     padding: 0;
     width: 100%;
 }
+
 /*
 body * {
     display: block;
 }
 */
+
+@media only screen and (max-width: 740px) {
+    html, body {
+        font-size: 12px;
+    }
+}

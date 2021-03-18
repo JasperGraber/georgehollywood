@@ -42,3 +42,33 @@ header {
         }
     }
 }
+
+@media only screen and (max-width: 740px) {
+    header {
+        height: 6rem;
+
+        nav > ul {
+            @include flexcenter(column,center);
+            margin: 0rem;
+            padding: 0rem;
+            width: 100%;
+
+            > li {
+                width: 100%;
+
+                &#center {
+
+                    > a {
+                        height: 8rem;
+                        width: 100%;
+                    }
+                }
+
+                > a {
+                    height: 3rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
