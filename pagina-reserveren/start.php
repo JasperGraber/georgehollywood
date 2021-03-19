@@ -1,7 +1,7 @@
-<div class="header parkeergelegenheid">
+<div class="header-start-r">
     <h1>Reserveren</h1>
 </div>
-
+<img src="../img/streep.svg" alt="underline" class="header-streep">
 <div class="reserveren">
     <div class="row">
         <div class="col-6">

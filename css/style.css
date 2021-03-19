@@ -1,3 +1,9 @@
+/* body lettertype */
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* navbar */
 .topnav {
     height: 50px;
     background-color: white;
@@ -11,13 +17,14 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 175%;
+    font-size: 125%;
 }
 
 .overflow {
     overflow: visible;
 }
 
+/* login  */
 .login {
     padding-top: 125px;
 }
@@ -29,21 +36,36 @@
     padding-top: 50px;
 }
 
-.button {
-    width: 100%;
+.button 
+{
+    width: 10rem;
     height: 3rem;
-    background-color: black;
+    background-color: white;
     color: orange;
+    border:#333 1px solid;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: 25px;
     padding-top: 1%;
 }
 
-body {
-    font-family: 'Libre Baskerville', serif;
+.header-reserveren-d-r 
+{
+    padding-left: 37%;
+    padding-top: 5%;
 }
 
+.header-start-r 
+{
+    padding-left:42%;
+    padding-top: 5%;
+}
+
+.header-streep
+{
+ width: 75%;
+ padding-left: 25%;
+}
 
 /* Styling voor contact & route pagina */
 
