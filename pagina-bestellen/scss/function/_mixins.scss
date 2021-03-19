@@ -1,0 +1,6 @@
+@mixin flexcenter ($richting, $align){
+    align-items: $align; //center, normal, stretch, left, right
+    display: flex;
+    flex-direction: $richting; //column, column-reverse, row, row-reverse
+    justify-content: center;
+}

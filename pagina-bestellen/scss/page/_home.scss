@@ -1,0 +1,64 @@
+.content {
+    @include flexcenter(column,center);
+    height: 16vh;
+    min-height: 230px;
+    text-align: center;
+}
+
+.buttons {
+    @include flexcenter(row,center);
+    height: 8vh;
+    text-align: center;
+
+    > a {
+        text-decoration: none;
+
+        > div {
+            @include flexcenter(row,center);
+            background: $main;
+            border: 1px solid $black;
+            box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
+            color: $text;
+            cursor: pointer;
+            font-size: 1.1rem;
+            height: 3rem;
+            margin: 0rem 1.2rem;
+            text-decoration: none;
+            transition: .5s;
+            width: 200px;
+
+            &:hover {
+                background: $col1;
+                color: $main;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) {
+
+    .buttons {
+        @include flexcenter(column,center);
+        width: 100%;
+        min-height: 160px;
+
+        > a {
+            @include flexcenter(row,center);
+            width: 100%;
+
+            > div {
+                background: $main;
+                color: $text;
+                height: 3rem;
+                margin: .5rem 1rem;
+                width: 90%;
+
+                &:hover {
+                    background: $col1;
+                    color: $main;
+                }
+            }
+        }
+    }
+}
