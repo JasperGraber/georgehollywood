@@ -1,5 +1,5 @@
 iframe {
-    border: 0px solid black;
+    border: 0px solid $alpha;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     filter: grayscale(100%);
@@ -10,16 +10,23 @@ iframe {
 
 .location {
     @include flexcenter(row,center);
-    margin: 1rem 2rem;
+    margin: 1rem 1rem;
         
     > .text {
         @include flexcenter(row,center);
-        margin: 1rem;
+        margin: .5rem;
 
-        > img {
-            @include flexcenter(column,center);
-            margin: 0rem 2rem 0rem 0rem;
-            width: 2.5rem;
+        .svg {
+            margin: 0rem 1rem 0rem 0rem;
+            max-width: 12rem;
+            width: 6rem;
+
+            > svg {
+
+                > path {
+                    fill: $text;
+                }
+            }
         }
     }
 }
@@ -58,6 +65,10 @@ iframe {
     .location {
         @include flexcenter(column,center);
         margin: 1rem 2rem;
+        > .text > .svg > svg {
+            margin: 0rem 0rem 0rem 0rem;
+            width: 6rem;
+        }
     }
     
     .locationroute {

@@ -15,7 +15,9 @@
 
 <div class="location">
     <div class="text">
-        <img src="./img/car.svg" alt="Car" />
+        <div class="svg">
+            <?php require_once("./img/car.svg"); ?>
+        </div>
         Neem afslag 11 (Amsterdam - Overamstel) vanaf de A10 richting de S111.
         Sla links af naar de S111 en neem vervolgens de eerste afslag rechts.
         Neem bij de rotonde de eerste afslag en rijd de Joop Geesinkweg op.
@@ -24,7 +26,9 @@
     </div>
 
     <div class="text">
-        <img src="./img/train.svg" alt="Train" />
+        <div class="svg">
+            <?php require_once("./img/train.svg"); ?>
+        </div>
         (17 min lopen) Stap uit bij metrostation Van der Madeweg en ga naar links.
         Neem daarna de tweede links en ga De Slinger op.
         Loop dit fietspad helemaal uit en neem na de tunnel de eerste rechts.

@@ -1,6 +1,6 @@
 .banner {
     background-color: $col1;
-    background: linear-gradient(to bottom, $black 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 99%, $black 100%), url("../img/banner.png");
+    background: linear-gradient(to bottom, $black 0%, $alpha 1%, $alpha 99%, $black 100%), url("../img/banner.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
