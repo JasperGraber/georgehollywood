@@ -72,10 +72,20 @@ body {
     padding-bottom: 5%;
 }
 /* button lunch uitljining  */
-.uitlijning2{
+.uitlijning2
+{
     padding-left: 37%;
-
 }
+.p_test 
+{ 
+    display: inline-block; 
+    width: 80%;
+}
+
+
+
+
+
 
 /* Styling voor contact & route pagina */
 

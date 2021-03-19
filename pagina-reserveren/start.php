@@ -7,13 +7,14 @@
         <div class="col-6">
             <div class="row">
                 <h1>Hoe te reserveren?</h1>
-                <p>
+                <p class="p_test">
                     Welkom, op deze pagina kunt u een reservering maken voor een lunch
-                    of een diner. Als u op onderstaande knop klikt (menukaart) kunt u alvast een kijkje nemen bij onze menukaart.  Naast deze tekst kunt u kiezen of u lunch of diner wilt bij George Hollywood. U wordt dan doorverwezen naar een aparte pagina. Hier kunt u een reservering maken voor een heerlijke lunch of diner. Als laatst dient u uw reservering compleet te maken door uw klantgegevens in te vullen, hier vult u ook een gezondheidsverklaring in. Helaas heerst er in Nederland nog steeds het Coronavirus namelijk. 
-                </p>
-                <br>
-                <p>
-                Als u alles heeft ingevuld kunt u op bevestigen klikken en heeft u een reservering gemaakt voor een heerlijke lunch of diner bij George Hollywood. U krijgt een bevestigingsmail in uw mailbox.
+                    of een diner. Als u op onderstaande knop klikt (menukaart) kunt u alvast een kijkje nemen bij onze menukaart. 
+                    Naast deze tekst kunt u kiezen of u lunch of diner wilt bij George Hollywood. U wordt dan doorverwezen naar een aparte pagina. Hier kunt u een reservering maken voor een heerlijke lunch of diner.
+                </p>    
+                <p class="p_test">
+                    Als laatst dient u uw reservering compleet te maken door uw klantgegevens in te vullen, hier vult u ook een gezondheidsverklaring in. Helaas heerst er in Nederland nog steeds het Coronavirus namelijk. 
+                    Als u alles heeft ingevuld kunt u op bevestigen klikken en heeft u een reservering gemaakt voor een heerlijke lunch of diner bij George Hollywood. U krijgt een bevestigingsmail in uw mailbox.
                 </p>
             </div>
             <div class="row">
