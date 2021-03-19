@@ -38,17 +38,13 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="uitlijing3">
-                            <a type="button" href="" class="button">Diner</a>
-                        </div
+                        <a type="button" href="" class="button">Diner</a>
                     </div>
                 </div>
             </div>
-            <br>
             <div class="row">
                 <img src="./img/logo.svg" height="250rem" alt="">
             </div>
         </div>
     </div>
 </div>
-
