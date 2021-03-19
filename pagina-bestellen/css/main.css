@@ -253,9 +253,7 @@ iframe {
 }
 
 .location > .text .svg {
-  margin: 0rem 1rem 0rem 0rem;
-  max-width: 12rem;
-  width: 6rem;
+  margin: 0rem 2rem 0rem 0rem;
 }
 
 .location > .text .svg > svg > path {
@@ -306,8 +304,7 @@ iframe {
     margin: 1rem 2rem;
   }
   .location > .text > .svg > svg {
-    margin: 0rem 0rem 0rem 0rem;
-    width: 6rem;
+    margin: 0rem;
   }
   .locationroute {
     align-items: center;

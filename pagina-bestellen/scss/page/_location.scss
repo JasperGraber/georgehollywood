@@ -17,15 +17,10 @@ iframe {
         margin: .5rem;
 
         .svg {
-            margin: 0rem 1rem 0rem 0rem;
-            max-width: 12rem;
-            width: 6rem;
+            margin: 0rem 2rem 0rem 0rem;
 
-            > svg {
-
-                > path {
-                    fill: $text;
-                }
+            > svg > path {
+                fill: $text;
             }
         }
     }
@@ -65,9 +60,9 @@ iframe {
     .location {
         @include flexcenter(column,center);
         margin: 1rem 2rem;
+
         > .text > .svg > svg {
-            margin: 0rem 0rem 0rem 0rem;
-            width: 6rem;
+            margin: 0rem;
         }
     }
     
