@@ -17,11 +17,10 @@ html, body {
   width: 100%;
 }
 
-/*
 body * {
-    display: block;
+  display: block;
 }
-*/
+
 @media only screen and (max-width: 740px) {
   html, body {
     font-size: 12px;
@@ -172,11 +171,24 @@ footer {
   .content {
     min-height: 140px;
   }
+  .buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 140px;
+  }
+  .buttons > a {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
   .buttons > a > div {
-    font-size: 1rem;
     height: 3rem;
-    margin: 0rem 1rem;
-    max-width: 80px;
-    width: 65px;
+    margin: .5rem 1rem;
+    width: 90%;
   }
 }
