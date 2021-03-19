@@ -34,7 +34,7 @@
 </div>
 
 <div class="locationroute">
-    <a href="https://www.google.com/maps/dir//Duivendrechtsekade+85,+1096+AJ+Amsterdam/@52.2373184,4.8658537,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47c60bdc0973e95b:0xc82ad62cab0c8354!2m2!1d4.9360646!2d52.3373392!3e0">
+    <a href="https://www.google.com/maps/place/Duivendrechtsekade+85,+1096+AJ+Amsterdam,+Nederland/@52.337339,4.936065,15z/data=!4m5!3m4!1s0x47c60bdc0973e95b:0xc82ad62cab0c8354!8m2!3d52.3373392!4d4.9360646?hl=nl-NL">
         <div class="route">
             Google maps
         </div>
