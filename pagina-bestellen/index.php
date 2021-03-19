@@ -20,6 +20,7 @@
             {
                 require_once("./layout/banner.php");
                 require_once("./page/home.php");
+                require_once("./layout/alert.php");
             }
 
             require_once("./layout/footer.php");
