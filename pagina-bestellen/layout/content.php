@@ -9,17 +9,17 @@
     <em>Then make sure to make an reservation.</em>
 </div>
 <div class="buttons">
-    <a>
+    <a href="#reservation">
         <div>
             Reservation
         </div>
     </a>
-    <a>
+    <a href="#menu">
         <div>
             Menu
         </div>
     </a>
-    <a>
+    <a href="#order">
         <div>
             Order
         </div>
