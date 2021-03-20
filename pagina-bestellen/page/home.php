@@ -9,17 +9,17 @@
     <em>Then make sure to make an reservation.</em>
 </div>
 <div class="buttons">
-    <a href="./index.php?p=reservation">
+    <a href="./index.php?p=reservation" class="button1">
         <div>
             Reservation
         </div>
     </a>
-    <a href="./index.php?p=menu">
+    <a href="./index.php?p=menu" class="button1">
         <div>
             Menu
         </div>
     </a>
-    <a href="./index.php?p=order">
+    <a href="./index.php?p=order" class="button1">
         <div>
             Order
         </div>

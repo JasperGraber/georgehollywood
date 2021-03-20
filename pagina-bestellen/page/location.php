@@ -38,13 +38,13 @@
 </div>
 
 <div class="locationroute">
-    <a href="https://www.google.com/maps/place/Duivendrechtsekade+85,+1096+AJ+Amsterdam,+Nederland/@52.337339,4.936065,15z/data=!4m5!3m4!1s0x47c60bdc0973e95b:0xc82ad62cab0c8354!8m2!3d52.3373392!4d4.9360646?hl=nl-NL">
+    <a href="https://www.google.com/maps/place/Duivendrechtsekade+85,+1096+AJ+Amsterdam,+Nederland/@52.337339,4.936065,15z/data=!4m5!3m4!1s0x47c60bdc0973e95b:0xc82ad62cab0c8354!8m2!3d52.3373392!4d4.9360646?hl=nl-NL" class="button1">
         <div class="route">
             Google maps
         </div>
     </a>
 
-    <a href="http://9292.nl/?naar=amsterdam_duivendrechtsekade-87">
+    <a href="http://9292.nl/?naar=amsterdam_duivendrechtsekade-87" class="button1">
         <div class="route">
             9292.nl
         </div>
