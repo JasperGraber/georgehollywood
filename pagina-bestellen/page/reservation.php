@@ -8,7 +8,7 @@
         <h1>Hoe te reserveren?</h1>
         <p>
             Welkom, op deze pagina kunt u een reservering maken voor een lunch
-            of een diner. Als u op onderstaande knop klikt (menukaart) kunt u alvast een kijkje nemen bij onze menukaart. 
+            of een diner. Als u op onderstaande knop klikt (Menu) kunt u alvast een kijkje nemen bij onze menukaart. 
             Naast deze tekst kunt u kiezen of u lunch of diner wilt bij George Hollywood. U wordt dan doorverwezen naar een aparte pagina. Hier kunt u een reservering maken voor een heerlijke lunch of diner.
             <br><br>
             Als laatst dient u uw reservering compleet te maken door uw klantgegevens in te vullen, hier vult u ook een gezondheidsverklaring in. Helaas heerst er in Nederland nog steeds het Coronavirus namelijk. 
