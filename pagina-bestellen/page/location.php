@@ -1,11 +1,21 @@
-<!-- Parkeergelegeheid -->
+<!-- Google Maps -->
+<iframe title="Google Maps" src="https://maps.google.com/maps?q=duivendrechtsekade%2085&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+<!-- Parkeergelegenheid -->
 <h1 class="head">
-    Parkeergelegenheid
+    Parkeer gelegenheid
     <img src="./img/streep.svg" alt="Line" />
 </h1>
 
-<!-- Google Maps -->
-<iframe title="Google Maps" src="https://maps.google.com/maps?q=duivendrechtsekade%2085&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+<div class="parking">
+    <div class="text">
+        <div class="svg">
+            <?php require_once("./img/park.svg"); ?>
+        </div>
+        Parkeren kunt u door tussen huisnummer 95 en 97 door het hek verder te rijden.<br>
+        Achter deze gebouwen bevind zich een parkeer terrein.
+    </div>
+</div>
 
 <!-- Routebeschrijving -->
 <h1 class="head">
