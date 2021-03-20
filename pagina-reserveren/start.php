@@ -24,7 +24,7 @@
         </div>
         <div class="col-6">
             <div class="row">
-            <h1 class="titel2-start">Een reserervering maken voor:</h1>
+                <h1 class="titel2-start">Een reserervering maken voor:</h1>
             </div>
             <div class="uitlijning1">
                 <div class="row">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <a type="button" href="" class="button">Diner</a>
+                        <a type="button" href="./index.php?content=reserveren_diner" class="button">Diner</a>
                     </div>
                 </div>
             </div>
