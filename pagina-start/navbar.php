@@ -1,7 +1,7 @@
 <div class="row">
     <div class="topnav">
         <a class="active" href="./index.php?content=home">
-            <img src="./img/logo.svg" width="40%" alt="">
+            <img src="./img/logo.svg" width="50%" alt="">
         </a>
         <a href="./index.php?content=contact-route">Contact & Route</a>
         <a href="./index.php?content=start">Reserveren</a>

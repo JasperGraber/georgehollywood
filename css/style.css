@@ -41,14 +41,18 @@ body {
     width: 10rem;
     height: 3rem;
     background-color: white;
-    color: #ff8000;
+    color: #333;
     border:#333 1px solid;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: 25px;
     padding-top: 1%;
+    
 }
-
+a:hover {
+    color:  #e3e3e3;
+    background-color: #ff8000;
+  }
 .header-reserveren-d-r 
 {
     padding-left: 37%;
