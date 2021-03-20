@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 20 mrt 2021 om 14:31
+-- Gegenereerd op: 20 mrt 2021 om 18:31
 -- Serverversie: 8.0.22
 -- PHP-versie: 7.4.15
 
@@ -98,6 +98,7 @@ CREATE TABLE IF NOT EXISTS `time-slot` (
   `timeid` int NOT NULL AUTO_INCREMENT,
   `starttime` varchar(5) NOT NULL,
   `endtime` varchar(5) NOT NULL,
+  `half-day` varchar(10) NOT NULL,
   PRIMARY KEY (`timeid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -105,8 +106,8 @@ CREATE TABLE IF NOT EXISTS `time-slot` (
 -- Gegevens worden geëxporteerd voor tabel `time-slot`
 --
 
-INSERT INTO `time-slot` (`timeid`, `starttime`, `endtime`) VALUES
-(1, '14:00', '16:00');
+INSERT INTO `time-slot` (`timeid`, `starttime`, `endtime`, `half-day`) VALUES
+(1, '14:00', '16:00', 'lunch');
 
 -- --------------------------------------------------------
 
