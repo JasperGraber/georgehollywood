@@ -15,9 +15,9 @@
             Als u alles heeft ingevuld kunt u op bevestigen klikken en heeft u een reservering gemaakt voor een heerlijke lunch of diner bij George Hollywood. U krijgt een bevestigingsmail in uw mailbox.
         </p>
         <div>
-            <a href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f3eced0f51a7667d8989478_MARINA%20MENU.pdf">
+            <a class="menu" href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f3eced0f51a7667d8989478_MARINA%20MENU.pdf">
                 <div>
-                    Menukaart
+                    Menu
                 </div>
             </a>
         </div>
@@ -40,14 +40,4 @@
         <img src="./img/logo.svg" alt="George Hollywood">
         <br><br><br>
     </div>
-
-        <!--
-        <div class="uitlijning2">
-            <a type="button" href="./index.php?content=reserveren_lunch" class="button">Lunch</a>
-        </div>
-        <a type="button" href="" class="button">Diner</a>
-        </div>
-        <div class="row">
-        <img src="./img/logo.svg" height="250rem" alt="">
-    </div> -->
 </div>

@@ -31,6 +31,10 @@ body * {
 @media only screen and (max-width: 260px) {
     html:before {
         @include flexcenter(column,center);
+        background: linear-gradient(to bottom, $black 0%, $alpha 1%, $alpha 99%, $black 100%), url("../img/logo.svg");
+        background-repeat: no-repeat;
+        background-position: center 5%;
+        background-size: stretch;
         color: $text;
         content: 'Apparaat te klein';
         font-family: $normalfont, 'Times New Roman', sans-serif;

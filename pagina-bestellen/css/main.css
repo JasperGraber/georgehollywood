@@ -38,6 +38,10 @@ body * {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: stretch;
     color: #333;
     content: 'Apparaat te klein';
     font-family: "Libre Baskerville", "Times New Roman", sans-serif;
@@ -484,6 +488,10 @@ iframe {
   background: #ff8000;
   color: white;
   transform: scale(1.1);
+}
+
+.reservation > div > div > .menu > div {
+  width: 200px;
 }
 
 .reservation > div > img {
