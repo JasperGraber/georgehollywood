@@ -5,7 +5,7 @@
 <div class="reserveren">
     <div class="row">
         <div class="col-6">
-            <h1 class="test">Hoe kunt u een reservering plaatsen</h1>
+            <h1 class="titel1-start">Hoe kunt u een reservering plaatsen</h1>
                 <p class="p_welkom-r">
                     Welkom, op deze pagina kunt u een reservering maken voor een lunch
                     of een diner. Als u op onderstaande knop klikt (menukaart) kunt u alvast een kijkje nemen bij onze menukaart. 
@@ -24,7 +24,7 @@
         </div>
         <div class="col-6">
             <div class="row">
-            <h1 class="test">Een reserervering maken voor:</h1>
+            <h1 class="titel2-start">Een reserervering maken voor:</h1>
             </div>
             <div class="uitlijning1">
                 <div class="row">
