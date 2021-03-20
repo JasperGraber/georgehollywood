@@ -9,7 +9,7 @@ iframe {
 }
 
 .parking {
-    @include flexcenter(row-reverse,center);
+    @include flexcenter(row,center);
     margin: 1rem 1rem;
         
     > .text {
@@ -54,23 +54,7 @@ iframe {
 
 @media only screen and (max-width: 740px) {
     
-    .parking {
-        @include flexcenter(column-reverse,center);
-        margin: 1rem 2rem;
-
-        > .text {
-        
-            > img {
-                width: 90%;
-            }
-            
-            .svg > svg {
-                margin: 0rem;
-            }
-        }
-    }
-
-    .location {
+    div {
         @include flexcenter(column,center);
         margin: 1rem 2rem;
 

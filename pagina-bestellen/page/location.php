@@ -9,10 +9,6 @@
 
 <div class="parking">
     <div class="text">
-        <img src="./img/parking.png" alt="Parkeren" />
-    </div>
-
-    <div class="text">
         <div class="svg">
             <?php require_once("./img/park.svg"); ?>
         </div>
