@@ -4,16 +4,16 @@
 <img src="../img/streep.svg" alt="underline" class="header-streep">
 
 
-<div class="login">   
+<div class="reserveren">   
     <div class="row">
         <div class="col-6">
             <img src="./img/logo.svg" width="80%" alt="">
         </div>
         <div class="col-6">
             <form action="./scripts/reserveren-l-script.php">
-                <label for="datum kiezen">Reserverings-datum:</label>
+                <label class="label" for="datum kiezen">Reserverings-datum:</label>
                 <br>
-                <input type="date" id="start" name="reservering date"value="2021-01-01"
+                <input class="date" type="date" id="start" name="reservering date"value="2021-01-01"
                 min="2021-01-01" max="2025-12-31">
                 <div class="col-3">
                     <label for="tijdsloten">kies een tijdslot</label>
