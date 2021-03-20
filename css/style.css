@@ -134,13 +134,13 @@ a:hover {
     font-size: 150%;
     color:#ff8000;
     padding-bottom: 1%;
-    width: 40%;
+    /* width: 50%; */
 }
 .date 
 {
     font-size: 100%;
     color:#ff8000;
-    width: 27.5%;
+    /* width: 27.5%; */
     padding-left: 3%;
 }
 
@@ -148,8 +148,8 @@ a:hover {
 {
     font-size: 100%;
     color:#ff8000;
-    width: 20%;
-    padding-left: 5%;
+    /* width: 20%; */
+    padding-left: 2.5%;
 }
 
 .persons
@@ -182,6 +182,15 @@ button:hover
 
 .button-hoogte{
     padding-top: 5%;
+}
+
+.spelen
+{
+    padding-left: 10%;
+    padding-bottom: 5%;
+    border: solid 1px;
+    width: 65%;
+    
 }
 
 
