@@ -1,3 +1,12 @@
+<div class="banner-home">
+    
+</div>
+
+<h1 class="head">
+    George Hollywood
+    <img src="./img/streep.svg" alt="Line" />
+</h1>
+
 <div class="content">
     GEORGE likes to welcome you back home. We’ve missed you.<br>
     And we know you’ve missed us too.<br>
@@ -8,6 +17,7 @@
     ‍<br>
     <em>Then make sure to make an reservation.</em>
 </div>
+
 <div class="buttons">
     <a href="./index.php?p=reservation" class="button1">
         <div>

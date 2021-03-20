@@ -134,13 +134,53 @@ header nav > ul > li > a:hover {
   }
 }
 
-.banner {
-  background-color: #ff8000;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner.png");
+.banner-home {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
+  height: 48vh;
+}
+
+.banner-contact {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
+  height: 48vh;
+}
+
+.banner-menu {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
+  height: 48vh;
+}
+
+.banner-reservation {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
+  height: 48vh;
+}
+
+.banner-order {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
   height: 48vh;
 }
 
@@ -375,9 +415,37 @@ iframe {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   filter: grayscale(100%);
-  height: 22rem;
+  height: 48vh;
   min-height: 180px;
   width: 100%;
+}
+
+.parking {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 1rem 1rem;
+}
+
+.parking > .text {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: .5rem;
+}
+
+.parking > .text > img {
+  width: 75%;
+}
+
+.parking > .text .svg {
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+.parking > .text .svg > svg > path {
+  fill: #333;
 }
 
 .location {
@@ -412,6 +480,19 @@ iframe {
 }
 
 @media only screen and (max-width: 740px) {
+  .parking {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 1rem 2rem;
+  }
+  .parking > .text > img {
+    width: 90%;
+  }
+  .parking > .text .svg > svg {
+    margin: 0rem;
+  }
   .location {
     align-items: center;
     display: flex;
@@ -427,8 +508,8 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     min-height: 100px;
+    width: 100%;
   }
 }
 
@@ -509,5 +590,8 @@ iframe {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+  }
+  .reservation > .tekst2 > img {
+    margin: 3rem 0rem;
   }
 }

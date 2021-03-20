@@ -1,3 +1,7 @@
+<div class="banner-reservation">
+    
+</div>
+
 <h1 class="head">
     Reserveren
     <img src="./img/streep.svg" alt="Line" />
@@ -15,7 +19,7 @@
             Als u alles heeft ingevuld kunt u op bevestigen klikken en heeft u een reservering gemaakt voor een heerlijke lunch of diner bij George Hollywood. U krijgt een bevestigingsmail in uw mailbox.
         </p>
         <div>
-            <a href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f3eced0f51a7667d8989478_MARINA%20MENU.pdf" class="button1" >
+            <a href="./index.php?p=menu" test="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f3eced0f51a7667d8989478_MARINA%20MENU.pdf" class="button1" >
                 <div>
                     Menu
                 </div>
@@ -38,6 +42,5 @@
             </a>
         </div>
         <img src="./img/logo.svg" alt="George Hollywood">
-        <br><br><br>
     </div>
 </div>

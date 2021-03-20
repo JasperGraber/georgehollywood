@@ -4,3 +4,13 @@
     flex-direction: $richting; //column, column-reverse, row, row-reverse
     justify-content: center;
 }
+
+@mixin banner ($col1, $location, $gray){
+    background-color: $col1;
+    background: linear-gradient(to bottom, $col1 0%, $alpha 1%, $alpha 99%, $col1 100%), url($location);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale($gray);
+    height: 48vh;
+}
