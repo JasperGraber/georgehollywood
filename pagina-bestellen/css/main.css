@@ -239,6 +239,107 @@ footer {
     }
 }
 */
+a.button1 {
+  text-decoration: none;
+}
+
+a.button1 > div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
+  color: #333;
+  cursor: pointer;
+  font-size: 1.1rem;
+  height: 3rem;
+  margin: 0rem 1.2rem;
+  text-decoration: none;
+  transition: .5s;
+  width: 200px;
+}
+
+a.button1 > div:hover {
+  background: #ff8000;
+  color: white;
+  transform: scale(1.1);
+}
+
+a.button2 {
+  text-decoration: none;
+}
+
+a.button2 > div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
+  color: #333;
+  cursor: pointer;
+  font-size: 1.1rem;
+  height: 3rem;
+  margin: 2rem 1.2rem;
+  text-decoration: none;
+  transition: .5s;
+  width: 7rem;
+}
+
+a.button2 > div:hover {
+  background: #ff8000;
+  color: white;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 740px) {
+  a.button1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+  }
+  a.button1 > div {
+    background: white;
+    color: #333;
+    height: 3rem;
+    margin: .5rem 1rem;
+    width: 90%;
+  }
+  a.button1 > div:hover {
+    background: #ff8000;
+    color: white;
+  }
+  a.button2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+  }
+  a.button2 > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    color: #333;
+    height: 3rem;
+    margin: 0.5rem 0rem;
+    width: 90%;
+  }
+  a.button2 > div:hover {
+    background: #ff8000;
+    color: white;
+  }
+}
+
 .content {
   align-items: center;
   display: flex;
@@ -258,34 +359,6 @@ footer {
   text-align: center;
 }
 
-.buttons > a {
-  text-decoration: none;
-}
-
-.buttons > a > div {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background: white;
-  border: 1px solid black;
-  box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
-  color: #333;
-  cursor: pointer;
-  font-size: 1.1rem;
-  height: 3rem;
-  margin: 0rem 1.2rem;
-  text-decoration: none;
-  transition: .5s;
-  width: 200px;
-}
-
-.buttons > a > div:hover {
-  background: #ff8000;
-  color: white;
-  transform: scale(1.1);
-}
-
 @media only screen and (max-width: 740px) {
   .buttons {
     align-items: center;
@@ -294,24 +367,6 @@ footer {
     justify-content: center;
     width: 100%;
     min-height: 160px;
-  }
-  .buttons > a {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  .buttons > a > div {
-    background: white;
-    color: #333;
-    height: 3rem;
-    margin: .5rem 1rem;
-    width: 90%;
-  }
-  .buttons > a > div:hover {
-    background: #ff8000;
-    color: white;
   }
 }
 
@@ -356,34 +411,6 @@ iframe {
   justify-content: center;
 }
 
-.locationroute > a {
-  text-decoration: none;
-}
-
-.locationroute > a > div {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background: white;
-  border: 1px solid black;
-  box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
-  color: #333;
-  cursor: pointer;
-  font-size: 1.1rem;
-  height: 3rem;
-  margin: 0rem 1.2rem;
-  text-decoration: none;
-  transition: .5s;
-  width: 200px;
-}
-
-.locationroute > a > div:hover {
-  background: #ff8000;
-  color: white;
-  transform: scale(1.1);
-}
-
 @media only screen and (max-width: 740px) {
   .location {
     align-items: center;
@@ -402,29 +429,6 @@ iframe {
     justify-content: center;
     width: 100%;
     min-height: 100px;
-  }
-  .locationroute > a {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-decoration: none;
-    width: 100%;
-  }
-  .locationroute > a > div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: white;
-    color: #333;
-    height: 3rem;
-    margin: 0.5rem 0rem;
-    width: 90%;
-  }
-  .locationroute > a > div:hover {
-    background: #ff8000;
-    color: white;
   }
 }
 
@@ -455,43 +459,6 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.reservation > div > div > a {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-decoration: none;
-  height: 7rem;
-}
-
-.reservation > div > div > a > div {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: white;
-  border: 1px solid black;
-  box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
-  color: #333;
-  cursor: pointer;
-  font-size: 1.1rem;
-  height: 3rem;
-  margin: 0rem 1.2rem;
-  text-decoration: none;
-  transition: .5s;
-  width: 7rem;
-}
-
-.reservation > div > div > a > div:hover {
-  background: #ff8000;
-  color: white;
-  transform: scale(1.1);
-}
-
-.reservation > div > div > .menu > div {
-  width: 200px;
 }
 
 .reservation > div > img {
@@ -527,24 +494,6 @@ iframe {
     justify-content: center;
     width: 100%;
   }
-  .reservation > .tekst1 > div > a {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  .reservation > .tekst1 > div > a > div {
-    background: white;
-    color: #333;
-    height: 3rem;
-    margin: .5rem 1rem;
-    width: 90%;
-  }
-  .reservation > .tekst1 > div > a > div:hover {
-    background: #ff8000;
-    color: white;
-  }
   .reservation > .tekst2 {
     align-items: center;
     display: flex;
@@ -560,23 +509,5 @@ iframe {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-  }
-  .reservation > .tekst2 > div > a {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  .reservation > .tekst2 > div > a > div {
-    background: white;
-    color: #333;
-    height: 3rem;
-    margin: .5rem 1rem;
-    width: 90%;
-  }
-  .reservation > .tekst2 > div > a > div:hover {
-    background: #ff8000;
-    color: white;
   }
 }
