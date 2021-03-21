@@ -12,6 +12,7 @@ include("./functions.php");
     
     if (mysqli_query($conn, $sql))
     {
-        header("Location: http://george-hollywood.nl/index.php?content=klantgegevens&id=");
+        $id = mysqli_insert_id($conn);
+        header("Location: http://george-hollywood.nl/index.php?content=klantgegevens&reservationid=");
     }
 ?>
