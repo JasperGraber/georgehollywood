@@ -14,7 +14,7 @@
                 <form action="./scripts/reserveren-l-script.php" method="post">
                     <label class="label" for="datum kiezen">Reserverings-datum:</label>
                     <div class="date2">
-                        <input class="date" id="start" type="date" name="reservation date" value="2021-01-01"
+                        <input class="date" id="start" type="date" name="reservation-date" value="2021-01-01"
                             min="2021-01-01" max="2025-12-31">
                     </div>
                     <label class="label1" for="tijdsloten">kies een tijdslot</label>
