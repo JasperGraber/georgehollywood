@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&amp;display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
         <link rel="stylesheet" href="./css/main.css" />
         <title>&copy; <?php if ( isset($_GET["p"])) { echo "George ".ucfirst($_GET["p"]); } else { echo ucfirst("George Hollywood"); } ?></title>
     </head>

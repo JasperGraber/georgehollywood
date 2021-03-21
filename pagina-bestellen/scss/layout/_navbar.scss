@@ -2,7 +2,7 @@ header {
     position: relative;
     height: 8rem;
 
-    nav {
+    > nav {
         background: $main;
         border-bottom: 1px solid $black;
         position: fixed;
@@ -12,7 +12,7 @@ header {
         > ul {
             @include flexcenter(row,center);
             list-style-type: none;
-            margin: 0rem 2%;
+            margin: 0rem;
             padding: 0rem;
 
             > li {
@@ -39,19 +39,24 @@ header {
                     }
                 }
             }
+
+            > #pc {
+                display: block;
+            }
+
+            > #tel {
+                display: none;
+            }
         }
     }
 }
 
 @media only screen and (max-width: 740px) {
     header {
-        height: 14rem;
+        height: 12rem;
 
-        nav > ul {
+        > nav > ul {
             @include flexcenter(column,center);
-            margin: 0rem;
-            padding: 0rem;
-            width: 100%;
 
             > li {
                 width: 100%;
@@ -60,6 +65,7 @@ header {
 
                     > a {
                         height: 8rem;
+                        margin-top: 1.4rem;
                         width: 100%;
                     }
                 }
@@ -68,6 +74,47 @@ header {
                     height: 3rem;
                     width: 100%;
                 }
+                
+                > ul {
+                    @include flexcenter(column,center);
+                    margin: 0rem;
+                    padding: 0rem;
+                    width: 100%;
+        
+                    > li {
+                        width: 100%;
+        
+                        > a {
+                            @include flexcenter(row,center);
+                            color: $text;
+                            font-size: 1.1rem;
+                            height: 3rem;
+                            text-decoration: none;
+                            transition: .5s;
+                            transition-timing-function: ease-in-out;
+                            width: 100%;
+
+                            > input {
+                                width: 100%;
+                            }
+        
+                            &:hover {
+                                background-color: $col2;
+                                color: $black;
+                                text-decoration: none;
+                                transition: .5s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            > #pc {
+                display: none;
+            }
+
+            > #tel {
+                display: block;
             }
         }
     }

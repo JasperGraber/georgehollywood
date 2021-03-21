@@ -17,7 +17,9 @@
 
     .buttons {
         @include flexcenter(column,center);
-        width: 100%;
         min-height: 160px;
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
     }
 }

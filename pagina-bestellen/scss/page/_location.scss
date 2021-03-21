@@ -66,6 +66,8 @@ iframe {
     .locationroute {
         @include flexcenter(column,center);
         min-height: 100px;
+        margin: 0rem;
+        padding: 0rem;
         width: 100%;
     }
 }

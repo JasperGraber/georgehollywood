@@ -1,9 +1,9 @@
 .banner-home {
-    @include banner (black, "../img/banner4.png", 0%);
+    @include banner (black, "../img/banner2.png", 0%);
 }
 
 .banner-contact {
-    @include banner (black, "../img/banner2.png", 0%);
+    @include banner (black, "../img/banner4.png", 0%);
 }
 
 .banner-menu {
@@ -16,4 +16,8 @@
 
 .banner-order {
     @include banner (black, "../img/banner5.png", 0%);
+}
+
+.banner-login {
+    @include banner (black, "../img/banner7.png", 0%);
 }
