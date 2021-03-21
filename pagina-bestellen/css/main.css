@@ -131,7 +131,7 @@ header > nav > ul > #tel {
   }
   header > nav > ul > li#center > a {
     height: 8rem;
-    margin-top: 1.4rem;
+    margin-top: 1rem;
     width: 100%;
   }
   header > nav > ul > li > a {
@@ -143,6 +143,7 @@ header > nav > ul > #tel {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    display: none;
     margin: 0rem;
     padding: 0rem;
     width: 100%;
@@ -556,14 +557,14 @@ iframe {
 }
 
 @media only screen and (max-width: 740px) {
-  div {
+  .location {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 1rem 2rem;
   }
-  div > .text > .svg > svg {
+  .location > .text > .svg > svg {
     margin: 0rem;
   }
   .locationroute {

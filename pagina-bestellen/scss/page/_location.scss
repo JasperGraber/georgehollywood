@@ -54,7 +54,7 @@ iframe {
 
 @media only screen and (max-width: 740px) {
     
-    div {
+    .location {
         @include flexcenter(column,center);
         margin: 1rem 2rem;
 
