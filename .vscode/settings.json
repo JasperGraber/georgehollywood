@@ -4,12 +4,12 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/pagina-bestellen/css"
+            "savePath": "/css"
         },
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "/pagina-bestellen/css/min"
+            "savePath": "/css/min"
         }
     ],
     "vscode.tsc.compiler.alertTSConfigChanges": "never",
