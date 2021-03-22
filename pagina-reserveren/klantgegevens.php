@@ -11,7 +11,7 @@
         </div>
         <div class="col-6">
             <div class="spelen">
-                <form action="./scripts/reserveren-l-script.php" method="post">
+                <form action="./scripts/customer-r-script.php" method="post">
                
                     
                     
