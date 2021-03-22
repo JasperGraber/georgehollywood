@@ -185,6 +185,11 @@ body {
     text-decoration: none;
 }
 
+::placeholder {
+    color: white;
+    font-size: 100%;
+  }
+
 button:hover {
     color: #e3e3e3;
     background-color: #ff8000;
