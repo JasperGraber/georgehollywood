@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
+  <link href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f44d0b584ac6b6bafdf91fd_George-marina-favicon-s.png" rel="shortcut icon" type="image/x-icon">
 
   <title>George Hollywood</title>
 </head>
