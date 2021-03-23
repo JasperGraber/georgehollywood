@@ -224,11 +224,53 @@ button:hover {
     font-size: 2.1rem;
 }
 
-.parkeergelegenheid>.container>p {
+.parkeergelegenheid>.container>.container-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.parkeergelegenheid>.container>.container-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.parkeergelegenheid>.container>.container-cards>.cards {
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.parkeergelegenheid>.container>.container-cards>.cards>p {
     color: #333;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
     text-align: center;
+}
+
+.parkeergelegenheid>.container>.container-cards>.cards>.button-box {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.parkeergelegenheid>.container>.container-cards>.cards>.button-box>span {
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    border: 1px solid #333;
+    height: 5rem;
+    width: 16rem;
+    transition: background-color .7s ease;
+}
+
+.parkeergelegenheid>.container>.container-cards>.cards>.button-box>span:hover {
+    color: white;
+    background-color: #333;
 }
 
 iframe#map {
@@ -247,32 +289,33 @@ iframe#map {
     text-align: center;
 }
 
-.container-cards {
+.routebeschrijving>.container-cards {
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.container-cards>.cards {
+.routebeschrijving>.container-cards>.cards {
     width: 17%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.container-cards>.cards>p {
+.routebeschrijving>.container-cards>.cards>p {
     color: #333;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
     text-align: center;
 }
 
-.container-cards>.cards>.button-box {
+.routebeschrijving>.container-cards>.cards>.button-box {
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
 
-.container-cards>.cards>.button-box>span {
+.routebeschrijving>.container-cards>.cards>.button-box>span {
     color: #333;
     display: flex;
     align-items: center;
@@ -285,7 +328,7 @@ iframe#map {
     transition: background-color .7s ease;
 }
 
-.container-cards>.cards>.button-box>span:hover {
+.routebeschrijving>.container-cards>.cards>.button-box>span:hover {
     color: white;
     background-color: #333;
 }
