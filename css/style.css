@@ -225,6 +225,13 @@ button:hover {
     font-size: 2.1rem;
 }
 
+.parkeergelegenheid>.container>p {
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 iframe#map {
     background-color: #e3e3e3;
     filter: grayscale(100%);
@@ -241,32 +248,32 @@ iframe#map {
     text-align: center;
 }
 
-.routebeschrijving>.container-cards {
+.container-cards {
     display: flex;
     justify-content: center;
     margin-top: 2%;
 }
 
-.routebeschrijving>.container-cards>.cards {
+.container-cards>.cards {
     width: 17%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.routebeschrijving>.container-cards>.cards>p {
+.container-cards>.cards>p {
     color: #333;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
     text-align: center;
 }
 
-.routebeschrijving>.container-cards>.cards>.button-box {
+.container-cards>.cards>.button-box {
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
 
-.routebeschrijving>.container-cards>.cards>.button-box>span {
+.container-cards>.cards>.button-box>span {
     color: #333;
     display: flex;
     align-items: center;
@@ -279,7 +286,7 @@ iframe#map {
     transition: background-color .7s ease;
 }
 
-.routebeschrijving>.container-cards>.cards>.button-box>span:hover {
+.container-cards>.cards>.button-box>span:hover {
     color: white;
     background-color: #333;
 }

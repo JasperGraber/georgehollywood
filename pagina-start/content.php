@@ -17,6 +17,10 @@
             {
                 include 'pagina-reserveren/' . $_GET['content'] . '.php';
             }
+            elseif (file_exists('pagina-nieuwsberichten/' . $_GET['content'] . '.php'))
+            {
+                include 'pagina-nieuwsberichten/' . $_GET['content'] . '.php';
+            }
         }
     ?>
 </div>

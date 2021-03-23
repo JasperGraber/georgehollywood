@@ -6,8 +6,21 @@
 
 <!-- Parkeergelegeheid -->
 <div class="header parkeergelegenheid">
-    <h1>Parkeergelegenheid</h1>
-    <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
+    <div class="container">
+        <h1>Parkeergelegenheid</h1>
+        <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
+        <br>
+        <div class="container-cards">
+            <div class="cards">
+                <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
+            </div>
+            <div class="cards">
+                <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Google Maps -->
@@ -21,14 +34,14 @@
             <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
             <br>
             <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-            <p>Neem afslag 11 (Amsterdam -Overamstel) richting de s111 op de A10. 
+            <p>Neem afslag 11 (Amsterdam -Overamstel) richting de s111 op de A10.
                 Sla links af de s111 op en de neem de eerste afslag rechts.
                 Neem bij de rotonde de eerste afslag en ga de Joop Geesinkweg op.
                 Rij deze weg helemaal uit tot u bij de Duivendrechtsekade aankomt en sla hier links af.
                 Na 100m zult u restaurant George Hollywood vinden aan uw linkerkant.</p>
             <img src="../img/train.svg" alt="trein" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-            <p>(17 min lopen) Stap uit bij metrostation Van der Madeweg en ga naar links. 
-                Neem daarna de tweede links en ga De Slinger op. 
+            <p>(17 min lopen) Stap uit bij metrostation Van der Madeweg en ga naar links.
+                Neem daarna de tweede links en ga De Slinger op.
                 Loop dit fietspad helemaal uit en neem na de tunnel de eerste rechts.
                 Loop deze weg helemaal uit tot u bij de Duivendrechtsekade aankomt en ga hier links af.
                 Na 100m zult u restaurant George Hollywood vinden aan uw linkerkant.</p>
@@ -49,5 +62,3 @@
         </div>
     </div>
 </div>
-
-<div class="footer" style="height:300px; background-color:#333; margin-top: 40px;"></div>
