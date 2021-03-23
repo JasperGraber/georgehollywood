@@ -7,7 +7,7 @@
 <div class="reserveren">
     <div class="row">
         <div class="col-6">
-            <img src="./img/logo.svg" width="80%" alt="">
+            <img src="./img/logo.svg" class="img-fluid" width="80%" alt="">
         </div>
         <div class="col-6">
             <div class="spelen">
@@ -17,7 +17,7 @@
                         <input class="date" id="start" type="date" name="reservation-date" value="2021-01-01"
                             min="2021-01-01" max="2025-12-31">
                     </div>
-                    <label class="label1" for="tijdsloten">kies een tijdslot</label>
+                    <label class="label" for="tijdsloten">kies een tijdslot</label>
                     <div class="time-slot1">
                         <select id="time-slot" class="time" name="time-slot">
                             <option value="1">12:00</option>

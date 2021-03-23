@@ -140,7 +140,7 @@ body {
 
 .label {
     font-size: 150%;
-    color: #ff8000;
+    color: #333;
     padding-bottom: 2%;
 }
 
@@ -153,7 +153,8 @@ body {
 
 .date {
     font-size: 100%;
-    color: #ff8000;
+    color: #e3e3e3;
+    background-color: #ff8000;
     /* width: 27.5%; */
     padding-left: 3%;
 }
