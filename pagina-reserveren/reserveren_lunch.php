@@ -19,7 +19,7 @@
                         </div>
                     <label class="label" for="tijdsloten">kies een tijdslot</label>
                         <div class="time-slot1">
-                            <select id="time-slot" class="time" name="time-slot">
+                            <select id="time-slot" class="date" name="time-slot">
                                 <option value="1">12:00</option>
                                 <option value="2">12:15</option>
                                 <option value="3">12:30</option>
@@ -32,7 +32,7 @@
                         </div>
                     <label class="label" for="tijdsloten">aantal personen</label>
                         <div class="persons1">
-                            <select id="personen" class="persons" name="persons">
+                            <select id="personen" class="date" name="persons">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>

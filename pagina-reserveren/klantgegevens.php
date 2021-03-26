@@ -10,31 +10,31 @@
             <img src="./img/logo.svg" width="80%" alt="">
         </div>
         <div class="col-6">
-            <div class="spelen">
+            <div class="spelen1">
                 <form action="./scripts/customer-r-script.php" method="post">
                     <label for="exampleInputfirstname">voornaam</label>
                     <br>
-                    <input name="firstname" type="text" class="email" id="InputEmail1" aria-describedby="emailHelp"
+                    <input name="firstname" type="text" class="firstname" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus>
                     <br>
                     <label for="exampleInputfirstname">tusssenvoegsel</label>
                     <br>
-                    <input name="infix" type="text" class="email" id="InputEmail1" aria-describedby="emailHelp"
+                    <input name="infix" type="text" class="infix" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus>
                     <br>
                     <label for="exampleInputfirstname">achternaam</label>
                     <br>
-                    <input name="achternaam" type="text" class="email" id="InputEmail1" aria-describedby="emailHelp"
+                    <input name="achternaam" type="text" class="lastname" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus>
                     <br>
                     <label for="exampleInputfirstname">email</label>
                     <br>
-                    <input name="email-c" type="email" class="email" id="InputEmail1" aria-describedby="emailHelp"
+                    <input name="email-c" type="email" class="email-c" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus>
                     <br>
                     <label for="exampleInputfirstname">telefoonnummer</label>
                     <br>
-                    <input name="phone-number" type="tel" class="email" placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
+                    <input name="phone-number" type="tel" class="date" placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus>
                     <br>
 

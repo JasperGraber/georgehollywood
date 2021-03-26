@@ -42,7 +42,7 @@
                     </select>
                 </div>
                 <div class="button-hoogte">
-                    <button type="submit" class="button-form1">bevestig en volgende+</button>
+                    <button type="submit" class="button-form1">bevestig en volgende</button>
                 </div>
             </form>
         </div>

@@ -152,11 +152,11 @@ body {
 }
 
 .date {
-    font-size: 100%;
+    /* font-size: 100%; */
     color: #e3e3e3;
     background-color: #ff8000;
     /* width: 27.5%; */
-    padding-left: 3%;
+    /* padding-left: 3%; */
 }
 
 .time {
@@ -186,10 +186,7 @@ body {
     text-decoration: none;
 }
 
-::placeholder {
-    color: white;
-    font-size: 100%;
-  }
+
 
 button:hover {
     color: #e3e3e3;
@@ -207,6 +204,46 @@ button:hover {
     width: 65%;
 }
 
+/* klantgegevens reserveren invullen stylen */
+
+.spelen1 {
+    padding-left: 10%;
+    padding-bottom: 5%;
+    border: solid 1px;
+    width: 80%;
+}
+.firstname
+{
+    color: #e3e3e3;
+    background-color: #ff8000;
+    width: 25%;
+}
+
+.infix
+{
+    color: #e3e3e3;
+    background-color: #ff8000;
+    width: 20%;
+}
+
+.lastname
+{
+    color: #e3e3e3;
+    background-color: #ff8000;
+    width: 25%;
+}
+
+.email-c
+{
+    color: #e3e3e3;
+    background-color: #ff8000;
+    width: 80%;
+}
+
+::placeholder {
+    color: #e3e3e3;
+    font-size: 100%;
+  }
 
 /* Styling voor contact & route pagina */
 
