@@ -34,7 +34,7 @@
                     <br>
                     <label for="exampleInputfirstname">telefoonnummer</label>
                     <br>
-                    <input name="phone-number" type="tel" class="date" placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
+                    <input name="phone-number" type="tel" class="tel" placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus>
                     <br>
 

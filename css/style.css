@@ -207,42 +207,58 @@ button:hover {
 /* klantgegevens reserveren invullen stylen */
 
 .spelen1 {
-    padding-left: 10%;
+    /* padding-left: 10%; */
     padding-bottom: 5%;
+    text-align: center;
     border: solid 1px;
-    width: 80%;
+    width: 75%;
+    height: 100%;
 }
 .firstname
 {
     color: #e3e3e3;
     background-color: #ff8000;
-    width: 25%;
+    width: 75%;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .infix
 {
     color: #e3e3e3;
     background-color: #ff8000;
-    width: 20%;
+    width: 37.5%;
+    text-align: center;
 }
 
 .lastname
 {
     color: #e3e3e3;
     background-color: #ff8000;
-    width: 25%;
+    width: 75%;
+    text-align: center;
 }
 
 .email-c
 {
     color: #e3e3e3;
     background-color: #ff8000;
-    width: 80%;
+    width: 75%;
+    text-align: center;
 }
 
 ::placeholder {
     color: #e3e3e3;
     font-size: 100%;
+    text-align: center;
+  }
+
+  .tel
+  {
+      color: #e3e3e3;
+      background-color: #ff8000;
+      width: 37.5%;
+      text-align: center;
   }
 
 /* Styling voor contact & route pagina */
