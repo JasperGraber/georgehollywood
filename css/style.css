@@ -290,26 +290,20 @@ button:hover {
     margin-top: 2%;
 }
 
-.parkeergelegenheid>.container>.container-cards>.cards {
-    width: 40%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.parkeergelegenheid>.container>.container-cards>.cards>p {
+.parkeergelegenheid>.container>.container-cards>.row>.cards>p {
     color: #333;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
     text-align: center;
 }
 
-.parkeergelegenheid>.container>.container-cards>.cards>.button-box {
+.parkeergelegenheid>.container>.container-cards>.row>.cards>.button-box {
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
 
-.parkeergelegenheid>.container>.container-cards>.cards>.button-box>span {
+.parkeergelegenheid>.container>.container-cards>.row>.cards>.button-box>span {
     color: #333;
     display: flex;
     align-items: center;
@@ -322,7 +316,7 @@ button:hover {
     transition: background-color .7s ease;
 }
 
-.parkeergelegenheid>.container>.container-cards>.cards>.button-box>span:hover {
+.parkeergelegenheid>.container>.container-cards>.row>.cards>.button-box>span:hover {
     color: white;
     background-color: #333;
 }
@@ -350,26 +344,26 @@ iframe#map {
     margin-bottom: 2%;
 }
 
-.routebeschrijving>.container-cards>.cards {
+.routebeschrijving>.container-cards>.row>.cards {
     width: 17%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.routebeschrijving>.container-cards>.cards>p {
+.routebeschrijving>.container-cards>.row>.cards>p {
     color: #333;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
     text-align: center;
 }
 
-.routebeschrijving>.container-cards>.cards>.button-box {
+.container-cards>.row>.cards>.button-box {
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
 
-.routebeschrijving>.container-cards>.cards>.button-box>span {
+.container-cards>.row>.cards>.button-box>span {
     color: #333;
     display: flex;
     align-items: center;
@@ -382,7 +376,7 @@ iframe#map {
     transition: background-color .7s ease;
 }
 
-.routebeschrijving>.container-cards>.cards>.button-box>span:hover {
+.container-cards>.row>.cards>.button-box>span:hover {
     color: white;
     background-color: #333;
 }
