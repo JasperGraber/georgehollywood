@@ -20,7 +20,7 @@
                     <label for="exampleInputfirstname">tusssenvoegsel</label>
                     <br>
                     <input name="infix" type="text" class="infix" id="InputEmail1" aria-describedby="emailHelp"
-                        autofocus required>
+                        autofocus>
                     <br>
                     <label for="exampleInputfirstname">achternaam</label>
                     <br>
