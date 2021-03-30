@@ -30,8 +30,6 @@
         <?php include("./pagina-start/banner.php"); ?>
       </div>
     </div>
-
-
     <div class="row">
       <div class="col-12">
         <?php include("./pagina-start/content.php"); ?>
