@@ -1,8 +1,8 @@
 {
-  "name": "opdracht2",
+  "name": "George",
   "version": "1.0.0",
-  "description": "Menu styling met SASS",
-  "main": "index.html",
+  "description": "George-Hollywood",
+  "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch scss -o css"
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MBO-Utrecht/menu-styling-sass-RiDiCage#readme",
   "devDependencies": {
+    "foundation-sites": "^6.6.3",
     "node-sass": "^5.0.0"
   }
 }
