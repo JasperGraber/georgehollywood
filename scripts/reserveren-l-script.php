@@ -1,6 +1,6 @@
 <?php
-include("./connect_db.php");
-include("./functions.php");
+include("./scripts/connect_db.php");
+include("./scripts/functions.php");
 
     $reservation_date = sanitize($_POST["reservation-date"]);
     $time_slot = sanitize($_POST["time-slot"]);
