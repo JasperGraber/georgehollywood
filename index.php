@@ -19,25 +19,24 @@
   <title>George Hollywood</title>
 </head>
 
-<body class="overflow">
-  <div class="row">
-    <div class="col-12">
-      <?php include("./pagina-start/navbar.php"); ?>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <?php include("./pagina-start/navbar.php"); ?>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <?php include("./pagina-start/banner.php"); ?>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <?php include("./pagina-start/content.php"); ?>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-12">
-      <?php include("./pagina-start/banner.php"); ?>
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-12">
-      <?php include("./pagina-start/content.php"); ?>
-    </div>
-  </div>
-
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
