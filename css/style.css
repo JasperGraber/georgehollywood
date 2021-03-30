@@ -130,6 +130,42 @@ iframe#map {
   color: white;
   background-color: #333; }
 
+.head {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+  min-height: 100px;
+  text-align: center; }
+  .head > img {
+    margin-top: 2rem;
+    width: 20rem; }
+
+.banner-order {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
+.banner-menu {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
 /* styling reserveren */
 .reserveren {
   padding-top: 50px; }
