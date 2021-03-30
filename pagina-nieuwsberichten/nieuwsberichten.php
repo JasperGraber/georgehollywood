@@ -1,1 +1,1 @@
-nieuwsberichten pagina komt binnenkort
+nieuwsberichten pagina komt binnenkort <a href="./index.php?content=admin_nieuwsberichten">admin pagina</a>

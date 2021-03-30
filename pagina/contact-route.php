@@ -13,6 +13,10 @@
         <div class="container-cards container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-6 cards">
+                    <p>Duivendrechtsekade 85</p>
+                    <p>1096 AJ, Amsterdam</p>
+                    <p>+31 06 123445678</p>
+                    <p>georgehollywood@gmail.com </p>
                 </div>
                 <div class="col-12 col-lg-6 cards">
                     <label for="exampleFormControlInput1" class="form-label">E-mailadres</label>
