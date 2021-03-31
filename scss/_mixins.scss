@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-@mixin margin ($margin, $padding, $width){
+@mixin box ($margin, $padding, $width){
   margin: $margin;
   padding: $padding;
   width: $width;
