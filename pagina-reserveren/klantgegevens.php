@@ -12,11 +12,12 @@
         <div class="col-6">
             <div class="spelen1">
                 <form action="./index.php?content=customer-r-script" method="post">
-                    <label for="exampleInputfirstname">voornaam</label>
-                    <br>
+                    
+                    <label class="label" for="exampleInputfirstname">voornaam</label>
+                    <div class="center">
                     <input name="firstname" type="text" class="firstname" id="InputEmail1" aria-describedby="emailHelp"
                         autofocus required>
-                    <br>
+                    </div>
                     <label for="exampleInputfirstname">tusssenvoegsel</label>
                     <br>
                     <input name="infix" type="text" class="infix" id="InputEmail1" aria-describedby="emailHelp"
