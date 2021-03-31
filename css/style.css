@@ -130,13 +130,14 @@ iframe#map {
   color: white;
   background-color: #333; }
 
+/* Bestellen - Order pagina */
 .head {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 7vh;
-  min-height: 100px;
+  min-height: 5.56rem;
   text-align: center; }
   .head > img {
     margin-top: 2rem;
