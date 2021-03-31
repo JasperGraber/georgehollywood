@@ -1,9 +1,9 @@
-// Bestellen - Order pagina
+/* Bestellen - Order pagina */
 
 .head {
     @include flexcenter(column,center);
     height: 7vh;
-    min-height: 100px;
+    min-height: 5.56rem;
     text-align: center;
     > img {
         margin-top: 2rem;
