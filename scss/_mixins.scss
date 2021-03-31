@@ -134,63 +134,63 @@
 
 @mixin vertical-gradient($col1: rgba(0, 0, 0, 0), $col2: rgba(0, 0, 0, 0)) {
   background: $col1;
-  /* Old browsers */
+  // Old browsers
   background: -moz-linear-gradient(top, $col1 0%, $col2 100%);
-  /* FF3.6-15 */
+  // FF3.6-15
   background: -webkit-linear-gradient(top, $col1 0%, $col2 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  // Chrome10-25,Safari5.1-6
   background: linear-gradient(to bottom, $col1 0%, $col2 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
   filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='$col1', endColorstr='$col2', GradientType=0);
-  /* IE6-9 */
+  // IE6-9
 }
 
 @mixin central-vertical-gradient($col1: rgba(0, 0, 0, 0), $col2: rgba(0, 0, 0, 0)) {
   background: $col1;
-  /* Old browsers */
+  // Old browsers
   background: -moz-linear-gradient(top, $col2 0%, $col1 50%, $col2 100%);
-  /* FF3.6-15 */
+  // FF3.6-15
   background: -webkit-linear-gradient(top, $col2 0%, $col1 50%, $col2 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  // Chrome10-25,Safari5.1-6
   background: linear-gradient(to bottom, $col2 0%, $col1 50%, $col2 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
   filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='$col1', endColorstr='$col2', GradientType=0);
-  /* IE6-9 */
+  // IE6-9
 }
 
 @mixin horizontal-gradient($col1: rgba(0, 0, 0, 0), $col2: rgba(0, 0, 0, 0)) {
   background: $col1;
-  /* Old browsers */
+  // Old browsers
   background: -moz-linear-gradient(left, $col1 0%, $col2 100%);
-  /* FF3.6-15 */
+  // FF3.6-15
   background: -webkit-linear-gradient(left, $col1 0%, $col2 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  // Chrome10-25,Safari5.1-6
   background: linear-gradient(to right, $col1 0%, $col2 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
   filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='$col1', endColorstr='$col2', GradientType=1);
-  /* IE6-9 */
+  // IE6-9
 }
 
 @mixin central-horizontal-gradient($col1: rgba(0, 0, 0, 0), $col2: rgba(0, 0, 0, 0)) {
   background: $col1;
-  /* Old browsers */
+  // Old browsers
   background: -moz-linear-gradient(left, $col2 0%, $col1 50%, $col2 100%);
-  /* FF3.6-15 */
+  // FF3.6-15
   background: -webkit-linear-gradient(left, $col2 0%, $col1 50%, $col2 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  // Chrome10-25,Safari5.1-6
   background: linear-gradient(to right, $col2 0%, $col1 50%, $col2 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
   filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='$col1', endColorstr='$col2', GradientType=1);
-  /* IE6-9 */
+  // IE6-9
 }
 
 @mixin diagonal-gradient($deg: 0deg, $col1: rgba(0, 0, 0, 0), $col2: rgba(0, 0, 0, 0)) {
   background: $col1;
-  /* Old browsers */
+  // Old browsers
   background: -moz-linear-gradient($deg, $col1 0%, $col2 100%);
-  /* FF3.6-15 */
+  // FF3.6-15
   background: -webkit-linear-gradient($deg, $col1 0%, $col2 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  // Chrome10-25,Safari5.1-6
 }
 
 @mixin custom-infinite-animation($name, $dur, $del: 0s) {
