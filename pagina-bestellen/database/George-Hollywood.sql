@@ -34,20 +34,20 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 
 CREATE TABLE IF NOT EXISTS `george-hollywood`.`user` (
-  `UserID` INT NOT NULL,
+  `userID` INT NOT NULL,
   `firstname` VARCHAR(50) NOT NULL,
   `familyname` VARCHAR(50) NOT NULL,
   `address` VARCHAR(50) NOT NULL,
   `zipcodeID` VARCHAR(7) NOT NULL,
   `city` VARCHAR(50) NOT NULL,
   `loginID` INT NOT NULL,
-  PRIMARY KEY (`UserID`),
+  PRIMARY KEY (`userID`),
   INDEX `FK_User_Login_idx` (`loginID` ASC) VISIBLE,
   CONSTRAINT `FK_User_Login`
     FOREIGN KEY (`loginID`)
     REFERENCES `george-hollywood`.`login` (`loginID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -107,18 +107,18 @@ CREATE TABLE IF NOT EXISTS `george-hollywood`.`product` (
   CONSTRAINT `FK_Product_Category`
     FOREIGN KEY (`categoryID`)
     REFERENCES `george-hollywood`.`category` (`categoryID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_Product_DishType`
     FOREIGN KEY (`dishID`)
     REFERENCES `george-hollywood`.`dishtype` (`dishID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_Product_Option`
     FOREIGN KEY (`optionID`)
     REFERENCES `george-hollywood`.`option` (`optionID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -161,19 +161,19 @@ CREATE TABLE IF NOT EXISTS `george-hollywood`.`order` (
   INDEX `FK_Order_Shipping_idx` (`shippingID` ASC) VISIBLE,
   CONSTRAINT `FK_Order_User`
     FOREIGN KEY (`userID`)
-    REFERENCES `george-hollywood`.`user` (`UserID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    REFERENCES `george-hollywood`.`user` (`userID`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_Order_Tax`
     FOREIGN KEY (`taxID`)
     REFERENCES `george-hollywood`.`tax` (`taxID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_Order_Shipping`
     FOREIGN KEY (`shippingID`)
     REFERENCES `george-hollywood`.`shipping` (`shippingID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -191,13 +191,13 @@ CREATE TABLE IF NOT EXISTS `george-hollywood`.`orderrow` (
   CONSTRAINT `FK_OrderRow_Product`
     FOREIGN KEY (`productID`)
     REFERENCES `george-hollywood`.`product` (`productID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_OrderRow_Order`
     FOREIGN KEY (`orderID`)
     REFERENCES `george-hollywood`.`order` (`orderID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -224,9 +224,9 @@ CREATE TABLE IF NOT EXISTS `george-hollywood`.`shoppingcart` (
   INDEX `FK_ShoppingCart_User_idx` (`userID` ASC) VISIBLE,
   CONSTRAINT `FK_ShoppingCart_User`
     FOREIGN KEY (`userID`)
-    REFERENCES `george-hollywood`.`user` (`UserID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    REFERENCES `george-hollywood`.`user` (`userID`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -243,13 +243,13 @@ CREATE TABLE IF NOT EXISTS `george-hollywood`.`cartrow` (
   CONSTRAINT `FK_CartRow_ShoppingCart`
     FOREIGN KEY (`cartID`)
     REFERENCES `george-hollywood`.`shoppingcart` (`cartID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_CartRow_Product`
     FOREIGN KEY (`productID`)
     REFERENCES `george-hollywood`.`product` (`productID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -264,14 +264,14 @@ CREATE TABLE IF NOT EXISTS `george-hollywood`.`userrolerow` (
   INDEX `FK_UserRoleRow_User_idx` (`userID` ASC) VISIBLE,
   CONSTRAINT `FK_UserRoleRow_User`
     FOREIGN KEY (`userID`)
-    REFERENCES `george-hollywood`.`user` (`UserID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    REFERENCES `george-hollywood`.`user` (`userID`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `FK_UserRoleRow_UserRole`
     FOREIGN KEY (`roleID`)
     REFERENCES `george-hollywood`.`userrole` (`roleID`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
