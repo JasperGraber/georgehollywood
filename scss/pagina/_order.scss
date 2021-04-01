@@ -1,20 +1,45 @@
-/* Bestellen - Order pagina */
+    // Bestellen - Order pagina
+    body>div.container-fluid>div.row>div.col-12 {
+        >div.banner-order {
+            @include banner (black, "../img/banner5.png", 0%);
+        }
 
-.head {
-    @include flexcenter(column,center);
-    height: 7vh;
-    min-height: 5.56rem;
-    text-align: center;
-    > img {
-        margin-top: 2rem;
-        width: 20rem;
+        >div.banner-menu {
+            @include banner (black, "../img/banner6.png", 0%);
+        }
+
+        >h1.head {
+            @include flexcenter(column, center);
+            font-size : 3rem;
+            height    : 7vh;
+            margin-top: 2rem;
+            min-height: 5.56rem;
+            text-align: center;
+
+            >img {
+                margin-top: 2rem;
+                width     : 100%;
+                max-width : 30rem;
+            }
+
+            >span {
+                @include flexcenter(row, center);
+                font-size : 1rem;
+                margin-top: 2rem;
+            }
+
+            >div.category {
+                margin    : 0.1rem;
+                margin-top: 2rem;
+
+                >div.item {
+                    padding: 0.5rem;
+
+                    >div.item-inhoud {
+                        border : 1px solid black;
+                        padding: 0.5rem;
+                    }
+                }
+            }
+        }
     }
-}
-
-.banner-order {
-    @include banner (black, "../img/banner5.png", 0%);
-}
-
-.banner-menu {
-    @include banner (black, "../img/banner6.png", 0%);
-}
