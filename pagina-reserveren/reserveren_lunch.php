@@ -41,9 +41,11 @@
                                     <option value="5">5</option>
                                 </select>
                             </div>
-                        <div class="button-hoogte">
-                            <button type="submit" class="button-form1">bevestig en volgende+</button>
-                        </div>
+                            <div class="button-reserveren">
+                                <!-- <div class="button-hoogte"> -->
+                                    <button type="submit" class="button-form1">bevestig en volgende+</button>
+                                <!-- </div> -->
+                            </div>
                     </form>
                 </div>
             </div>

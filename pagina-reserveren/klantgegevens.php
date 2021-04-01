@@ -41,7 +41,9 @@
                         <br>
 
                         <div class="button-hoogte">
-                            <button type="submit" class="button-form1">Bevestig reservering </button>
+                            <div class="button-reserveren">
+                                <button type="submit" class="button-form1">Bevestig reservering </button>
+                            </div>
                         </div>
         
                     </form>
