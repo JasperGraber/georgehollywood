@@ -1,9 +1,7 @@
 <div class="hoofd-start-reserveren">
     <img src="../img/reserveren-start-banner.jpg" class="banner-start-reserveren" alt="">
-    <div class="header-start-reserveren">
-        <h1>Reserveren</h1>
-    </div>
-    <img src="../img/streep.svg" alt="underline" class="header-streep">
+        <h1 class="header-start-reserveren">Reserveren</h1>
+    <img src="../img/streep.svg" alt="underline" class="header-streep-reserveren">
 </div>
 
 
@@ -47,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <img src="../img/reserveren-start-foto.jpg" class="foto-start-reserveren" alt="">
+            <img src="../img/reserveren-start-foto.jpg"  class="foto-start-reserveren" alt="">
 
         </div>
     </div>

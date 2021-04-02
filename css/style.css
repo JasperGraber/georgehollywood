@@ -188,15 +188,15 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
 
 .banner-start-reserveren {
   width: 100%;
-  height: 10rem;
+  height: fit-content;
   border: 5px solid #333; }
 
 .header-start-reserveren {
   padding-left: 42%;
   padding-top: 1.25%; }
 
-.header-streep {
-  width: 75%;
+.header-streep-reserveren {
+  width: 70%;
   padding-left: 25%; }
 
 .content-start-reserveren {
@@ -211,10 +211,10 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
   border: #333 1px solid;
   color: white;
   background-color: #ff8000;
-  font-size: 150%;
-  width: 100%;
-  height: 7.5%;
-  text-align: center; }
+  font-size: 175%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1.25%; }
 
 .p_welkom-start-reserveren {
   display: inline-block;
@@ -278,7 +278,25 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
 .foto-start-reserveren {
   width: 100%;
   height: 65%;
+  border: 5px solid #333;
+  margin-right: auto;
+  margin-left: auto; }
+
+.hoofd-reserveren-lunch {
+  padding-top: 2.5%;
+  padding-bottom: 3%; }
+
+.banner-reserveren-lunch {
+  width: 100%;
+  height: fit-content;
   border: 5px solid #333; }
+
+.header-reserveren-lunch {
+  padding-top: 1.25%;
+  text-align: center; }
+
+.content-reserveren-lunch {
+  padding-left: 2.5%; }
 
 .label {
   font-size: 150%;

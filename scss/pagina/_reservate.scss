@@ -9,7 +9,7 @@
 .banner-start-reserveren
 {
     width: 100%;
-    height: 10rem ;
+    height: fit-content ;
     border: 5px solid #333;
 }
 .header-start-reserveren 
@@ -19,8 +19,8 @@
     // margin-top    : 3%;
 }
 
-.header-streep {
-    width       : 75%;
+.header-streep-reserveren {
+    width       : 70%;
     padding-left: 25%;
 }
 
@@ -41,10 +41,10 @@
   border: #333 1px solid;
   color: white;
   background-color: #ff8000;
-  font-size: 150%;
-  width: 100%;
-  height: 7.5%;
+  font-size: 175%; 
   text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1.25%;
 }
 
 .p_welkom-start-reserveren {
@@ -133,10 +133,33 @@
     width: 100%;
     height: 65%;
     border: 5px solid #333;
+    margin-right: auto;
+    margin-left: auto;
+}
+// lunch reserveren design
+.hoofd-reserveren-lunch
+{
+    padding-top: 2.5%;
+    padding-bottom: 3%;
 }
 
+.banner-reserveren-lunch
+{
+    width: 100%;
+    height: fit-content ;
+    border: 5px solid #333;
+}
 
+.header-reserveren-lunch
+{
+    padding-top: 1.25%;
+    text-align: center;
+}
 
+.content-reserveren-lunch
+{
+    padding-left: 2.5%;
+}
 
 
 
