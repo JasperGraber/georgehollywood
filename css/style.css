@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -24,7 +25,6 @@ body * {
 
 .header-home {
   padding-left: 45%;
-  /* padding-top: 10%; */
   margin-top: 3%; }
 
 div.news-page div.container div.row {
@@ -47,7 +47,6 @@ div.news-page div.container div.row {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
   margin-top: 3%;
-  /* margin-bottom: 2%; */
   font-size: 2.1rem; }
 
 .parkeergelegenheid > .container > .container-cards {
@@ -139,19 +138,7 @@ iframe#map {
   color: white;
   background-color: #333; }
 
-.head {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 7vh;
-  min-height: 100px;
-  text-align: center; }
-  .head > img {
-    margin-top: 2rem;
-    width: 20rem; }
-
-.banner-order {
+body > div.container-fluid > div.row > div.col-12 > div.banner-order {
   background-color: black;
   background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
   background-repeat: no-repeat;
@@ -163,7 +150,7 @@ iframe#map {
   height: 48vh;
   width: 100%; }
 
-.banner-menu {
+body > div.container-fluid > div.row > div.col-12 > div.banner-menu {
   background-color: black;
   background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
   background-repeat: no-repeat;
@@ -175,11 +162,80 @@ iframe#map {
   height: 48vh;
   width: 100%; }
 
-/* styling reserveren */
-.reserveren {
-  padding-top: 50px; }
+body > div.container-fluid > div.row > div.col-12 > h1.head {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3rem;
+  height: 7vh;
+  margin-top: 2rem;
+  min-height: 5.56rem;
+  text-align: center; }
+  body > div.container-fluid > div.row > div.col-12 > h1.head > img {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 30rem; }
+  body > div.container-fluid > div.row > div.col-12 > h1.head > span {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 2rem; }
+  body > div.container-fluid > div.row > div.col-12 > h1.head > div.category {
+    margin: 0.1rem;
+    margin-top: 2rem; }
+    body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item {
+      padding: 0.5rem; }
+      body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item > div.item-inhoud {
+        border: 1px solid black;
+        padding: 0.5rem; }
 
-.button {
+.hoofd-start-reserveren {
+  padding-top: 2.5%;
+  padding-bottom: 1.25%; }
+
+.banner-start-reserveren {
+  width: 100%;
+  height: fit-content;
+  border: 5px solid #333; }
+
+.header-start-reserveren {
+  padding-left: 42%;
+  padding-top: 1.25%; }
+
+.header-streep-reserveren {
+  width: 70%;
+  padding-left: 25%; }
+
+.content-start-reserveren {
+  padding-left: 2.5%;
+  padding-right: 5%;
+  padding-top: 1.25%; }
+
+.col-l {
+  width: 50%; }
+
+.titels-start-reserveren {
+  border: #333 1px solid;
+  color: white;
+  background-color: #ff8000;
+  font-size: 175%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1.25%; }
+
+.p_welkom-start-reserveren {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+
+.button-menukaart-positie {
+  padding-left: 30%;
+  padding-top: 2.5%; }
+
+.button-menukaart {
   width: 10rem;
   height: 3rem;
   background-color: white;
@@ -191,54 +247,66 @@ iframe#map {
   padding-top: 1%;
   text-decoration: none; }
 
-.button:hover {
-  color: #e3e3e3;
-  background-color: #ff8000; }
+.button-menukaart:hover {
+  background-color: #ff8000;
+  color: white; }
 
-.header-reserveren-d-r {
-  padding-left: 37%;
-  /* padding-top: 5%; */
-  margin-top: 3%; }
-
-.header-start-r {
-  padding-left: 42%;
-  /* padding-top: 5%; */
-  margin-top: 3%; }
-
-.header-streep {
-  width: 75%;
-  padding-left: 25%; }
-
-/* styling voor row rechts start.php */
-.uitlijning1 {
+.buttons-reserveren-hoogte {
   padding-top: 5%;
-  padding-bottom: 5%; }
-
-/* button lunch uitljining  */
-.uitlijning2 {
-  padding-left: 37%; }
-
-.p_welkom-r {
-  display: inline-block;
   width: 100%; }
 
-.button-menukaart {
-  padding-left: 35%;
-  padding-top: 2%; }
+.lunch-button-uitlijning {
+  width: 50%;
+  text-align: center; }
 
-.titel1-start {
+.button-lunch_diner {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  color: #333;
   border: #333 1px solid;
-  color: white;
-  background-color: #ff8000;
-  font-size: 200%;
-  padding-left: 2%; }
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 1%;
+  text-decoration: none; }
 
-.titel2-start {
-  border: #333 1px solid;
+.button-lunch_diner:hover {
   background-color: #ff8000;
-  color: white;
-  font-size: 200%;
-  padding-left: 10%; }
+  color: white; }
+
+.hoofd-tekst-titel-reserveren {
+  padding-bottom: 5%; }
+
+.col-button-reserveren-uitlijning {
+  width: 100%;
+  padding-bottom: 5%; }
+
+.col-buttons-reserveren {
+  width: 50%; }
+
+.foto-start-reserveren {
+  width: 100%;
+  height: 65%;
+  border: 5px solid #333;
+  margin-right: auto;
+  margin-left: auto; }
+
+.hoofd-reserveren-lunch {
+  padding-top: 2.5%;
+  padding-bottom: 3%; }
+
+.banner-reserveren-lunch {
+  width: 100%;
+  height: fit-content;
+  border: 5px solid #333; }
+
+.header-reserveren-lunch {
+  padding-top: 1.25%;
+  text-align: center; }
+
+.content-reserveren-lunch {
+  padding-left: 2.5%; }
 
 .label {
   font-size: 150%;
@@ -248,20 +316,15 @@ iframe#map {
 .label1 {
   font-size: 150%;
   color: #ff8000;
-  padding-bottom: 1%;
-  /* width: 50%; */ }
+  padding-bottom: 1%; }
 
 .date {
-  /* font-size: 100%; */
   color: #e3e3e3;
-  background-color: #ff8000;
-  /* width: 27.5%; */
-  /* padding-left: 3%; */ }
+  background-color: #ff8000; }
 
 .time {
   font-size: 100%;
   color: #ff8000;
-  /* width: 20%; */
   padding-left: 2.5%; }
 
 .persons {
@@ -295,9 +358,7 @@ button:hover {
   border: solid 1px;
   width: 65%; }
 
-/* klantgegevens reserveren invullen stylen */
 .spelen1 {
-  /* padding-left: 10%; */
   padding-bottom: 5%;
   text-align: center;
   border: solid 1px;
@@ -342,7 +403,6 @@ button:hover {
 
 .header-login {
   padding-left: 42.5%;
-  /* padding-top: 10%; */
   margin-top: 3%; }
 
 .login {

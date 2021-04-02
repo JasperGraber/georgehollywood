@@ -1,55 +1,44 @@
-</div>
-
-<!-- <div class="banner">
-    <img src="../img/banner.png">
-</div> -->
-
 <!-- Contactgegevens -->
 <div class="header contactgegevens">
-    <div class="container">
-        <h1>Contactgegevens</h1>
-        <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
-        <br>
-        <div class="container-cards container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-6 cards">
-                    <p>Duivendrechtsekade 85</p>
-                    <p>1096 AJ, Amsterdam</p>
-                    <p>+31 06 123445678</p>
-                    <p>georgehollywood@gmail.com </p>
-                </div>
-                <div class="col-12 col-lg-6 cards">
-                    <label for="exampleFormControlInput1" class="form-label">E-mailadres</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" style="text-align:left">
-                    <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
+    <h1>Contactgegevens</h1>
+    <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
+    <br>
+    <div class="container-cards">
+        <div class="row">
+            <div class="col-12 col-lg-6 cards">
+                <p>Duivendrechtsekade 85</p>
+                <p>1096 AJ, Amsterdam</p>
+                <p>+31 06 123445678</p>
+                <p>georgehollywood@gmail.com </p>
+            </div>
+            <div class="col-12 col-lg-6 cards">
+                <label for="exampleFormControlInput1" class="form-label">E-mailadres</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" style="text-align:left">
+                <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
 
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Bericht"></textarea>
-                    <a type="button" class="button-box" href="#">
-                        <span>Verstuur</span>
-                    </a>
-                </div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Bericht"></textarea>
+                <a type="button" class="button-box" href="#">
+                    <span>Verstuur</span>
+                </a>
             </div>
         </div>
     </div>
 </div>
-</div>
 
 <!-- Parkeergelegeheid -->
 <div class="header parkeergelegenheid">
-    <div class="container">
-        <h1>Parkeergelegenheid</h1>
-        <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
-        <br>
-        <div class="container-cards container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-6 cards">
-                    <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-                    <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
-                </div>
-                <div class="col-12 col-lg-6 cards">
-                    <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-                    <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
-                </div>
+    <h1>Parkeergelegenheid</h1>
+    <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
+    <br>
+    <div class="container-cards container">
+        <div class="row">
+            <div class="col-12 col-lg-6 cards">
+                <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
+            </div>
+            <div class="col-12 col-lg-6 cards">
+                <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
             </div>
         </div>
     </div>
