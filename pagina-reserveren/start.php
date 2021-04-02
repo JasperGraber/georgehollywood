@@ -7,7 +7,7 @@
 
 <div class="content-start-reserveren">
     <div class="row">
-        <div class="col-l">
+        <div class="col-reserveren-6">
             <h1 class="titels-start-reserveren">Hoe kunt u een reservering plaatsen?</h1>
             <p class="p_welkom-start-reserveren">
                 Welkom, op deze pagina kunt u een reservering maken voor een lunch
@@ -30,7 +30,7 @@
                     class="button-menukaart">Menukaart</a>
             </div>
         </div>
-        <div class="col-l">
+        <div class="col-reserveren-6">
             <div class="hoofd-tekst-titel-reserveren">
                 <h1 class="titels-start-reserveren">Een reserervering maken voor:</h1>
             </div>
@@ -46,6 +46,5 @@
                 </div>
             </div>
             <img src="../img/reserveren-start-foto.jpg"  class="foto-start-reserveren" alt="">
-
         </div>
     </div>
