@@ -27,6 +27,15 @@ body * {
   /* padding-top: 10%; */
   margin-top: 3%; }
 
+div.news-page div.container div.row {
+  margin-top: 50px;
+  border: 1px solid #333; }
+  div.news-page div.container div.row span {
+    margin-left: -5px;
+    margin-top: 5px;
+    color: #9a9da0;
+    font-size: 0.8rem; }
+
 /* Styling voor contact & route pagina */
 .underline-img {
   margin-top: -55px;
