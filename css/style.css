@@ -36,7 +36,6 @@ div.news-page div.container div.row {
     color: #9a9da0;
     font-size: 0.8rem; }
 
-/* Styling voor contact & route pagina */
 .underline-img {
   margin-top: -55px;
   width: 30%;
@@ -307,7 +306,7 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
 .content-reserveren-lunch {
   padding-left: 2.5%; }
 
-.spelen {
+.omlijning-form-reserveren-1 {
   text-align: center;
   padding-bottom: 5%;
   border: solid 1px;

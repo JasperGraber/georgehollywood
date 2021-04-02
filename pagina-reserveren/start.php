@@ -1,6 +1,6 @@
 <div class="hoofd-start-reserveren">
     <img src="../img/reserveren-start-banner.jpg" class="banner-start-reserveren" alt="">
-        <h1 class="header-start-reserveren">Reserveren</h1>
+    <h1 class="header-start-reserveren">Reserveren</h1>
     <img src="../img/streep.svg" alt="underline" class="header-streep-reserveren">
 </div>
 
@@ -38,13 +38,16 @@
                 <div class="row">
                     <div class="col-buttons-reserveren">
                         <a type="button" href="./index.php?content=reserveren_lunch" class="button-lunch_diner"">Lunch</a>
-                    </div>
-                    <div class=" col-buttons-reserveren">
+                        </div>
+                        <div class=" col-buttons-reserveren">
                             <a type=" button" href="./index.php?content=reserveren_diner"
                                 class="button-lunch_diner">Diner</a>
                     </div>
                 </div>
             </div>
-            <img src="../img/reserveren-start-foto.jpg"  class="foto-start-reserveren" alt="">
+
+            <div class="container-fluid">
+                <img src="../img/reserveren-start-foto.jpg" class="foto-start-reserveren" alt="">
+            </div>
         </div>
     </div>
