@@ -141,8 +141,8 @@
 // lunch reserveren design
 .hoofd-reserveren-lunch
 {
-    padding-top: 2.5%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 1.25%;
 }
 
 .banner-reserveren-lunch
@@ -162,12 +162,24 @@
 {
     padding-left: 2.5%;
 }
+.lunch-reservation-foto
+{
+    width: 100%;
+    height: 50% ;
+    padding-bottom: 5%;
+}
 
+
+.plaatsing-form-reservation1
+{
+    padding-left: 12.5%;
+}
 .omlijning-form-reserveren-1 {
     text-align: center;
-    padding-bottom: 5%;
     border        : solid 1px;
-    width         : 100%;
+    width         : 75%;
+    padding-bottom: 7.5%;
+
 }
 
 
@@ -180,40 +192,61 @@
 
 .reservation-uitlijing-hoogte
 {
-    padding-top: 1.25%;
-    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.reservation-uitlijning-datum
+{
+    padding-left: 35%;
 }
 
 .date-reservation {
     color           : #e3e3e3;
     background-color: #ff8000;
-    text-align: center;
+    
 }
 
-.time {
+.reservation-uitlijning-time
+{
+    padding-left: 42.5%;
+}
+
+.time-reservation {
     font-size   : 100%;
-    color       : #ff8000;
-    // width    : 20%;
+    color       : #e3e3e3;
+    background-color: #ff8000;
     padding-left: 2.5%;
 }
 
-.persons {
+.reservation-uitlijning-persons
+{
+    padding-left: 45%;
+}
+.persons-reservation {
     font-size   : 100%;
-    color       : #ff8000;
-    width       : 15%;
-    padding-left: 5%;
+    color       : #e3e3e3;
+    background-color: #ff8000;
+    padding-left: 2.5%;
 }
 
-.button-form1 {
-    width           : 15rem;
-    height          : 3rem;
+.reservation-uitlijing-button
+{
+    padding-top: 5%;
+    padding-left: 27.5%;
+}
+
+
+.button-form1-reservation {
+    width           : fit-content;
     background-color: white;
     color           : #333;
     border          : #333 1px solid;
     font-family     : 'Libre Baskerville', serif;
     text-align      : center;
     font-size       : 100%;
-    padding-top     : 1%;
+    padding-top     : 2.5%;
+    padding-bottom: 2.5%;
     text-decoration : none;
 }
 
@@ -229,53 +262,3 @@ button:hover {
 
 // klantgegevens reserveren invullen stylen
 
-.spelen1 {
-    // padding-left: 10%;
-    padding-bottom: 5%;
-    text-align    : center;
-    border        : solid 1px;
-    width         : 75%;
-    height        : 100%;
-}
-
-.firstname {
-    color           : #e3e3e3;
-    background-color: #ff8000;
-    width           : 75%;
-    text-align      : center;
-    font-size       : 1rem;
-}
-
-.infix {
-    color           : #e3e3e3;
-    background-color: #ff8000;
-    width           : 37.5%;
-    text-align      : center;
-}
-
-.lastname {
-    color           : #e3e3e3;
-    background-color: #ff8000;
-    width           : 75%;
-    text-align      : center;
-}
-
-.email-c {
-    color           : #e3e3e3;
-    background-color: #ff8000;
-    width           : 75%;
-    text-align      : center;
-}
-
-::placeholder {
-    color     : #e3e3e3;
-    font-size : 100%;
-    text-align: center;
-}
-
-.tel {
-    color           : #e3e3e3;
-    background-color: #ff8000;
-    width           : 37.5%;
-    text-align      : center;
-}
