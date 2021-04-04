@@ -409,6 +409,51 @@ button:hover {
   color: #e3e3e3;
   background-color: #ff8000; }
 
+.hoofd-klantgegevens-reserveren {
+  padding-top: 2.5%; }
+
+.banner-reserveren-klantgegevens {
+  width: 100%;
+  height: 50%;
+  border: 5px solid #333; }
+
+.header-reserveren-klantgegevens {
+  padding-top: 1.25%;
+  text-align: center; }
+
+.content-klantgegevens {
+  padding-top: 2.5%;
+  padding-left: 2%; }
+
+.reserveren-klantgegevens-foto {
+  width: 100%;
+  height: 50%;
+  border: 5px solid #333; }
+
+.omlijning-form-reserveren-2 {
+  width: 75%;
+  border: 2px solid #333; }
+
+.uitlijning-klantgegevens {
+  padding-top: 2.5%;
+  padding-bottom: 1.25%; }
+
+.label-klantgegevens {
+  font-size: 100%;
+  color: #333;
+  padding-bottom: 1.5%;
+  text-align: center; }
+
+.uitlijning-klantgegevens-firstname {
+  padding-left: 15%; }
+
+.firstname-reservation {
+  text-align: center;
+  font-size: 100%;
+  background-color: #ff8000;
+  color: #e3e3e3;
+  width: 75%; }
+
 .header-login {
   padding-left: 42.5%;
   margin-top: 3%; }
