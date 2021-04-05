@@ -360,7 +360,7 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
   padding-bottom: 2%;
   text-align: center; }
 
-.reservation-uitlijing-hoogte {
+.reservation-uitlijning-hoogte {
   padding-top: 2.5%;
   padding-bottom: 5%; }
 
@@ -405,7 +405,7 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
   padding-bottom: 2.5%;
   text-decoration: none; }
 
-button:hover {
+.button-form1-reservation:hover {
   color: #e3e3e3;
   background-color: #ff8000; }
 
@@ -430,29 +430,50 @@ button:hover {
   height: 50%;
   border: 5px solid #333; }
 
+.plaatsing-form-reservation2 {
+  padding-left: 25%; }
+
 .omlijning-form-reserveren-2 {
-  width: 75%;
-  border: 2px solid #333; }
+  text-align: center;
+  border: solid 1px;
+  width: max-content;
+  height: max-content;
+  padding-top: 1.25%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .uitlijning-klantgegevens {
-  padding-top: 2.5%;
-  padding-bottom: 1.25%; }
+  padding-bottom: 5%; }
 
-.label-klantgegevens {
-  font-size: 100%;
-  color: #333;
-  padding-bottom: 1.5%;
-  text-align: center; }
-
-.uitlijning-klantgegevens-firstname {
-  padding-left: 15%; }
-
-.firstname-reservation {
-  text-align: center;
-  font-size: 100%;
+.input-klantgegevens {
   background-color: #ff8000;
   color: #e3e3e3;
-  width: 75%; }
+  text-align: center; }
+
+.input-klantgegevens::placeholder {
+  background-color: #ff8000;
+  color: #e3e3e3;
+  text-align: center; }
+
+.button-uitlijning-klantgegevens {
+  padding: 5%; }
+
+.button-klantgegevens {
+  width: fit-content;
+  background-color: white;
+  color: #333;
+  border: #333 1px solid;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-decoration: none; }
+
+.button-klantgegevens:hover {
+  color: #e3e3e3;
+  background-color: #ff8000; }
 
 .header-login {
   padding-left: 42.5%;

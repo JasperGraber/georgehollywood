@@ -1,53 +1,54 @@
-<div class="container">
-    <div class="header-reserveren-d-r">
+<div class="hoofd-klantgegevens-reserveren">
+    <div class="container-fluid">
+        <img src="../img/reserveren-klantgegevens-banner.jpg" class="banner-reserveren-klantgegevens">
+    </div>
+    <div class="header-reserveren-klantgegevens">
         <h1>Gegevens invullen</h1>
     </div>
-    <img src="../img/streep.svg" alt="underline" class="header-streep">
+    <img src="../img/streep.svg" alt="underline" class="header-streep-reserveren">
+</div>
 
 
-    <div class="reserveren">
-        <div class="row">
-            <div class="col-6">
-                <img src="./img/logo.svg" width="80%" alt="">
+<div class="content-klantgegevens">
+    <div class="row">
+        <div class="col-reserveren-6">
+            <div class="container-fluid">
+                <img src="../img/reserveren-klantgegevens-foto.jpg" class="reserveren-klantgegevens-foto" alt="">
             </div>
-            <div class="col-6">
-                <div class="spelen1">
-                    <form action="./index.php?content=customer-r-script" method="post">
-                        
-                        <label class="label" for="exampleInputfirstname">voornaam</label>
-                        <div class="center">
-                        <input name="firstname" type="text" class="firstname" id="InputEmail1" aria-describedby="emailHelp"
-                            autofocus required>
-                        </div>
-                        <label for="exampleInputfirstname">tusssenvoegsel</label>
-                        <br>
-                        <input name="infix" type="text" class="infix" id="InputEmail1" aria-describedby="emailHelp"
+        </div>
+        <div class="col-reserveren-6">
+            <div class="plaatsing-form-reservation2">
+                <form action="./index.php?content=customer-r-script" class="omlijning-form-reserveren-2" method="post">
+                    <div class="uitlijning-klantgegevens">
+                        <label class="label-klantgegevens" for="exampleInputfirstname">voornaam</label>
+                        <input name="firstname" type="text" class="input-klantgegevens" id="InputEmail1"
+                            aria-describedby="emailHelp" autofocus required>
+                    </div>
+                    <div class="uitlijning-klantgegevens">
+                        <label class="" for="exampleInputfirstname">tusssenvoegsel</label>
+                        <input name="infix" type="text" class="input-klantgegevens" id="InputEmail1" aria-describedby="emailHelp"
                             autofocus>
-                        <br>
-                        <label for="exampleInputfirstname">achternaam</label>
-                        <br>
-                        <input name="achternaam" type="text" class="lastname" id="InputEmail1" aria-describedby="emailHelp"
+                    </div>
+                    <div class="uitlijning-klantgegevens">
+                        <label class="label-klantgegevens" for="exampleInputfirstname">achternaam</label>
+                        <input name="achternaam" type="text" class="input-klantgegevens" id="InputEmail1"
+                            aria-describedby="emailHelp" autofocus required>
+                    </div>
+                    <div class="uitlijning-klantgegevens">
+                        <label class="label-klantgegevens" for="exampleInputfirstname">email</label>
+                        <input name="email-c" type="email" class="input-klantgegevens" id="InputEmail1" aria-describedby="emailHelp"
                             autofocus required>
-                        <br>
-                        <label for="exampleInputfirstname">email</label>
-                        <br>
-                        <input name="email-c" type="email" class="email-c" id="InputEmail1" aria-describedby="emailHelp"
-                            autofocus required >
-                        <br>
-                        <label for="exampleInputfirstname">telefoonnummer</label>
-                        <br>
-                        <input name="phone-number" type="tel" class="tel" placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
-                            autofocus required>
-                        <br>
+                    </div>
+                    <div class="uitlijning-klantgegevens">
+                        <label class="label-klantgegevens" for="exampleInputfirstname">telefoonnummer</label>
+                        <input name="phone-number" type="tel" class="input-klantgegevens" placeholder="06-00000000" id="InputEmail1"
+                            aria-describedby="emailHelp" autofocus required>
+                    </div>
+                    <div class="button-uitlijning-klantgegevens">
+                        <button type="submit" class="button-klantgegevens">Bevestig reservering </button>
+                    </div>
 
-                        <div class="button-hoogte">
-                            <div class="button-reserveren">
-                                <button type="submit" class="button-form1">Bevestig reservering </button>
-                            </div>
-                        </div>
-        
-                    </form>
-                </div>
+                </form>
             </div>
         </div>
     </div>
