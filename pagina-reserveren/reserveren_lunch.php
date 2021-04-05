@@ -18,14 +18,14 @@
         <div class="col-reserveren-6">
             <div class="plaatsing-form-reservation1">
                 <form class="omlijning-form-reserveren-1" action=" ./index.php?content=reserveren-l-script" method="post">
-                    <div class="reservation-uitlijing-hoogte">
+                    <div class="reservation-uitlijning-hoogte">
                         <label class="label-klantgegevens" for="datum kiezen">Reserverings-datum:</label>
                         <div class="reservation-uitlijning-datum">
                             <input class="date-reservation" id="start" type="date" name="reservation-date"
                                 value="2021-01-01" min="2021-01-01" max="2025-12-31">
                         </div>
                     </div>
-                    <div class="reservation-uitlijing-hoogte">
+                    <div class="reservation-uitlijning-hoogte">
                         <label class="label-reservation" for="tijdsloten">Tijdslot:</label>
                         <div class="reservation-uitlijning-time">
                             <select id="time-slot" class="time-reservation" name="time-slot">
@@ -40,7 +40,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="reservation-uitlijing-hoogte">
+                    <div class="reservation-uitlijning-hoogte">
                         <label class="label-reservation" for="tijdsloten">Aantal personen:</label>
                         <div class="reservation-uitlijning-persons">
                             <select class="persons-reservation" name="persons">
