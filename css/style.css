@@ -70,7 +70,7 @@ div.news-page {
       color: #9a9da0;
       font-size: 0.8rem; }
 
-.underline-img {
+/* .underline-img {
   margin-top: -55px;
   width: 30%;
   justify-content: center; }
@@ -169,7 +169,7 @@ iframe#map {
 
 .container-cards > .row > .cards > .button-box > span:hover {
   color: white;
-  background-color: #333; }
+  background-color: #333; } */
 
 body > div.container-fluid > div.row > div.col-12 > div.banner-order {
   background-color: black;
