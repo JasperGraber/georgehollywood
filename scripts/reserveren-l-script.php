@@ -15,5 +15,6 @@ include("./scripts/functions.php");
         $id = mysqli_insert_id($conn);
 
         header("Location: http://george-hollywood.nl/index.php?content=klantgegevens&reservationid= . $id . ");
+
     }
 ?>
