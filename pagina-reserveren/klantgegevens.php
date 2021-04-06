@@ -31,7 +31,7 @@
                     </div>
                     <div class="uitlijning-klantgegevens">
                         <label class="label-klantgegevens" for="exampleInputfirstname">achternaam</label>
-                        <input name="achternaam" type="text" class="input-klantgegevens" id="InputEmail1"
+                        <input name="lastname" type="text" class="input-klantgegevens" id="InputEmail1"
                             aria-describedby="emailHelp" autofocus required>
                     </div>
                     <div class="uitlijning-klantgegevens">
