@@ -1,54 +1,56 @@
-<!-- Contactgegevens -->
-<div class="header contactgegevens">
-    <h1>Contactgegevens</h1>
-    <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
-    <br>
-    <div class="container-cards">
-        <div class="row">
-            <div class="col-12 col-lg-6 cards">
-                <p>Duivendrechtsekade 85</p>
-                <p>1096 AJ, Amsterdam</p>
-                <p>+31 06 123445678</p>
-                <p>georgehollywood@gmail.com </p>
-            </div>
-            <div class="col-12 col-lg-6 cards">
-                <label for="exampleFormControlInput1" class="form-label">E-mailadres</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" style="text-align:left">
-                <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
+<div class="contact-route">
+    <!-- Contactgegevens -->
+    <div class="contactgegevens container">
+        <div class="header">
+            <h1>Contactgegevens</h1>
+            <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
+        </div>
+        <div class="container-cards">
+            <div class="row">
+                <div class="col-12 col-lg-6 cards">
+                    <p>Duivendrechtsekade 85</p>
+                    <p>1096 AJ, Amsterdam</p>
+                    <p>+31 06 123445678</p>
+                    <p>georgehollywood@gmail.com </p>
+                </div>
+                <div class="col-12 col-lg-6 cards">
+                    <label for="exampleFormControlInput1" class="form-label">E-mailadres</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" style="text-align:left">
+                    <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
 
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Bericht"></textarea>
-                <a type="button" class="button-box" href="#">
-                    <span>Verstuur</span>
-                </a>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Bericht"></textarea>
+                    <a type="button" class="button-box" href="#">Verstuur</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Parkeergelegeheid -->
-<div class="header parkeergelegenheid">
-    <h1>Parkeergelegenheid</h1>
-    <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
-    <br>
-    <div class="container-cards container">
-        <div class="row">
-            <div class="col-12 col-lg-6 cards">
-                <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-                <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
-            </div>
-            <div class="col-12 col-lg-6 cards">
-                <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-                <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
+    <!-- Parkeergelegeheid -->
+    <div class="parkeergelegenheid container">
+        <div class="header">
+            <h1>Parkeergelegenheid</h1>
+            <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
+        </div>
+        <div class="container-cards">
+            <div class="row">
+                <div class="col-12 col-lg-6 cards">
+                    <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                    <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
+                </div>
+                <div class="col-12 col-lg-6 cards">
+                    <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                    <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Google Maps -->
-<iframe width="100%" height="400px" id="map" src="https://maps.google.com/maps?q=duivendrechtsekade%2085&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    <!-- Google Maps -->
+    <div class="google-maps">
+        <iframe width="100%" height="400px" id="map" src="https://maps.google.com/maps?q=duivendrechtsekade%2085&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
 
-<!-- Routebeschrijving -->
-<div class="row">
+    <!-- Routebeschrijving -->
     <div class="header routebeschrijving">
         <div class="container">
             <h1>Routebeschrijving</h1>
@@ -67,7 +69,7 @@
                 Loop deze weg helemaal uit tot u bij de Duivendrechtsekade aankomt en ga hier links af.
                 Na 100m zult u restaurant George Hollywood vinden aan uw linkerkant.</p>
         </div>
-        <div class="container-cards">
+        <div class="container-cards container">
             <div class="row">
                 <div class="col-6 cards">
                     <p>Wilt u uw route plannen met het openbaar vervoer? Klik dan hier!</p>
@@ -84,4 +86,6 @@
             </div>
         </div>
     </div>
+</div>
+
 </div>

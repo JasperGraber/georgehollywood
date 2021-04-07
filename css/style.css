@@ -69,6 +69,51 @@ div.news-page {
       color: #9a9da0;
       font-size: 0.8rem; }
 
+div.contact-route div.contactgegevens {
+  margin-top: 5vh; }
+  div.contact-route div.contactgegevens div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box {
+    margin-top: 3vh;
+    text-decoration: none;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 1px solid #333;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.7s ease;
+    box-shadow: 0px 0px 5px #333; }
+  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box:hover {
+    color: white;
+    background-color: #333; }
+
+div.contact-route div.parkeergelegenheid {
+  margin-top: 5vh; }
+  div.contact-route div.parkeergelegenheid div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.contact-route div.parkeergelegenheid div.container-cards div.row div.cards {
+    display: flex;
+    justify-content: center; }
+
+div.contact-route div.google-maps {
+  background-color: #e3e3e3;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%); }
+
 body > div.container-fluid > div.row > div.col-12 > div.banner-order {
   background-color: black;
   background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
