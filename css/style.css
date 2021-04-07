@@ -37,7 +37,6 @@ div.news-page {
     font-size: 2.1rem; }
   div.news-page div.header img.streep {
     width: 350px;
-    margin-top: -7vh;
     display: unset; }
   div.news-page div.row {
     display: flex;

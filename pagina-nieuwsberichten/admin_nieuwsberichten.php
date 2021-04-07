@@ -3,11 +3,12 @@
 <div class="news-page">
     <div class="header">
         <h1>Admin Pagina</h1>
+        <br>
         <img src="../img/streep.svg" alt="streep" class="streep img-fluid">
     </div>
     <div class="row">
         <div class="col-12 col-md-8 col-xl-6">
-            <a href="#" class="button">Voeg artikel toe</a>
+            <a href="index.php?content=toevoegen_nieuwsberichten" class="button">Voeg artikel toe</a>
         </div>
     </div>
     <?php
