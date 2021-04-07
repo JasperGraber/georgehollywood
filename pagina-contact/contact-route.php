@@ -32,15 +32,13 @@
             <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
         </div>
         <div class="container-cards">
-            <div class="row">
-                <div class="col-12 col-lg-6 cards">
-                    <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-                    <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
-                </div>
-                <div class="col-12 col-lg-6 cards">
-                    <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
-                    <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
-                </div>
+            <div class="col-12 col-lg-6 cards">
+                <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                <p>U kunt voor het restaurant parkeren. Er zijn 3 parkeerplekken voor auto's beschikbaar.</p>
+            </div>
+            <div class="col-12 col-lg-6 cards">
+                <img src="../img/bicycle.svg" alt="bicycle" width="45px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
+                <p>U kunt uw fiets of scooter kwijt bij het fietsenrek voor het restaurant.</p>
             </div>
         </div>
     </div>

@@ -1,82 +1,108 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  font-family: 'Libre Baskerville', serif; }
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    overflow-x: hidden !important;
+}
 
 body * {
-  display: block; }
+    display: block;
+}
 
 .topnav {
-  height: 50px;
-  background-color: white;
-  overflow: hidden; }
-  .topnav a {
+    height: 50px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
     float: left;
     color: black;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 125%; }
+    font-size: 125%;
+}
 
 .header-home {
-  padding-left: 45%;
-  margin-top: 3%; }
+    padding-left: 45%;
+    margin-top: 3%;
+}
 
 div.news-page {
-  margin-top: 5vh;
-  font-family: "Libre Baskerville", serif; }
-  div.news-page div.header h1 {
+    margin-top: 5vh;
+    font-family: "Libre Baskerville", serif;
+}
+
+div.news-page div.header h1 {
     color: #333;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.news-page div.header img.streep {
+    font-size: 2.1rem;
+}
+
+div.news-page div.header img.streep {
     width: 350px;
-    display: unset; }
-  div.news-page div.row {
+    display: unset;
+}
+
+div.news-page div.row {
     display: flex;
     align-items: center;
-    justify-content: center; }
-    div.news-page div.row div.col-12 a.button {
-      color: #333;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      border: 1px solid #333;
-      height: 5rem;
-      width: 100%;
-      background-color: white;
-      transition: background-color 0.7s ease;
-      box-shadow: 0px 0px 5px #333; }
-    div.news-page div.row div.col-12 a.button:hover {
-      color: white;
-      background-color: #333; }
-  div.news-page div.container {
+    justify-content: center;
+}
+
+div.news-page div.row div.col-12 a.button {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 1px solid #333;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.7s ease;
+    box-shadow: 0px 0px 5px #333;
+}
+
+div.news-page div.row div.col-12 a.button:hover {
+    color: white;
+    background-color: #333;
+}
+
+div.news-page div.container {
     background-color: white;
     margin-top: 5vh;
     border: 1px solid #333;
-    box-shadow: 0px 0px 5px #333; }
-    div.news-page div.container div.row span {
-      margin-left: -5px;
-      margin-top: 5px;
-      color: #9a9da0;
-      font-size: 0.8rem; }
+    box-shadow: 0px 0px 5px #333;
+}
+
+div.news-page div.container div.row span {
+    margin-left: -5px;
+    margin-top: 5px;
+    color: #9a9da0;
+    font-size: 0.8rem;
+}
 
 div.contact-route div.contactgegevens {
-  margin-top: 5vh; }
-  div.contact-route div.contactgegevens div.header h1 {
+    margin-top: 5vh;
+}
+
+div.contact-route div.contactgegevens div.header h1 {
     color: #333;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box {
+    font-size: 2.1rem;
+}
+
+div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box {
     margin-top: 3vh;
     text-decoration: none;
     color: #333;
@@ -90,342 +116,417 @@ div.contact-route div.contactgegevens {
     width: 100%;
     background-color: white;
     transition: background-color 0.7s ease;
-    box-shadow: 0px 0px 5px #333; }
-  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box:hover {
+    box-shadow: 0px 0px 5px #333;
+}
+
+div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box:hover {
     color: white;
-    background-color: #333; }
+    background-color: #333;
+}
 
 div.contact-route div.parkeergelegenheid {
-  margin-top: 5vh; }
-  div.contact-route div.parkeergelegenheid div.header h1 {
+    margin-top: 5vh;
+}
+
+div.contact-route div.parkeergelegenheid div.header h1 {
     color: #333;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.contact-route div.parkeergelegenheid div.container-cards div.row div.cards {
+    font-size: 2.1rem;
+}
+
+div.contact-route div.parkeergelegenheid div.container-cards div.row div.cards {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+}
 
 div.contact-route div.google-maps {
-  background-color: #e3e3e3;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%); }
+    background-color: #e3e3e3;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
 
-body > div.container-fluid > div.row > div.col-12 > div.banner-order {
-  background-color: black;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(0%);
-  margin: 0rem;
-  padding: 0rem;
-  height: 48vh;
-  width: 100%; }
+body>div.container-fluid>div.row>div.col-12>div.banner-order {
+    background-color: black;
+    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0%);
+    margin: 0rem;
+    padding: 0rem;
+    height: 48vh;
+    width: 100%;
+}
 
-body > div.container-fluid > div.row > div.col-12 > div.banner-menu {
-  background-color: black;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(0%);
-  margin: 0rem;
-  padding: 0rem;
-  height: 48vh;
-  width: 100%; }
+body>div.container-fluid>div.row>div.col-12>div.banner-menu {
+    background-color: black;
+    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0%);
+    margin: 0rem;
+    padding: 0rem;
+    height: 48vh;
+    width: 100%;
+}
 
-body > div.container-fluid > div.row > div.col-12 > h1.head {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 3rem;
-  height: 7vh;
-  margin-top: 2rem;
-  min-height: 5.56rem;
-  text-align: center; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > img {
+body>div.container-fluid>div.row>div.col-12>h1.head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    height: 7vh;
+    margin-top: 2rem;
+    min-height: 5.56rem;
+    text-align: center;
+}
+
+body>div.container-fluid>div.row>div.col-12>h1.head>img {
     margin-top: 2rem;
     width: 100%;
-    max-width: 30rem; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > span {
+    max-width: 30rem;
+}
+
+body>div.container-fluid>div.row>div.col-12>h1.head>span {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 1rem;
-    margin-top: 2rem; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > div.category {
+    margin-top: 2rem;
+}
+
+body>div.container-fluid>div.row>div.col-12>h1.head>div.category {
     margin: 0.1rem;
-    margin-top: 2rem; }
-    body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item {
-      padding: 0.5rem; }
-      body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item > div.item-inhoud {
-        border: 1px solid black;
-        padding: 0.5rem; }
+    margin-top: 2rem;
+}
+
+body>div.container-fluid>div.row>div.col-12>h1.head>div.category>div.item {
+    padding: 0.5rem;
+}
+
+body>div.container-fluid>div.row>div.col-12>h1.head>div.category>div.item>div.item-inhoud {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
 
 .hoofd-start-reserveren {
-  padding-top: 2.5%;
-  padding-bottom: 1.25%; }
+    padding-top: 2.5%;
+    padding-bottom: 1.25%;
+}
 
 .banner-start-reserveren {
-  width: 100%;
-  height: fit-content;
-  border: 5px solid #333; }
+    width: 100%;
+    height: fit-content;
+    border: 5px solid #333;
+}
 
 .header-start-reserveren {
-  padding-left: 42%;
-  padding-top: 1.25%; }
+    padding-left: 42%;
+    padding-top: 1.25%;
+}
 
 .header-streep-reserveren {
-  width: 70%;
-  padding-left: 25%; }
+    width: 70%;
+    padding-left: 25%;
+}
 
 .content-start-reserveren {
-  padding-left: 2.5%;
-  padding-right: 5%;
-  padding-top: 1.25%; }
+    padding-left: 2.5%;
+    padding-right: 5%;
+    padding-top: 1.25%;
+}
 
 .col-reserveren-6 {
-  width: 50%; }
+    width: 50%;
+}
 
 .titels-start-reserveren {
-  border: #333 1px solid;
-  color: white;
-  background-color: #ff8000;
-  font-size: 175%;
-  text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1.25%; }
+    border: #333 1px solid;
+    color: white;
+    background-color: #ff8000;
+    font-size: 175%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1.25%;
+}
 
 .p_welkom-start-reserveren {
-  display: inline-block;
-  width: 100%;
-  text-align: center; }
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
 
 .button-menukaart-positie {
-  padding-left: 30%;
-  padding-top: 2.5%; }
+    padding-left: 30%;
+    padding-top: 2.5%;
+}
 
 .button-menukaart {
-  width: 10rem;
-  height: 3rem;
-  background-color: white;
-  color: #333;
-  border: #333 1px solid;
-  font-family: 'Libre Baskerville', serif;
-  text-align: center;
-  font-size: 25px;
-  padding-top: 1%;
-  text-decoration: none; }
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
+    color: #333;
+    border: #333 1px solid;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1%;
+    text-decoration: none;
+}
 
 .button-menukaart:hover {
-  background-color: #ff8000;
-  color: white; }
+    background-color: #ff8000;
+    color: white;
+}
 
 .buttons-reserveren-hoogte {
-  padding-top: 5%;
-  width: 100%; }
+    padding-top: 5%;
+    width: 100%;
+}
 
 .lunch-button-uitlijning {
-  width: 50%;
-  text-align: center; }
+    width: 50%;
+    text-align: center;
+}
 
 .button-lunch_diner {
-  width: 100%;
-  height: 3rem;
-  background-color: white;
-  color: #333;
-  border: #333 1px solid;
-  font-family: 'Libre Baskerville', serif;
-  text-align: center;
-  font-size: 25px;
-  padding-top: 1%;
-  text-decoration: none; }
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    color: #333;
+    border: #333 1px solid;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1%;
+    text-decoration: none;
+}
 
 .button-lunch_diner:hover {
-  background-color: #ff8000;
-  color: white; }
+    background-color: #ff8000;
+    color: white;
+}
 
 .hoofd-tekst-titel-reserveren {
-  padding-bottom: 5%; }
+    padding-bottom: 5%;
+}
 
 .col-button-reserveren-uitlijning {
-  width: 100%;
-  padding-bottom: 5%; }
+    width: 100%;
+    padding-bottom: 5%;
+}
 
 .col-buttons-reserveren {
-  width: 50%; }
+    width: 50%;
+}
 
 .foto-start-reserveren {
-  width: 100%;
-  height: 50%;
-  border: 5px solid #333;
-  padding: 0%; }
+    width: 100%;
+    height: 50%;
+    border: 5px solid #333;
+    padding: 0%;
+}
 
 .hoofd-reserveren-lunch {
-  padding-top: 2%;
-  padding-bottom: 1.25%; }
+    padding-top: 2%;
+    padding-bottom: 1.25%;
+}
 
 .banner-reserveren-lunch {
-  width: 100%;
-  height: fit-content;
-  border: 5px solid #333; }
+    width: 100%;
+    height: fit-content;
+    border: 5px solid #333;
+}
 
 .header-reserveren-lunch {
-  padding-top: 1.25%;
-  text-align: center; }
+    padding-top: 1.25%;
+    text-align: center;
+}
 
 .content-reserveren-lunch {
-  padding-left: 2.5%; }
+    padding-left: 2.5%;
+}
 
 .lunch-reservation-foto {
-  width: 100%;
-  height: 50%;
-  padding-bottom: 5%; }
+    width: 100%;
+    height: 50%;
+    padding-bottom: 5%;
+}
 
 .plaatsing-form-reservation1 {
-  padding-left: 12.5%; }
+    padding-left: 12.5%;
+}
 
 .omlijning-form-reserveren-1 {
-  text-align: center;
-  border: solid 1px;
-  width: 75%;
-  padding-bottom: 7.5%; }
+    text-align: center;
+    border: solid 1px;
+    width: 75%;
+    padding-bottom: 7.5%;
+}
 
 .label-reservation {
-  font-size: 150%;
-  color: #333;
-  padding-bottom: 2%;
-  text-align: center; }
+    font-size: 150%;
+    color: #333;
+    padding-bottom: 2%;
+    text-align: center;
+}
 
 .reservation-uitlijning-hoogte {
-  padding-top: 2.5%;
-  padding-bottom: 5%; }
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
 
 .reservation-uitlijning-datum {
-  padding-left: 35%; }
+    padding-left: 35%;
+}
 
 .date-reservation {
-  color: #e3e3e3;
-  background-color: #ff8000; }
+    color: #e3e3e3;
+    background-color: #ff8000;
+}
 
 .reservation-uitlijning-time {
-  padding-left: 42.5%; }
+    padding-left: 42.5%;
+}
 
 .time-reservation {
-  font-size: 100%;
-  color: #e3e3e3;
-  background-color: #ff8000;
-  padding-left: 2.5%; }
+    font-size: 100%;
+    color: #e3e3e3;
+    background-color: #ff8000;
+    padding-left: 2.5%;
+}
 
 .reservation-uitlijning-persons {
-  padding-left: 45%; }
+    padding-left: 45%;
+}
 
 .persons-reservation {
-  font-size: 100%;
-  color: #e3e3e3;
-  background-color: #ff8000;
-  padding-left: 2.5%; }
+    font-size: 100%;
+    color: #e3e3e3;
+    background-color: #ff8000;
+    padding-left: 2.5%;
+}
 
 .reservation-uitlijing-button {
-  padding-top: 5%;
-  padding-left: 27.5%; }
+    padding-top: 5%;
+    padding-left: 27.5%;
+}
 
 .button-form1-reservation {
-  width: fit-content;
-  background-color: white;
-  color: #333;
-  border: #333 1px solid;
-  font-family: 'Libre Baskerville', serif;
-  text-align: center;
-  font-size: 100%;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  text-decoration: none; }
+    width: fit-content;
+    background-color: white;
+    color: #333;
+    border: #333 1px solid;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-decoration: none;
+}
 
 .button-form1-reservation:hover {
-  color: #e3e3e3;
-  background-color: #ff8000; }
+    color: #e3e3e3;
+    background-color: #ff8000;
+}
 
 .hoofd-klantgegevens-reserveren {
-  padding-top: 2.5%; }
+    padding-top: 2.5%;
+}
 
 .banner-reserveren-klantgegevens {
-  width: 100%;
-  height: 50%;
-  border: 5px solid #333; }
+    width: 100%;
+    height: 50%;
+    border: 5px solid #333;
+}
 
 .header-reserveren-klantgegevens {
-  padding-top: 1.25%;
-  text-align: center; }
+    padding-top: 1.25%;
+    text-align: center;
+}
 
 .content-klantgegevens {
-  padding-top: 2.5%;
-  padding-left: 2%; }
+    padding-top: 2.5%;
+    padding-left: 2%;
+}
 
 .reserveren-klantgegevens-foto {
-  width: 100%;
-  height: 50%;
-  border: 5px solid #333; }
+    width: 100%;
+    height: 50%;
+    border: 5px solid #333;
+}
 
 .plaatsing-form-reservation2 {
-  padding-left: 25%; }
+    padding-left: 25%;
+}
 
 .omlijning-form-reserveren-2 {
-  text-align: center;
-  border: solid 1px;
-  width: max-content;
-  height: max-content;
-  padding-top: 1.25%;
-  padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%; }
+    text-align: center;
+    border: solid 1px;
+    width: max-content;
+    height: max-content;
+    padding-top: 1.25%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .uitlijning-klantgegevens {
-  padding-bottom: 5%; }
+    padding-bottom: 5%;
+}
 
 .input-klantgegevens {
-  background-color: #ff8000;
-  color: #e3e3e3;
-  text-align: center; }
+    background-color: #ff8000;
+    color: #e3e3e3;
+    text-align: center;
+}
 
 .input-klantgegevens::placeholder {
-  background-color: #ff8000;
-  color: #e3e3e3;
-  text-align: center; }
+    background-color: #ff8000;
+    color: #e3e3e3;
+    text-align: center;
+}
 
 .button-uitlijning-klantgegevens {
-  padding: 5%; }
+    padding: 5%;
+}
 
 .button-klantgegevens {
-  width: fit-content;
-  background-color: white;
-  color: #333;
-  border: #333 1px solid;
-  font-family: 'Libre Baskerville', serif;
-  text-align: center;
-  font-size: 100%;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  text-decoration: none; }
+    width: fit-content;
+    background-color: white;
+    color: #333;
+    border: #333 1px solid;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-decoration: none;
+}
 
 .button-klantgegevens:hover {
-  color: #e3e3e3;
-  background-color: #ff8000; }
+    color: #e3e3e3;
+    background-color: #ff8000;
+}
 
 .header-login {
-  padding-left: 42.5%;
-  margin-top: 3%; }
+    padding-left: 42.5%;
+    margin-top: 3%;
+}
 
 .login {
-  padding-top: 10px; }
+    padding-top: 10px;
+}
 
 .email {
-  background-color: #ff8000;
-  color: white;
-  width: 42.5%; }
+    background-color: #ff8000;
+    color: white;
+    width: 42.5%;
+}
