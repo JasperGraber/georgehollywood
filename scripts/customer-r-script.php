@@ -1,6 +1,6 @@
 <?php
-include("./scripts/connect_db.php");
-include("./scripts/functions.php");
+    include("./scripts/connect_db.php");
+    include("./scripts/functions.php");
 
     $firstname = sanitize($_POST["firstname"]);
     $infix = sanitize($_POST["infix"]);
@@ -24,11 +24,11 @@ include("./scripts/functions.php");
                         '$phonenumber', 
                         '$emailc', 
                         NULL);";
-if (mysqli_query($conn, $sql))
-{
-    echo"test";
-}
-else{
-    echo"error";
-}
+    if (mysqli_query($conn, $sql))
+    {
+        echo"test";
+    }
+    else{
+        echo"error";
+    }
 ?>
