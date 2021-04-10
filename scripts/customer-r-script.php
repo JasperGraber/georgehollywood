@@ -2,7 +2,7 @@
 include("./scripts/connect_db.php");
 include("./scripts/functions.php");
     $reservationid = sanitize($_GET["reservationid"]);
-echo $reservationid;
+    echo $reservationid;
 //     $firstname = sanitize($_POST["firstname"]);
 //     $infix = sanitize($_POST["infix"]);
 //     $lastname = sanitize($_POST["lastname"]);
