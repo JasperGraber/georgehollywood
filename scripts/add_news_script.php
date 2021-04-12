@@ -7,13 +7,15 @@ $title = sanitize($_POST['title']);
 $introduction = sanitize($_POST['introduction']);
 $article = sanitize($_POST['article']);
 
+$category = $_POST['category'];
+
 // Get date-time
 date_default_timezone_set("Europe/Amsterdam");
 $datetime = date("Y-m-d H:i:s");
 
 // Insert into table news
-$sql = "INSERT INTO `news` (`news_id`, `news_title`, `news_image`, `news_date`, `news_introduction`, `news_article`) 
-        VALUES (NULL, '$title', NULL, '$datetime', '$introduction', '$article');";
+$sql = "INSERT INTO `news` (`news_id`, `news_title`, `news_image`, `news_date`, `news_introduction`, `news_article`, `category_id`) 
+        VALUES (NULL, '$title', NULL, '$datetime', '$introduction', '$article', '$category');";
 
 // Run query on database
 if (mysqli_query($conn, $sql)) {

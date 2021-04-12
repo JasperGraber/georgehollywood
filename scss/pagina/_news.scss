@@ -8,39 +8,44 @@ div.news-page {
             font-family: "Libre Baskerville", serif;
             font-size: 2.1rem;
         }
-        img.streep {
-            width: 350px;
-            display: unset;
-        }
-    }
-    div.row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        div.col-12 {
-            a.button {
-                color: #333;
-                text-decoration: none;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 1.2rem;
-                border: 1px solid #333;
-                height: 5rem;
-                width: 100%;
-                background-color: white;
-                transition: background-color 0.7s ease;
-                box-shadow: 0px 0px 5px #333;
-            }
-            a.button:hover {
-                color: white;
-                background-color: #333;
+        div.row {
+            justify-content: center;
+            img.streep {
+                width: 350px;
+                margin-top: -55px;
             }
         }
     }
-    div.container {
+    div.container-button {
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+        div.row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div.col-12 {
+                a.button {
+                    color: white;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1.2rem;
+                    border: 1px solid #333;
+                    height: 5rem;
+                    width: 100%;
+                    background-color: #333;
+                    transition: background-color 0.4s ease;
+                    box-shadow: 0px 0px 5px #333;
+                }
+                a.button:hover {
+                    background-color: #1a1a1a;
+                }
+            }
+        }
+    }
+    div.container-article {
         background-color: white;
-        margin-top: 5vh;
         border: 1px solid #333;
         box-shadow: 0px 0px 5px #333;
         div.row {
@@ -71,14 +76,17 @@ div.add-news-page {
             font-family: "Libre Baskerville", serif;
             font-size: 2.1rem;
         }
-        img.streep {
-            width: 350px;
-            display: unset;
+        div.row {
+            justify-content: center;
+            img.streep {
+                width: 350px;
+                margin-top: -55px;
+            }
         }
     }
     div.container {
+        margin-top: 3vh;
         background-color: white;
-        margin-top: 5vh;
         border: 1px solid #333;
         box-shadow: 0px 0px 5px #333;
         form.row {
@@ -91,11 +99,56 @@ div.add-news-page {
                 border-top: 1px solid #333;
                 border-radius: 0% !important;
                 background-color: #333;
-                transition: background-color 0.7s ease;
+                transition: background-color 0.4s ease;
             }
             button.btn:hover {
-                color: #333;
-                background-color: white;
+                background-color: #1a1a1a;
+            }
+        }
+    }
+}
+
+div.add-category-page {
+    margin-top: 5vh;
+    font-family: "Libre Baskerville", serif;
+    div.header {
+        h1 {
+            color: #333;
+            text-align: center;
+            font-family: "Libre Baskerville", serif;
+            font-size: 2.1rem;
+        }
+        div.row {
+            justify-content: center;
+            img.streep {
+                width: 350px;
+                margin-top: -55px;
+            }
+        }
+    }
+    div.container {
+        margin-top: 3vh;
+        div.row {
+            div.col-12 {
+                form.row {
+                    background-color: white;
+                    border: 1px solid #333;
+                    box-shadow: 0px 0px 5px #333;
+                    div.row {
+                        margin-top: 10px;
+                    }
+                    button.btn {
+                        color: white;
+                        font-size: 1.2rem;
+                        border-top: 1px solid #333;
+                        border-radius: 0% !important;
+                        background-color: #333;
+                        transition: background-color 0.4s ease;
+                    }
+                    button.btn:hover {
+                        background-color: #1a1a1a;
+                    }
+                }
             }
         }
     }

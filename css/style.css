@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  font-family: 'Libre Baskerville', serif; }
+  font-family: 'Libre Baskerville', serif;
+  overflow-x: hidden; }
 
 body * {
   display: block; }
@@ -35,35 +36,38 @@ div.news-page {
     text-align: center;
     font-family: "Libre Baskerville", serif;
     font-size: 2.1rem; }
-  div.news-page div.header img.streep {
-    width: 350px;
-    display: unset; }
-  div.news-page div.row {
-    display: flex;
-    align-items: center;
+  div.news-page div.header div.row {
     justify-content: center; }
-    div.news-page div.row div.col-12 a.button {
-      color: #333;
-      text-decoration: none;
+    div.news-page div.header div.row img.streep {
+      width: 350px;
+      margin-top: -55px; }
+  div.news-page div.container-button {
+    margin-top: 3vh;
+    margin-bottom: 4vh; }
+    div.news-page div.container-button div.row {
       display: flex;
       align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      border: 1px solid #333;
-      height: 5rem;
-      width: 100%;
-      background-color: white;
-      transition: background-color 0.7s ease;
-      box-shadow: 0px 0px 5px #333; }
-    div.news-page div.row div.col-12 a.button:hover {
-      color: white;
-      background-color: #333; }
-  div.news-page div.container {
+      justify-content: center; }
+      div.news-page div.container-button div.row div.col-12 a.button {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        border: 1px solid #333;
+        height: 5rem;
+        width: 100%;
+        background-color: #333;
+        transition: background-color 0.4s ease;
+        box-shadow: 0px 0px 5px #333; }
+      div.news-page div.container-button div.row div.col-12 a.button:hover {
+        background-color: #1a1a1a; }
+  div.news-page div.container-article {
     background-color: white;
-    margin-top: 5vh;
     border: 1px solid #333;
     box-shadow: 0px 0px 5px #333; }
-    div.news-page div.container div.row span {
+    div.news-page div.container-article div.row span {
       margin-left: -5px;
       margin-top: 5px;
       color: #9a9da0;
@@ -77,12 +81,14 @@ div.add-news-page {
     text-align: center;
     font-family: "Libre Baskerville", serif;
     font-size: 2.1rem; }
-  div.add-news-page div.header img.streep {
-    width: 350px;
-    display: unset; }
+  div.add-news-page div.header div.row {
+    justify-content: center; }
+    div.add-news-page div.header div.row img.streep {
+      width: 350px;
+      margin-top: -55px; }
   div.add-news-page div.container {
+    margin-top: 3vh;
     background-color: white;
-    margin-top: 5vh;
     border: 1px solid #333;
     box-shadow: 0px 0px 5px #333; }
     div.add-news-page div.container form.row div.row {
@@ -93,10 +99,40 @@ div.add-news-page {
       border-top: 1px solid #333;
       border-radius: 0% !important;
       background-color: #333;
-      transition: background-color 0.7s ease; }
+      transition: background-color 0.4s ease; }
     div.add-news-page div.container form.row button.btn:hover {
-      color: #333;
-      background-color: white; }
+      background-color: #1a1a1a; }
+
+div.add-category-page {
+  margin-top: 5vh;
+  font-family: "Libre Baskerville", serif; }
+  div.add-category-page div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.add-category-page div.header div.row {
+    justify-content: center; }
+    div.add-category-page div.header div.row img.streep {
+      width: 350px;
+      margin-top: -55px; }
+  div.add-category-page div.container {
+    margin-top: 3vh; }
+    div.add-category-page div.container div.row div.col-12 form.row {
+      background-color: white;
+      border: 1px solid #333;
+      box-shadow: 0px 0px 5px #333; }
+      div.add-category-page div.container div.row div.col-12 form.row div.row {
+        margin-top: 10px; }
+      div.add-category-page div.container div.row div.col-12 form.row button.btn {
+        color: white;
+        font-size: 1.2rem;
+        border-top: 1px solid #333;
+        border-radius: 0% !important;
+        background-color: #333;
+        transition: background-color 0.4s ease; }
+      div.add-category-page div.container div.row div.col-12 form.row button.btn:hover {
+        background-color: #1a1a1a; }
 
 div.contact-route div.contactgegevens {
   margin-top: 5vh; }
