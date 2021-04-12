@@ -38,9 +38,15 @@
                 <label class="col-sm-3 col-lg-2 col-form-label">Categorie</label>
                 <div class="col-sm-9 col-lg-10">
                     <select class="form-select" name="category">
-                        <option value="1">Social Media</option>
-                        <option value="2">Menu</option>
-                        <option value="3">Toegankelijkheid</option>
+                        <?php
+                        include("./scripts/connect_db.php");
+
+                        $sql = "SELECT * FROM categories";
+                        $result = mysqli_query($conn, $sql);
+                        while ($record = mysqli_fetch_assoc($result)) {
+                            echo "<option value='" . $record['category_id'] . "'>" . $record['category_name'] . "</option>";
+                        }
+                        ?>
                     </select>
                 </div>
             </div>
