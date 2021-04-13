@@ -1,3 +1,11 @@
+<?php
+if(!(isset($_GET["reservationid"]) ))
+{
+    header("Location: ./index.php?content=message&alert=hacker-alert");
+}
+?>
+
+
 <div class="hoofd-klantgegevens-reserveren">
     <div class="container-fluid">
         <img src="../img/reserveren-klantgegevens-banner.jpg" class="banner-reserveren-klantgegevens">
@@ -44,8 +52,9 @@
                         <input name="phone-number" type="tel" class="input-klantgegevens" placeholder="06-00000000" id="InputEmail1"
                             aria-describedby="emailHelp" autofocus required>
                     </div>
-                    <div class="button-uitlijning-klantgegevens">
-                        <button type="submit" class="button-klantgegevens">Bevestig reservering </button>
+                    <div class="button-uitlijning-klantgegevens">      
+                    <input type="hidden" name="reservationid" value="<?php echo $_GET["reservationid"]; ?>">                  
+                    <button type="submit" class="button-klantgegevens">Bevestig reservering </button>
                     </div>
 
                 </form>

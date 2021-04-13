@@ -19,8 +19,8 @@
 
   <title>&copy; <?php if ( isset($_GET["content"])) { echo "George ".ucfirst($_GET["content"]); } else { echo ucfirst("George Hollywood"); } ?></title>
   <?php
-      require_once './class/database.php';
-      $db = new database('localhost','george-hollywood','manager','@hollywood');
+      // require_once './class/database.php';
+      // $db = new database('localhost','george-hollywood','manager','@hollywood');
   ?>
 </head>
 
