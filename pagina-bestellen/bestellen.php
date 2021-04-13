@@ -1,9 +1,7 @@
-<div class="banner-order">
-    
-</div>
+<?php
+    require_once './class/head.php';
 
-<h1 class="head">
-    Bestellen
-    <img src="./img/streep.svg" alt="Line" />
-</h1>
-
+    $Order = new Head ('order','Bestellen');
+        $Order->getBanner();
+        $Order->getTitle();
+?>

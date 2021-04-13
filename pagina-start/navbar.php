@@ -4,6 +4,7 @@
             <img src="./img/logo.svg" width="50%" alt="">
         </a>
         <a href="./index.php?content=contact-route">Contact & Route</a>
+        <a href="./index.php?content=menu">Menu</a>
         <a href="./index.php?content=start">Reserveren</a>
         <a href="./index.php?content=bestellen">Bestellen</a>
         <a href="./index.php?content=nieuwsberichten">Nieuwsberichten</a>

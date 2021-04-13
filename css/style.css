@@ -24,115 +24,39 @@ body * {
     text-decoration: none;
     font-size: 125%; }
 
+.banner-menu {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
+.banner-order {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
 .header-home {
   padding-left: 45%;
   margin-top: 3%; }
-
-div.news-page {
-  margin-top: 5vh;
-  font-family: "Libre Baskerville", serif; }
-  div.news-page div.header h1 {
-    color: #333;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.news-page div.header div.row {
-    justify-content: center; }
-    div.news-page div.header div.row img.streep {
-      width: 350px;
-      margin-top: -55px; }
-  div.news-page div.container-button {
-    margin-top: 3vh;
-    margin-bottom: 4vh; }
-    div.news-page div.container-button div.row {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      div.news-page div.container-button div.row div.col-12 a.button {
-        color: white;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.2rem;
-        border: 1px solid #333;
-        height: 5rem;
-        width: 100%;
-        background-color: #333;
-        transition: background-color 0.4s ease;
-        box-shadow: 0px 0px 5px #333; }
-      div.news-page div.container-button div.row div.col-12 a.button:hover {
-        background-color: #1a1a1a; }
-  div.news-page div.container-article {
-    background-color: white;
-    border: 1px solid #333;
-    box-shadow: 0px 0px 5px #333; }
-    div.news-page div.container-article div.row span {
-      margin-left: -5px;
-      margin-top: 5px;
-      color: #9a9da0;
-      font-size: 0.8rem; }
-
-div.add-news-page {
-  margin-top: 5vh;
-  font-family: "Libre Baskerville", serif; }
-  div.add-news-page div.header h1 {
-    color: #333;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.add-news-page div.header div.row {
-    justify-content: center; }
-    div.add-news-page div.header div.row img.streep {
-      width: 350px;
-      margin-top: -55px; }
-  div.add-news-page div.container {
-    margin-top: 3vh;
-    background-color: white;
-    border: 1px solid #333;
-    box-shadow: 0px 0px 5px #333; }
-    div.add-news-page div.container form.row div.row {
-      margin-top: 10px; }
-    div.add-news-page div.container form.row button.btn {
-      color: white;
-      font-size: 1.2rem;
-      border-top: 1px solid #333;
-      border-radius: 0% !important;
-      background-color: #333;
-      transition: background-color 0.4s ease; }
-    div.add-news-page div.container form.row button.btn:hover {
-      background-color: #1a1a1a; }
-
-div.add-category-page {
-  margin-top: 5vh;
-  font-family: "Libre Baskerville", serif; }
-  div.add-category-page div.header h1 {
-    color: #333;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.add-category-page div.header div.row {
-    justify-content: center; }
-    div.add-category-page div.header div.row img.streep {
-      width: 350px;
-      margin-top: -55px; }
-  div.add-category-page div.container {
-    margin-top: 3vh; }
-    div.add-category-page div.container div.row div.col-12 form.row {
-      background-color: white;
-      border: 1px solid #333;
-      box-shadow: 0px 0px 5px #333; }
-      div.add-category-page div.container div.row div.col-12 form.row div.row {
-        margin-top: 10px; }
-      div.add-category-page div.container div.row div.col-12 form.row button.btn {
-        color: white;
-        font-size: 1.2rem;
-        border-top: 1px solid #333;
-        border-radius: 0% !important;
-        background-color: #333;
-        transition: background-color 0.4s ease; }
-      div.add-category-page div.container div.row div.col-12 form.row button.btn:hover {
-        background-color: #1a1a1a; }
 
 div.contact-route div.contactgegevens {
   margin-top: 5vh; }
@@ -176,59 +100,17 @@ div.contact-route div.google-maps {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%); }
 
-body > div.container-fluid > div.row > div.col-12 > div.banner-order {
-  background-color: black;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(0%);
-  margin: 0rem;
-  padding: 0rem;
-  height: 48vh;
-  width: 100%; }
-
-body > div.container-fluid > div.row > div.col-12 > div.banner-menu {
-  background-color: black;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(0%);
-  margin: 0rem;
-  padding: 0rem;
-  height: 48vh;
-  width: 100%; }
-
-body > div.container-fluid > div.row > div.col-12 > h1.head {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 3rem;
-  height: 7vh;
-  margin-top: 2rem;
-  min-height: 5.56rem;
-  text-align: center; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > img {
-    margin-top: 2rem;
-    width: 100%;
-    max-width: 30rem; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > span {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 1rem;
-    margin-top: 2rem; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > div.category {
-    margin: 0.1rem;
-    margin-top: 2rem; }
-    body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item {
+table {
+  display: table;
+  text-align: left; }
+  table > tbody > tr {
+    display: table-row; }
+    table > tbody > tr > th {
+      display: table-cell;
       padding: 0.5rem; }
-      body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item > div.item-inhoud {
-        border: 1px solid black;
-        padding: 0.5rem; }
+    table > tbody > tr > td {
+      display: table-cell;
+      padding: 0.5rem; }
 
 .hoofd-start-reserveren {
   padding-top: 2.5%;
@@ -479,6 +361,172 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
 .button-klantgegevens:hover {
   color: #e3e3e3;
   background-color: #ff8000; }
+
+body > div.container-fluid > div.row > div.col-12 > div.banner-order {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
+body > div.container-fluid > div.row > div.col-12 > div.banner-menu {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
+body > div.container-fluid > div.row > div.col-12 > h1.head {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3rem;
+  height: 7vh;
+  margin-top: 2rem;
+  min-height: 5.56rem;
+  text-align: center; }
+  body > div.container-fluid > div.row > div.col-12 > h1.head > img {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 30rem; }
+  body > div.container-fluid > div.row > div.col-12 > h1.head > span {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 2rem; }
+  body > div.container-fluid > div.row > div.col-12 > h1.head > div.category {
+    margin: 0.1rem;
+    margin-top: 2rem; }
+    body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item {
+      padding: 0.5rem; }
+      body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item > div.item-inhoud {
+        border: 1px solid black;
+        padding: 0.5rem; }
+
+div.news-page {
+  margin-top: 5vh;
+  font-family: "Libre Baskerville", serif; }
+  div.news-page div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.news-page div.header div.row {
+    justify-content: center; }
+    div.news-page div.header div.row img.streep {
+      width: 350px;
+      margin-top: -55px; }
+  div.news-page div.container-button {
+    margin-top: 3vh;
+    margin-bottom: 4vh; }
+    div.news-page div.container-button div.row {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      div.news-page div.container-button div.row div.col-12 a.button {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        border: 1px solid #333;
+        height: 5rem;
+        width: 100%;
+        background-color: #333;
+        transition: background-color 0.4s ease;
+        box-shadow: 0px 0px 5px #333; }
+      div.news-page div.container-button div.row div.col-12 a.button:hover {
+        background-color: #1a1a1a; }
+  div.news-page div.container-article {
+    background-color: white;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 5px #333; }
+    div.news-page div.container-article div.row span {
+      margin-left: -5px;
+      margin-top: 5px;
+      color: #9a9da0;
+      font-size: 0.8rem; }
+
+div.add-news-page {
+  margin-top: 5vh;
+  font-family: "Libre Baskerville", serif; }
+  div.add-news-page div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.add-news-page div.header div.row {
+    justify-content: center; }
+    div.add-news-page div.header div.row img.streep {
+      width: 350px;
+      margin-top: -55px; }
+  div.add-news-page div.container {
+    margin-top: 3vh;
+    background-color: white;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 5px #333; }
+    div.add-news-page div.container form.row div.row {
+      margin-top: 10px; }
+    div.add-news-page div.container form.row button.btn {
+      color: white;
+      font-size: 1.2rem;
+      border-top: 1px solid #333;
+      border-radius: 0% !important;
+      background-color: #333;
+      transition: background-color 0.4s ease; }
+    div.add-news-page div.container form.row button.btn:hover {
+      background-color: #1a1a1a; }
+
+div.add-category-page {
+  margin-top: 5vh;
+  font-family: "Libre Baskerville", serif; }
+  div.add-category-page div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.add-category-page div.header div.row {
+    justify-content: center; }
+    div.add-category-page div.header div.row img.streep {
+      width: 350px;
+      margin-top: -55px; }
+  div.add-category-page div.container {
+    margin-top: 3vh; }
+    div.add-category-page div.container div.row div.col-12 form.row {
+      background-color: white;
+      border: 1px solid #333;
+      box-shadow: 0px 0px 5px #333; }
+      div.add-category-page div.container div.row div.col-12 form.row div.row {
+        margin-top: 10px; }
+      div.add-category-page div.container div.row div.col-12 form.row button.btn {
+        color: white;
+        font-size: 1.2rem;
+        border-top: 1px solid #333;
+        border-radius: 0% !important;
+        background-color: #333;
+        transition: background-color 0.4s ease; }
+      div.add-category-page div.container div.row div.col-12 form.row button.btn:hover {
+        background-color: #1a1a1a; }
 
 .header-login {
   padding-left: 42.5%;

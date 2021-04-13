@@ -16,17 +16,17 @@
   <link href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f44d0b584ac6b6bafdf91fd_George-marina-favicon-s.png" rel="shortcut icon" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
   
-  <title>George Hollywood</title>
+
+  <title>&copy; <?php if ( isset($_GET["content"])) { echo "George ".ucfirst($_GET["content"]); } else { echo ucfirst("George Hollywood"); } ?></title>
+  <?php
+      require_once './class/database.php';
+      $db = new database('localhost','george-hollywood','manager','@hollywood');
+  ?>
 </head>
 
 <body>
   <div class="container-fluid px-0">
     <?php include("./pagina-start/navbar.php"); ?>
-    <div class="row">
-      <div class="col-12">
-        <?php include("./pagina-start/banner.php"); ?>
-      </div>
-    </div>
     <div class="row">
       <div class="col-12">
         <?php include("./pagina-start/content.php"); ?>

@@ -1,0 +1,7 @@
+.banner-menu {
+    @include banner ($black, "../img/banner6.png", 0%);
+}
+
+.banner-order {
+    @include banner ($black, "../img/banner5.png", 0%);
+}
