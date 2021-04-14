@@ -1,4 +1,4 @@
-div.news-page {
+div.admin-news-page {
     margin-top: 5vh;
     font-family: "Libre Baskerville", serif;
     div.header {
@@ -31,7 +31,6 @@ div.news-page {
                     align-items: center;
                     justify-content: center;
                     font-size: 1.2rem;
-                    border: 1px solid #333;
                     height: 5rem;
                     width: 100%;
                     background-color: #333;
@@ -48,10 +47,9 @@ div.news-page {
         background-color: white;
         border: 1px solid #333;
         box-shadow: 0px 0px 5px #333;
+        padding: 5px;
         div.row {
             span {
-                margin-left: -5px;
-                margin-top: 5px;
                 color: #9a9da0;
                 font-size: 0.8rem;
             }
@@ -149,6 +147,138 @@ div.add-category-page {
                         background-color: #1a1a1a;
                     }
                 }
+            }
+        }
+    }
+}
+
+// nieuwsberichten.php
+div.news-page {
+    font-family: "Libre Baskerville", serif;
+    background-image: url("../img/news_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -20px;
+    div.banner {
+        display: flex;
+        justify-content: center;
+        div.header {
+            text-align: center;
+            h1 {
+                position: static;
+                margin-top: 20vh;
+                color: white;
+                text-align: center;
+                font-family: "Libre Baskerville", serif;
+                font-size: 2.1rem;
+            }
+            div.row {
+                display: flex;
+                justify-content: center;
+                img.streep {
+                    width: 350px;
+                    margin-top: -55px;
+                }
+            }
+        }
+    }
+    div.articles {
+        background-color: white;
+        background: rgba($color: white, $alpha: 0.4);
+        background: white;
+        color: #333;
+        max-width: 1000px;
+        padding: 0px;
+        div.categories {
+            background-color: #333;
+            a.categories-button {
+                color: white;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.9rem;
+                padding: 1rem;
+                width: 100%;
+                background-color: #333;
+                transition: background-color 0.4s ease;
+            }
+            a.categories-button:hover {
+                background-color: #1a1a1a;
+            }
+        }
+        div.articles-container {
+            background-color: white;
+            padding: 20px;
+            div.info-row {
+                display: flex;
+                justify-content: right;
+                h6.datetime {
+                    color: #9a9da0;
+                    font-size: 0.8rem;
+                }
+                h6.category {
+                    color: #9a9da0;
+                    font-size: 0.8rem;
+                    justify-content: right;
+                }
+            }
+            div.image-row {
+                display: flex;
+                align-items: flex-start;
+                margin-top: 15px;
+                img {
+                    width: 100%;
+                    max-height: 500px;
+                    object-fit: contain;
+                }
+            }
+            div.article-row {
+                margin-top: 15px;
+                div.row {
+                    div.title {
+                        word-wrap: break-word;
+                        a {
+                            font-size: 1.3rem;
+                            color: #333;
+                            font-weight: bold;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                    div.introduction {
+                        margin-top: 15px;
+                        word-wrap: break-word;
+                        font-size: 1rem;
+                        color: #333;
+                    }
+                    div.read-more {
+                        display: flex;
+                        align-items: flex-end;
+                        margin-top: 5px;
+                        a {
+                            font-size: 1rem;
+                            color: #333;
+                            font-style: italic;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            div.custom-hr {
+                background-color: #333;
+                height: 2px;
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 30px;
+                margin-bottom: 30px;
             }
         }
     }

@@ -425,48 +425,46 @@ body > div.container-fluid > div.row > div.col-12 > h1.head {
         border: 1px solid black;
         padding: 0.5rem; }
 
-div.news-page {
+div.admin-news-page {
   margin-top: 5vh;
   font-family: "Libre Baskerville", serif; }
-  div.news-page div.header h1 {
+  div.admin-news-page div.header h1 {
     color: #333;
     text-align: center;
     font-family: "Libre Baskerville", serif;
     font-size: 2.1rem; }
-  div.news-page div.header div.row {
+  div.admin-news-page div.header div.row {
     justify-content: center; }
-    div.news-page div.header div.row img.streep {
+    div.admin-news-page div.header div.row img.streep {
       width: 350px;
       margin-top: -55px; }
-  div.news-page div.container-button {
+  div.admin-news-page div.container-button {
     margin-top: 3vh;
     margin-bottom: 4vh; }
-    div.news-page div.container-button div.row {
+    div.admin-news-page div.container-button div.row {
       display: flex;
       align-items: center;
       justify-content: center; }
-      div.news-page div.container-button div.row div.col-12 a.button {
+      div.admin-news-page div.container-button div.row div.col-12 a.button {
         color: white;
         text-decoration: none;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 1.2rem;
-        border: 1px solid #333;
         height: 5rem;
         width: 100%;
         background-color: #333;
         transition: background-color 0.4s ease;
         box-shadow: 0px 0px 5px #333; }
-      div.news-page div.container-button div.row div.col-12 a.button:hover {
+      div.admin-news-page div.container-button div.row div.col-12 a.button:hover {
         background-color: #1a1a1a; }
-  div.news-page div.container-article {
+  div.admin-news-page div.container-article {
     background-color: white;
     border: 1px solid #333;
-    box-shadow: 0px 0px 5px #333; }
-    div.news-page div.container-article div.row span {
-      margin-left: -5px;
-      margin-top: 5px;
+    box-shadow: 0px 0px 5px #333;
+    padding: 5px; }
+    div.admin-news-page div.container-article div.row span {
       color: #9a9da0;
       font-size: 0.8rem; }
 
@@ -530,6 +528,110 @@ div.add-category-page {
         transition: background-color 0.4s ease; }
       div.add-category-page div.container div.row div.col-12 form.row button.btn:hover {
         background-color: #1a1a1a; }
+
+div.news-page {
+  font-family: "Libre Baskerville", serif;
+  background-image: url("../img/news_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: -20px; }
+  div.news-page div.banner {
+    display: flex;
+    justify-content: center; }
+    div.news-page div.banner div.header {
+      text-align: center; }
+      div.news-page div.banner div.header h1 {
+        position: static;
+        margin-top: 20vh;
+        color: white;
+        text-align: center;
+        font-family: "Libre Baskerville", serif;
+        font-size: 2.1rem; }
+      div.news-page div.banner div.header div.row {
+        display: flex;
+        justify-content: center; }
+        div.news-page div.banner div.header div.row img.streep {
+          width: 350px;
+          margin-top: -55px; }
+  div.news-page div.articles {
+    background-color: white;
+    background: rgba(255, 255, 255, 0.4);
+    background: white;
+    color: #333;
+    max-width: 1000px;
+    padding: 0px; }
+    div.news-page div.articles div.categories {
+      background-color: #333; }
+      div.news-page div.articles div.categories a.categories-button {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        padding: 1rem;
+        width: 100%;
+        background-color: #333;
+        transition: background-color 0.4s ease; }
+      div.news-page div.articles div.categories a.categories-button:hover {
+        background-color: #1a1a1a; }
+    div.news-page div.articles div.articles-container {
+      background-color: white;
+      padding: 20px; }
+      div.news-page div.articles div.articles-container div.info-row {
+        display: flex;
+        justify-content: right; }
+        div.news-page div.articles div.articles-container div.info-row h6.datetime {
+          color: #9a9da0;
+          font-size: 0.8rem; }
+        div.news-page div.articles div.articles-container div.info-row h6.category {
+          color: #9a9da0;
+          font-size: 0.8rem;
+          justify-content: right; }
+      div.news-page div.articles div.articles-container div.image-row {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 15px; }
+        div.news-page div.articles div.articles-container div.image-row img {
+          width: 100%;
+          max-height: 500px;
+          object-fit: contain; }
+      div.news-page div.articles div.articles-container div.article-row {
+        margin-top: 15px; }
+        div.news-page div.articles div.articles-container div.article-row div.row div.title {
+          word-wrap: break-word; }
+          div.news-page div.articles div.articles-container div.article-row div.row div.title a {
+            font-size: 1.3rem;
+            color: #333;
+            font-weight: bold;
+            text-decoration: none; }
+          div.news-page div.articles div.articles-container div.article-row div.row div.title a:hover {
+            text-decoration: underline; }
+        div.news-page div.articles div.articles-container div.article-row div.row div.introduction {
+          margin-top: 15px;
+          word-wrap: break-word;
+          font-size: 1rem;
+          color: #333; }
+        div.news-page div.articles div.articles-container div.article-row div.row div.read-more {
+          display: flex;
+          align-items: flex-end;
+          margin-top: 5px; }
+          div.news-page div.articles div.articles-container div.article-row div.row div.read-more a {
+            font-size: 1rem;
+            color: #333;
+            font-style: italic;
+            text-decoration: none; }
+          div.news-page div.articles div.articles-container div.article-row div.row div.read-more a:hover {
+            text-decoration: underline; }
+      div.news-page div.articles div.articles-container div.custom-hr {
+        background-color: #333;
+        height: 2px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
 
 .header-login {
   padding-left: 42.5%;

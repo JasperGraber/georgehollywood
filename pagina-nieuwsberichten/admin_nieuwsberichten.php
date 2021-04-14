@@ -1,6 +1,6 @@
 </div>
 </div>
-<div class="news-page">
+<div class="admin-news-page">
     <div class="header">
         <h1>Admin Pagina</h1>
         <br>
@@ -21,26 +21,15 @@
     <?php
     include("./scripts/connect_db.php");
 
-    $sql = "SELECT * FROM news";
+    $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id";
     $result = mysqli_query($conn, $sql);
     while ($record = mysqli_fetch_assoc($result)) {
-        switch ($record['category_id']) {
-            case '1':
-                $category = "Social Media";
-                break;
-            case '2':
-                $category = "Menu";
-                break;
-            case '3':
-                $category = "Toegankelijkheid";
-                break;
-        }
-
+    
         echo "<div class='container container-article'>
                 <div class='row'>
                     <span>Laatst bewerkt op: " . $record['news_date'] . "</span>
-                    <span>Categorie: " . $category . "</span>
-                    <div class='col-3'>" . $record['news_image'] . "</div>
+                    <span>Categorie: " . $record['category_name'] . "</span>
+                    <div class='col-3'><img src='../img/news_uploads/" . $record['news_image'] . "' style='width:300px;'></div>
                     <div class='col-3'>    
                         <div class=''>" . $record['news_title'] . "</div>
                         <div class=''>" . $record['news_introduction'] . "</div>
