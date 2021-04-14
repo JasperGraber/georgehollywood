@@ -5,7 +5,7 @@
         <h1>Admin Pagina</h1>
         <br>
         <div class="row">
-            <img src="../img/streep.svg" alt="streep" class="streep img-fluid">
+            <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
         </div>
     </div>
     <div class="container container-button">
@@ -29,7 +29,7 @@
                 <div class='row'>
                     <span>Laatst bewerkt op: " . $record['news_date'] . "</span>
                     <span>Categorie: " . $record['category_name'] . "</span>
-                    <div class='col-3'><img src='../img/news_uploads/" . $record['news_image'] . "' style='width:300px;'></div>
+                    <div class='col-3'><img src='../img/news_uploads/" . $record['news_image'] . "' style='width:300px;' draggable='false'></div>
                     <div class='col-3'>    
                         <div class=''>" . $record['news_title'] . "</div>
                         <div class=''>" . $record['news_introduction'] . "</div>

@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $sql);
             <h1>Nieuwsberichten</h1>
             <br>
             <div class="row">
-                <img src="../img/streep.svg" alt="streep" class="streep img-fluid">
+                <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@ $result = mysqli_query($conn, $sql);
                         " // <h6 class='category'>Categorie: " . $record['category_name'] . "</h6> 
                     . "</div>
                     <div class='col-12 col-md-3 image-row'>
-                        <img src='../img/" . $news_image . "'>
+                        <img src='../img/" . $news_image . "' draggable='false'>
                     </div>
                     <div class='col-12 col-md-9 article-row'> 
                         <div class='row'>  

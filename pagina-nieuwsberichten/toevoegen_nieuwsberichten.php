@@ -5,7 +5,7 @@
         <h1>Artikel Toevoegen</h1>
         <br>
         <div class="row">
-            <img src="../img/streep.svg" alt="streep" class="streep img-fluid">
+            <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
         </div>
     </div>
     <div class="container">
