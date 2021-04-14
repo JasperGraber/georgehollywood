@@ -25,6 +25,8 @@ $result = mysqli_query($conn, $sql);
         </div>
         <div class='row' style='background-color:white;'><a href="./index.php?content=admin_nieuwsberichten">admin pagina</a></div>
         <div class="row articles-container">
+            <div class='custom-hr'></div>
+
             <?php
             while ($record = mysqli_fetch_assoc($result)) {
                 // Check if image is uploaded.
@@ -37,13 +39,13 @@ $result = mysqli_query($conn, $sql);
                 // Compile datetime format.
                 $news_date = date("d M Y", strtotime($record['news_date']));
                 $news_time = date("H:i", strtotime($record['news_date']));
-                $news_datetime= $news_date . " om " . $news_time;
+                $news_datetime = $news_date . " om " . $news_time;
 
                 // Echo all articles.
                 echo "<div class='row info-row'>
                         <h6 class='datetime'>Laatst bewerkt op " . $news_datetime . "</h6>
-                        "// <h6 class='category'>Categorie: " . $record['category_name'] . "</h6> 
-                    ."</div>
+                        " // <h6 class='category'>Categorie: " . $record['category_name'] . "</h6> 
+                    . "</div>
                     <div class='col-12 col-md-3 image-row'>
                         <img src='../img/" . $news_image . "'>
                     </div>
