@@ -1,15 +1,17 @@
 .topnav {
-    height          : 50px;
+    padding: 5px;
+    height: 70px;
     background-color: white;
-    overflow        : hidden;
-
+    overflow: hidden;
+    position: fixed;
+    box-shadow: 1px 1px 20px #333;
     a {
-        float          : left;
-        color          : black;
-        font-family    : 'Libre Baskerville', serif;
-        text-align     : center;
-        padding        : 14px 16px;
+        float: left;
+        color: black;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        padding: 14px 16px;
         text-decoration: none;
-        font-size      : 125%;
+        font-size: 125%;
     }
 }

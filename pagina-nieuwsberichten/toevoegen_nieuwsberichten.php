@@ -38,7 +38,7 @@
                 <label class="col-sm-3 col-lg-2 col-form-label">Categorie</label>
                 <div class="col-sm-9 col-lg-10">
                     <select class="form-select" name="category">
-                        <?php
+                        <?php 
                         include("./scripts/connect_db.php");
 
                         $sql = "SELECT * FROM categories";
@@ -46,7 +46,7 @@
                         while ($record = mysqli_fetch_assoc($result)) {
                             echo "<option value='" . $record['category_id'] . "'>" . $record['category_name'] . "</option>";
                         }
-                        ?>
+                            ?>
                     </select>
                 </div>
             </div>
