@@ -1,13 +1,12 @@
-<div class="nieuwsberichten" style="background-image:url('../img/news_banner.jpg');background-repeat:no-repeat;background-attachment:fixed;min-height:50vh;"></div>
-<div class="container">
-    <a href="./index.php?content=admin_nieuwsberichten">admin pagina</a>
-    <?php
+<?php
     include("./scripts/connect_db.php");
 
-    $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id";
+    $id = $_GET['id'];
+    $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id WHERE news_id = $id";
     $result = mysqli_query($conn, $sql);
 
-    while ($record = mysqli_fetch_assoc($result)) {
+    if ($record = mysqli_fetch_assoc($result))
+    {
         echo "<a href='./index.php?content=artikel&id={$record["news_id"]}' style='text-decoration:none;color:black;'>
                 <div class='container container-article'>
                     <div class='row'>
@@ -23,7 +22,6 @@
                 </div>
             </a>
         <br>";
+    } else { 
+        echo "Artikel niet gevonden.";
     }
-    ?>
-    <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
-</div>
