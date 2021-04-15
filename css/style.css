@@ -419,34 +419,42 @@ div.admin-news-page {
       color: #9a9da0;
       font-size: 0.8rem; }
 
-div.add-news-page {
+div.add-news-page,
+div.change-news-page {
   margin-top: 5vh;
   font-family: "Libre Baskerville", serif; }
-  div.add-news-page div.header h1 {
+  div.add-news-page div.header h1,
+  div.change-news-page div.header h1 {
     color: #333;
     text-align: center;
     font-family: "Libre Baskerville", serif;
     font-size: 2.1rem; }
-  div.add-news-page div.header div.row {
+  div.add-news-page div.header div.row,
+  div.change-news-page div.header div.row {
     justify-content: center; }
-    div.add-news-page div.header div.row img.streep {
+    div.add-news-page div.header div.row img.streep,
+    div.change-news-page div.header div.row img.streep {
       width: 350px;
       margin-top: -55px; }
-  div.add-news-page div.container {
+  div.add-news-page div.container,
+  div.change-news-page div.container {
     margin-top: 3vh;
     background-color: white;
     border: 1px solid #333;
     box-shadow: 0px 0px 5px #333; }
-    div.add-news-page div.container form.row div.row {
+    div.add-news-page div.container form.row div.row,
+    div.change-news-page div.container form.row div.row {
       margin-top: 10px; }
-    div.add-news-page div.container form.row button.btn {
+    div.add-news-page div.container form.row button.btn,
+    div.change-news-page div.container form.row button.btn {
       color: white;
       font-size: 1.2rem;
       border-top: 1px solid #333;
       border-radius: 0% !important;
       background-color: #333;
       transition: background-color 0.4s ease; }
-    div.add-news-page div.container form.row button.btn:hover {
+    div.add-news-page div.container form.row button.btn:hover,
+    div.change-news-page div.container form.row button.btn:hover {
       background-color: #1a1a1a; }
 
 div.add-category-page {

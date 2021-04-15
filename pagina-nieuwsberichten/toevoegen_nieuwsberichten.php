@@ -2,7 +2,7 @@
 </div>
 <div class="add-news-page">
     <div class="header">
-        <h1>Artikel Toevoegen</h1>
+        <h1>Artikel toevoegen</h1>
         <br>
         <div class="row">
             <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
@@ -13,13 +13,13 @@
             <div class="row mb-3">
                 <label class="col-sm-3 col-lg-2 col-form-label">Titel</label>
                 <div class="col-sm-9 col-lg-10">
-                    <input name="title" type="text" class="form-control" maxlength="100" placeholder="Vul hier de titel in." required>
+                    <textarea name="title" type="text" class="form-control" maxlength="100" required></textarea>
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-lg-2 col-form-label">Inleiding</label>
                 <div class="col-sm-9 col-lg-10">
-                    <textarea name="introduction" class="form-control" rows="2" maxlength="200" placeholder="Vul hier de inleiding in."required></textarea>
+                    <textarea name="introduction" class="form-control" rows="2" maxlength="200" required></textarea>
                 </div>
             </div>
             <div class="row mb-3">
