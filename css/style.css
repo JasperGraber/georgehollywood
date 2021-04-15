@@ -15,9 +15,7 @@ body * {
   padding: 5px;
   height: 70px;
   background-color: white;
-  overflow: hidden;
-  position: fixed;
-  box-shadow: 1px 1px 20px #333; }
+  overflow: hidden; }
   .topnav a {
     float: left;
     color: black;
