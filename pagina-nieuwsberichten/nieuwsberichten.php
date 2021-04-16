@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $sql);
         </div>
     </div>
     <div class="container articles">
-        <div class="row categories">
+        <div class="row categories sticky-top">
             <div class="col-3"><a href="#" class="categories-button">Alle artikelen </a></div>
             <div class="col-3"><a href="#" class="categories-button">Menu</a></div>
             <div class="col-3"><a href="#" class="categories-button">Toegankelijkheid</a></div>

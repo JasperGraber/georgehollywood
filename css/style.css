@@ -592,6 +592,29 @@ div.news-page {
         margin-top: 30px;
         margin-bottom: 30px; }
 
+div.article-page {
+  font-family: "Libre Baskerville", serif;
+  background-image: url("../img/news_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: -20px; }
+  div.article-page div.article-container {
+    background-color: white;
+    max-width: 1000px;
+    padding: 0px; }
+    div.article-page div.article-container div.banner {
+      display: flex;
+      justify-content: center; }
+      div.article-page div.article-container div.banner div.custom-hr {
+        background-color: #333;
+        height: 2px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+
 .header-login {
   padding-left: 42.5%;
   margin-top: 3%; }

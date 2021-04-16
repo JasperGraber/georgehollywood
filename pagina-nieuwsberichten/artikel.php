@@ -1,34 +1,28 @@
+<?php
+include("./scripts/connect_db.php");
 
-    <?php
-    include("./scripts/connect_db.php");
+$id = $_GET['id'];
+$sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id WHERE news_id = $id";
+$result = mysqli_query($conn, $sql);
+$record = mysqli_fetch_assoc($result);
 
-    $id = $_GET['id'];
-    $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id WHERE news_id = $id";
-    $result = mysqli_query($conn, $sql);
+if ($record['news_image'] != NULL) {
+    $news_image = "news_uploads/" . $record['news_image'];
+} else {
+    $news_image = 'default-placeholder.png';
+}
+?>
 
-    if ($record = mysqli_fetch_assoc($result)) {
-        if ($record['news_image'] != NULL) {
-            $news_image = "news_uploads/" . $record['news_image'];
-        } else {
-            $news_image = 'default-placeholder.png';
-        }
-
-        echo "<a href='./index.php?content=artikel&id={$record["news_id"]}' style='text-decoration:none;color:black;'>
-                <div class='container container-article'>
-                    <div class='row'>
-                        <span>Laatst bewerkt op: " . $record['news_date'] . "</span>
-                        <span>Categorie: " . $record['category_name'] . "</span>
-                        <div class='col-3'><img src='../img/" . $news_image . "' style='width:300px;' draggable='false'></div>
-                        <div class='col-3'>    
-                            <div class=''>" . $record['news_title'] . "</div>
-                            <div class=''>" . $record['news_introduction'] . "</div>
-                        </div>
-                        <div class='col-5'>" . $record['news_article'] . "</div>
-                    </div>
-                </div>
-            </a>
-        <br>";
-    } else {
-        echo "Artikel niet gevonden.";
-    }
-    ?>
+<div class="article-page">
+    <div class="container article-container">
+        <div class="row banner">
+            <img src="../img/<?php echo $news_image; ?>" draggable="false">
+            <div class="custom-hr"></div>
+        </div>
+        <div class="container article">
+            <h1><?php echo $record['news_title']; ?></h1>
+            <p><?php echo $record['news_introduction']; ?></p>
+            <p><?php echo $record['news_article']; ?></p>
+        </div>
+    </div>
+</div>

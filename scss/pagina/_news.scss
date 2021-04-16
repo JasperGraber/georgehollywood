@@ -1,3 +1,4 @@
+// admin_nieuwsberichten.php
 div.admin-news-page {
     margin-top: 5vh;
     font-family: "Libre Baskerville", serif;
@@ -53,13 +54,13 @@ div.admin-news-page {
                 color: #9a9da0;
                 font-size: 0.8rem;
             }
-            div.col-1 {
-                div.row {
-                    a.button {
-                        // color: white;
-                    }
-                }
-            }
+            // div.col-1 {
+            //     div.row {
+            //         a.button {
+            //             // color: white;
+            //         }
+            //     }
+            // }
         }
     }
 }
@@ -108,6 +109,7 @@ div.change-news-page {
     }
 }
 
+// admin_categorie.php
 div.add-category-page {
     margin-top: 5vh;
     font-family: "Libre Baskerville", serif;
@@ -274,6 +276,35 @@ div.news-page {
                     }
                 }
             }
+            div.custom-hr {
+                background-color: #333;
+                height: 2px;
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+// artikel.php
+div.article-page {
+    font-family: "Libre Baskerville", serif;
+    background-image: url("../img/news_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -20px;
+    div.article-container {
+        background-color: white;
+        max-width: 1000px;
+        padding: 0px;
+        div.banner {
+            display: flex;
+            justify-content: center;
+            img {}
             div.custom-hr {
                 background-color: #333;
                 height: 2px;

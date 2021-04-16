@@ -19,13 +19,13 @@
             <div class="row mb-3">
                 <label class="col-sm-3 col-lg-2 col-form-label">Inleiding</label>
                 <div class="col-sm-9 col-lg-10">
-                    <textarea name="introduction" class="form-control" rows="2" maxlength="200" required></textarea>
+                    <textarea name="introduction" type="text" class="form-control" rows="2" maxlength="200" required></textarea>
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-lg-2 col-form-label">Artikel</label>
                 <div class="col-sm-9 col-lg-10">
-                    <textarea name="article" class="form-control" rows="4" required></textarea>
+                    <textarea name="article" type="text" class="form-control" rows="4" required></textarea>
                 </div>
             </div>
             <div class="row mb-3">
