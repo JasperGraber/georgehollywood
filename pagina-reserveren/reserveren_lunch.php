@@ -28,8 +28,7 @@
                                             for="datum kiezen">Reserverings-datum:</label>
                                         <div class="reservation-uitlijning-datum">
                                             <input class="date-reservation" id="start" type="date"
-                                                name="reservation-date" value="2021-01-01" min="2021-01-01"
-                                                max="2025-12-31">
+                                                name="reservation-date"  value="<?php date_default_timezone_set("Europe/Amsterdam"); echo date("Y-m-d");?>" min="<?php date_default_timezone_set("Europe/Amsterdam"); echo date("Y-m-d");?>">
                                         </div>
                                     </div>
                                     <div class="reservation-uitlijning-hoogte">
@@ -98,7 +97,7 @@
                             </div>
                         </div>
                         <div class="button-uitlijning-klantgegevens">
-                            <button type="submit" class="button-klantgegevens">bevestig en volgende+</button>
+                            <button type="submit" class="button-klantgegevens">bevestig de reservering</button>
                         </div>
                     </div>
                    

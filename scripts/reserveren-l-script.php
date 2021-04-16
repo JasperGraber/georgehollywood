@@ -5,20 +5,20 @@
     $reservation_date = sanitize($_POST["reservation-date"]);
     $time_slot = sanitize($_POST["time-slot"]);
     $persons = sanitize($_POST["persons"]);
-    
-    $sql="SELECT `timeid` FROM `reservations`";
+    $firstname = sanitize($_POST["firstname"]);
+    $infix = sanitize($_POST["infix"]);
+    $lastname = sanitize($_POST["lastname"]);
+    $email = sanitize($_POST["email-c"]);
+    $phone_number = sanitize($_POST["phone-number"]);
 
+    $sql= "INSERT INTO `reservations` (`reservationid`, `timeid`, `reservationdate`, `customerid`, `persons`) VALUES (NULL, '$time_slot', 'reservation_date', NULL, '$persons');";
     
-    if($sql = 10)
+    if(mysqli_query($conn,$sql))
     {
-        echo"deze datum zit te vol";
+    
     }
-    if (mysqli_query($conn, $sql))
+    else
     {
-        $reservationid = mysqli_insert_id($conn);
-        
-        header("Location: http://george-hollywood.nl/index.php?content=klantgegevens&reservationid= . $reservationid . ");
-
-    
+        echo"faal";
     }
 ?>
