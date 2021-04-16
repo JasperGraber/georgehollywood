@@ -69,7 +69,7 @@
                                     <label class="label-klantgegevens" for="exampleInputfirstname">voornaam</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="firstname" type="text" class="input-klantgegevens" id="InputEmail1"
-                                            aria-describedby="emailHelp" autofocus required>
+                                            aria-describedby="emailHelp" autofocus >
                                     </div>
                                     <label class="" for="exampleInputfirstname">tusssenvoegsel</label>
                                     <div class="uitlijning-input-gegevens">
@@ -79,19 +79,19 @@
                                     <label class="label-klantgegevens" for="exampleInputfirstname">achternaam</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="lastname" type="text" class="input-klantgegevens" id="InputEmail1"
-                                            aria-describedby="emailHelp" autofocus required>
+                                            aria-describedby="emailHelp" autofocus >
                                     </div>
                                     <label class="label-klantgegevens" for="exampleInputfirstname">email</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="email-c" type="email" class="input-klantgegevens" id="InputEmail1"
-                                            aria-describedby="emailHelp" autofocus required>
+                                            aria-describedby="emailHelp" autofocus >
                                     </div>
                                     <label class="label-klantgegevens"
                                         for="exampleInputfirstname">telefoonnummer</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="phone-number" type="tel" class="input-klantgegevens"
                                             placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
-                                            autofocus required>
+                                            autofocus >
                                     </div>
                                 </div>
                             </div>
