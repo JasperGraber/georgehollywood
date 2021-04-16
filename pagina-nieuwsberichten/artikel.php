@@ -7,12 +7,18 @@
     $result = mysqli_query($conn, $sql);
 
     if ($record = mysqli_fetch_assoc($result)) {
+        if ($record['news_image'] != NULL) {
+            $news_image = "news_uploads/" . $record['news_image'];
+        } else {
+            $news_image = 'default-placeholder.png';
+        }
+
         echo "<a href='./index.php?content=artikel&id={$record["news_id"]}' style='text-decoration:none;color:black;'>
                 <div class='container container-article'>
                     <div class='row'>
                         <span>Laatst bewerkt op: " . $record['news_date'] . "</span>
                         <span>Categorie: " . $record['category_name'] . "</span>
-                        <div class='col-3'><img src='../img/news_uploads/" . $record['news_image'] . "' style='width:300px;' draggable='false'></div>
+                        <div class='col-3'><img src='../img/" . $news_image . "' style='width:300px;' draggable='false'></div>
                         <div class='col-3'>    
                             <div class=''>" . $record['news_title'] . "</div>
                             <div class=''>" . $record['news_introduction'] . "</div>

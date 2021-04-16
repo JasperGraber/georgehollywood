@@ -2,7 +2,7 @@
 </div>
 <div class="admin-news-page">
     <div class="header">
-        <h1>Admin Pagina</h1>
+        <h1>Admin pagina</h1>
         <br>
         <div class="row">
             <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
@@ -24,12 +24,18 @@
     $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id";
     $result = mysqli_query($conn, $sql);
     while ($record = mysqli_fetch_assoc($result)) {
-    
+        // Check if image is uploaded.
+        if ($record['news_image'] != NULL) {
+            $news_image = "news_uploads/" . $record['news_image'];
+        } else {
+            $news_image = 'default-placeholder.png';
+        }
+
         echo "<div class='container container-article'>
                 <div class='row'>
                     <span>Laatst bewerkt op: " . $record['news_date'] . "</span>
                     <span>Categorie: " . $record['category_name'] . "</span>
-                    <div class='col-3'><img src='../img/news_uploads/" . $record['news_image'] . "' style='width:300px;' draggable='false'></div>
+                    <div class='col-3'><img src='../img/" . $news_image . "' style='width:300px;' draggable='false'></div>
                     <div class='col-3'>    
                         <div class=''>" . $record['news_title'] . "</div>
                         <div class=''>" . $record['news_introduction'] . "</div>
