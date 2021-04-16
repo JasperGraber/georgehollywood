@@ -5,20 +5,46 @@
     $reservation_date = sanitize($_POST["reservation-date"]);
     $time_slot = sanitize($_POST["time-slot"]);
     $persons = sanitize($_POST["persons"]);
-    
-    $sql="SELECT `timeid` FROM `reservations`";
+    $firstname = sanitize($_POST["firstname"]);
+    $infix = sanitize($_POST["infix"]);
+    $lastname = sanitize($_POST["lastname"]);
+    $email = sanitize($_POST["email-c"]);
+    $phone_number = sanitize($_POST["phone-number"]);
 
+    if(empty($_POST["firstname"]) && empty($_POST["lastname"]) && empty($_POST["email-c"]) && empty($_POST["phone-number"]))
+    {
+        header("Location: ./index.php?content=message&alert=leeg");
+    }   
+    else
+    {
+         $sql= "INSERT INTO `reservations` (`reservationid`, `timeid`, `reservationdate`, `customerid`, `persons`) VALUES (NULL, '$time_slot', '$reservation_date', NULL, '$persons');";
     
-    if($sql = 10)
-    {
-        echo"deze datum zit te vol";
-    }
-    if (mysqli_query($conn, $sql))
-    {
-        $reservationid = mysqli_insert_id($conn);
-        
-        header("Location: http://george-hollywood.nl/index.php?content=klantgegevens&reservationid= . $reservationid . ");
+        if(mysqli_query($conn,$sql))
+        {
+            $reservationid = mysqli_insert_id($conn);
 
-    
+            
+            $sql= "INSERT INTO `customer` (`customerid`, `firstname`, `infix`, `lastname`, `phonenumber`, `email`, `loginid`) VALUES (NULL, '$firstname','$infix','$lastname', '$phone_number','$email-c', NULL);";
+
+            if(mysqli_query($conn,$sql))
+            {
+                $customerid = mysqli_insert_id($conn);
+
+                $sql="UPDATE `reservations` SET `customerid` = '$customerid' WHERE `reservations`.`reservationid` = $reservationid;";
+
+                if(mysqli_query($conn,$sql))
+                {
+                    echo"reservering geslaagd";
+                }
+                else
+                {
+                    echo"error reservering";
+                }
+            }
+        }
+        else
+        {
+            echo"faal";
+        }
     }
 ?>

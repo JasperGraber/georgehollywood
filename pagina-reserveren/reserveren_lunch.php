@@ -28,8 +28,7 @@
                                             for="datum kiezen">Reserverings-datum:</label>
                                         <div class="reservation-uitlijning-datum">
                                             <input class="date-reservation" id="start" type="date"
-                                                name="reservation-date" value="2021-01-01" min="2021-01-01"
-                                                max="2025-12-31">
+                                                name="reservation-date"  value="<?php date_default_timezone_set("Europe/Amsterdam"); echo date("Y-m-d");?>" min="<?php date_default_timezone_set("Europe/Amsterdam"); echo date("Y-m-d");?>">
                                         </div>
                                     </div>
                                     <div class="reservation-uitlijning-hoogte">
@@ -70,7 +69,7 @@
                                     <label class="label-klantgegevens" for="exampleInputfirstname">voornaam</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="firstname" type="text" class="input-klantgegevens" id="InputEmail1"
-                                            aria-describedby="emailHelp" autofocus required>
+                                            aria-describedby="emailHelp" autofocus >
                                     </div>
                                     <label class="" for="exampleInputfirstname">tusssenvoegsel</label>
                                     <div class="uitlijning-input-gegevens">
@@ -80,25 +79,25 @@
                                     <label class="label-klantgegevens" for="exampleInputfirstname">achternaam</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="lastname" type="text" class="input-klantgegevens" id="InputEmail1"
-                                            aria-describedby="emailHelp" autofocus required>
+                                            aria-describedby="emailHelp" autofocus >
                                     </div>
                                     <label class="label-klantgegevens" for="exampleInputfirstname">email</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="email-c" type="email" class="input-klantgegevens" id="InputEmail1"
-                                            aria-describedby="emailHelp" autofocus required>
+                                            aria-describedby="emailHelp" autofocus >
                                     </div>
                                     <label class="label-klantgegevens"
                                         for="exampleInputfirstname">telefoonnummer</label>
                                     <div class="uitlijning-input-gegevens">
                                         <input name="phone-number" type="tel" class="input-klantgegevens"
                                             placeholder="06-00000000" id="InputEmail1" aria-describedby="emailHelp"
-                                            autofocus required>
+                                            autofocus >
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="button-uitlijning-klantgegevens">
-                            <button type="submit" class="button-klantgegevens">bevestig en volgende+</button>
+                            <button type="submit" class="button-klantgegevens">bevestig de reservering</button>
                         </div>
                     </div>
                    

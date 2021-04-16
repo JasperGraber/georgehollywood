@@ -254,7 +254,7 @@ table {
   padding-left: 5%; }
 
 .reservation-uitlijning-datum {
-  padding-left: 30%;
+  padding-left: 20%;
   padding-top: 1.25%; }
 
 .date-reservation {
@@ -262,7 +262,7 @@ table {
   background-color: #ff8000; }
 
 .reservation-uitlijning-time {
-  padding-left: 42.5%;
+  padding-left: 37.5%;
   padding-top: 1.25%; }
 
 .time-reservation {
@@ -284,7 +284,9 @@ table {
 .input-klantgegevens {
   background-color: #ff8000;
   color: #e3e3e3;
-  text-align: center; }
+  text-align: center;
+  font-size: 100%;
+  width: 100%; }
 
 .input-klantgegevens::placeholder {
   background-color: #ff8000;
@@ -292,7 +294,7 @@ table {
   text-align: center; }
 
 .uitlijning-input-gegevens {
-  padding-left: 20%;
+  padding-left: 10%;
   padding-bottom: 1.25%; }
 
 .button-uitlijning-klantgegevens {
