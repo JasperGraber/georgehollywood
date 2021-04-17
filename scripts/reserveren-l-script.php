@@ -14,23 +14,27 @@
     if(empty($_POST["firstname"]) && empty($_POST["lastname"]) && empty($_POST["email-c"]) && empty($_POST["phone-number"]))
     {
         header("Location: ./index.php?content=message&alert=leeg");
-    }   
+    } 
     else
     {
-         $sql= "INSERT INTO `reservations` (`reservationid`, `timeid`, `reservationdate`, `customerid`, `persons`) VALUES (NULL, '$time_slot', '$reservation_date', NULL, '$persons');";
-    
+        $sql= "INSERT INTO `reservations` (`reservationid`, `timeid`, `reservationdate`, `customerid`, `persons`) VALUES (NULL, '$time_slot', '$reservation_date', NULL, '$persons');";
+
+        $test= mysqli_query($conn,$sql);
+      
+
         if(mysqli_query($conn,$sql))
         {
+           
             $reservationid = mysqli_insert_id($conn);
 
+            $sql= "INSERT INTO `customer` (`customerid`, `firstname`, `infix`, `lastname`, `phonenumber`, `email`) VALUES (NULL, '$firstname','$infix','$lastname', '$phone_number','$email-c');";
             
-            $sql= "INSERT INTO `customer` (`customerid`, `firstname`, `infix`, `lastname`, `phonenumber`, `email`, `loginid`) VALUES (NULL, '$firstname','$infix','$lastname', '$phone_number','$email-c', NULL);";
-
             if(mysqli_query($conn,$sql))
             {
                 $customerid = mysqli_insert_id($conn);
+                
 
-                $sql="UPDATE `reservations` SET `customerid` = '$customerid' WHERE `reservations`.`reservationid` = $reservationid;";
+                $sql="UPDATE `reservations` SET `customerid` = '$customerid' WHERE `reservations`.`reservationid` = '$reservationid';";
 
                 if(mysqli_query($conn,$sql))
                 {
@@ -38,13 +42,16 @@
                 }
                 else
                 {
-                    echo"error reservering";
-                }
+                    header("Location: ./index.php?content=message&alert=reservation-faal");                }
             }
+            else
+            {
+                header("Location: ./index.php?content=message&alert=connectie_error");
+            }      
         }
         else
         {
-            echo"faal";
-        }
+            header("Location: ./index.php?content=message&alert=connectie_error");
+
+        }      
     }
-?>
