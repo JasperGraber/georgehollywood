@@ -9,7 +9,13 @@ $category = sanitize($_POST['category']);
 $sql = "INSERT INTO `categories` (`category_id`, `category_name`) 
         VALUES (NULL, '$category');";
 
-// Run query on database
-if (mysqli_query($conn, $sql)) {
+// Check if POST array is empty 
+if ($category != null) {
+    // If POST array is not empty
+    if (mysqli_query($conn, $sql)) {
+        header("Location: ../index.php?content=admin_categorie");
+    }
+} // If POST array is empty 
+else {
     header("Location: ../index.php?content=admin_categorie");
 }

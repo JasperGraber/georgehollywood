@@ -2,7 +2,7 @@
 include("./scripts/connect_db.php");
 
 // Make connection with database.
-$sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id";
+$sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id ORDER BY news_date DESC";
 $result = mysqli_query($conn, $sql);
 ?>
 

@@ -27,7 +27,7 @@
                 <?php
                 include("./scripts/connect_db.php");
 
-                $sql = "SELECT * FROM categories";
+                $sql = "SELECT * FROM categories ORDER BY category_id DESC";
                 $result = mysqli_query($conn, $sql);
                 while ($record = mysqli_fetch_assoc($result)) {
                     echo "<div class='row'>" . $record['category_name'] . 

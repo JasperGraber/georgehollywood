@@ -21,7 +21,7 @@
     <?php
     include("./scripts/connect_db.php");
 
-    $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id";
+    $sql = "SELECT * FROM news INNER JOIN categories ON news.category_id = categories.category_id ORDER BY news_date DESC";
     $result = mysqli_query($conn, $sql);
     while ($record = mysqli_fetch_assoc($result)) {
         // Check if image is uploaded.
