@@ -45,6 +45,6 @@ $sql = "UPDATE `news`
 
 // Run query on database
 if (mysqli_query($conn, $sql)) {
-        header("Location: http://george-hollywood.nl/index.php?content=admin_nieuwsberichten");
+        header("Location: ../index.php?content=admin_nieuwsberichten");
 } 
 

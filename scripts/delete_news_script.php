@@ -8,7 +8,7 @@
 
     $sql = "DELETE FROM news WHERE news_id = $news_id";
     if ($result = mysqli_query($conn, $sql)) {
-    header("Location: ./index.php?content=admin_nieuwsberichten");
+    header("Location: ../index.php?content=admin_nieuwsberichten");
     } else {
 
     }

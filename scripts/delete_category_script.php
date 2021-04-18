@@ -6,7 +6,7 @@
 
     $sql = "DELETE FROM categories WHERE category_id = $category_id";
     if ($result = mysqli_query($conn, $sql)) {
-    header("Location: ./index.php?content=admin_categorie");
+    header("Location: ../index.php?content=admin_categorie");
     } else {
 
     }

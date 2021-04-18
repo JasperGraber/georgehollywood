@@ -11,5 +11,5 @@ $sql = "INSERT INTO `categories` (`category_id`, `category_name`)
 
 // Run query on database
 if (mysqli_query($conn, $sql)) {
-    header("Location: http://george-hollywood.nl/index.php?content=admin_categorie");
+    header("Location: ../index.php?content=admin_categorie");
 }
