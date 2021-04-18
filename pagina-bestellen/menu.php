@@ -1,16 +1,15 @@
 <?php
     require_once './class/database.php';
-    $db = new database('localhost','george-hollywood','manager','@hollywood');
+    $db = new database('185.104.29.76','u37477p32749_george','u37477p32749_George','@hollywood');
 
     require_once './class/head.php';
     $Menu = new Head ('menu','Menu');
         $Menu->getBanner();
         $Menu->getTitle();
-?>
-<?php
+
     $setProduct = $db->setData('*','product');
-    $getProduct = $db->getProduct();
+        $getProduct = $db->getMenulijst();
     
     $setCategory = $db->setData('*','category');
-    $getCategory = $db->getCategory();
+        $getCategory = $db->getCategory();
 ?>
