@@ -8,6 +8,7 @@
         <a href="./index.php?content=start">Reserveren</a>
         <a href="./index.php?content=bestellen">Bestellen</a>
         <a href="./index.php?content=nieuwsberichten">Nieuwsberichten</a>
+        <a href="./index.php?content=admin_nieuwsberichten">Admin Nieuwsberichten</a>
         <ul style="float:right"><a class="active" href="./index.php?content=login">Inloggen</a>
     </div>
 </div>

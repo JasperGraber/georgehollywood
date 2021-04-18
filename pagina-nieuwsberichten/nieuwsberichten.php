@@ -23,7 +23,7 @@ $result = mysqli_query($conn, $sql);
             <div class="col-3"><a href="#" class="categories-button">Toegankelijkheid</a></div>
             <div class="col-3"><a href="#" class="categories-button">Social Media</a></div>
         </div>
-        <div class='row' style='background-color:white;'><a href="./index.php?content=admin_nieuwsberichten">admin pagina</a></div>
+        <!-- <div class='row' style='background-color:white;'><a href="./index.php?content=admin_nieuwsberichten">admin pagina</a></div> -->
         <div class="row articles-container">
             <div class='custom-hr'></div>
 
