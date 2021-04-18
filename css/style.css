@@ -101,17 +101,79 @@ div.contact-route div.google-maps {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%); }
 
-table {
-  display: table;
-  text-align: left; }
-  table > tbody > tr {
-    display: table-row; }
-    table > tbody > tr > th {
-      display: table-cell;
-      padding: 0.5rem; }
-    table > tbody > tr > td {
-      display: table-cell;
-      padding: 0.5rem; }
+.menulijst {
+  margin: 0rem;
+  padding: 0rem;
+  width: 90%;
+  align-items: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  min-height: 10rem; }
+  .menulijst > .menu-item {
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    min-height: 3rem;
+    border-bottom: 1px solid #333333; }
+    .menulijst > .menu-item > h1 {
+      margin: 0rem;
+      padding: 0rem;
+      width: 25%;
+      font-size: 1rem; }
+    .menulijst > .menu-item > .description {
+      margin: 0rem;
+      padding: 1rem;
+      width: 65%;
+      text-align: left; }
+    .menulijst > .menu-item > .price {
+      margin: 0rem;
+      padding: 0rem;
+      width: 10%;
+      text-align: right; }
+  .menulijst > .menu-head > h1 {
+    font-size: 1.3rem; }
+  .menulijst > .menu-head > span {
+    font-size: 1.2rem; }
+
+@media only screen and (max-width: 740px) {
+  .menulijst {
+    margin: 0rem;
+    padding: 0rem;
+    width: 90%;
+    align-items: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 10rem; }
+    .menulijst > .menu-item {
+      margin: 0rem;
+      padding: 0rem;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch;
+      min-height: 3rem; }
+      .menulijst > .menu-item > h1 {
+        margin: 0rem;
+        padding: 0rem;
+        width: 26%;
+        font-size: 1rem; }
+      .menulijst > .menu-item > .description {
+        margin: 0rem;
+        padding: 1.5%;
+        width: 51%;
+        text-align: left; }
+      .menulijst > .menu-item > .price {
+        margin: 0rem;
+        padding: 0rem;
+        width: 20%;
+        text-align: right; } }
 
 .hoofd-start-reserveren {
   padding-top: 2.5%;
@@ -318,65 +380,133 @@ table {
   color: #e3e3e3;
   background-color: #ff8000; }
 
-body > div.container-fluid > div.row > div.col-12 > div.banner-order {
-  background-color: black;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner5.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 0px solid rgba(0, 0, 0, 0);
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  filter: grayscale(0%);
+.bestellijst {
   margin: 0rem;
   padding: 0rem;
-  height: 48vh;
-  width: 100%; }
+  width: 100%;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  min-height: 10rem;
+  flex-shrink: 0;
+  flex-wrap: wrap; }
+  .bestellijst > .bestel-item {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch; }
+    .bestellijst > .bestel-item > a {
+      margin: 2%;
+      padding: 0rem;
+      width: 96%;
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      background: white;
+      border: 1px solid #333333;
+      border-radius: 10px;
+      color: #333333;
+      min-height: 13rem;
+      position: relative;
+      text-decoration: none;
+      transition: .5s;
+      transition-timing-function: ease-in-out; }
+      .bestellijst > .bestel-item > a:hover {
+        background: rgba(255, 128, 0, 0.2);
+        color: black;
+        transition: .5s;
+        filter: blur(100%); }
+      .bestellijst > .bestel-item > a > .item-img {
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        border-radius: 10px 10px 0px 0px;
+        border-bottom: 1px solid black;
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%; }
+      .bestellijst > .bestel-item > a > h1 {
+        margin: 0rem;
+        padding: 1.5%;
+        width: 97%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 1.3rem; }
+      .bestellijst > .bestel-item > a > span {
+        margin: 0rem;
+        padding: 1.5%;
+        width: 97%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        min-height: 2rem; }
+      .bestellijst > .bestel-item > a > .price {
+        margin: 0rem;
+        padding: 2%;
+        width: 96%;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        bottom: 0;
+        font-size: 1.3rem;
+        position: absolute; }
 
-body > div.container-fluid > div.row > div.col-12 > div.banner-menu {
-  background-color: black;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner6.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 0px solid rgba(0, 0, 0, 0);
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  filter: grayscale(0%);
-  margin: 0rem;
+.cat {
+  margin: 3rem 0 0 0;
   padding: 0rem;
-  height: 48vh;
-  width: 100%; }
-
-body > div.container-fluid > div.row > div.col-12 > h1.head {
+  width: 90%;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 3rem;
-  height: 7vh;
-  margin-top: 2rem;
-  min-height: 5.56rem;
-  text-align: center; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > img {
-    margin-top: 2rem;
+  min-height: 10rem; }
+  .cat > div {
+    margin: 0rem;
+    padding: 0rem;
     width: 100%;
-    max-width: 30rem; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > span {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 1rem;
-    margin-top: 2rem; }
-  body > div.container-fluid > div.row > div.col-12 > h1.head > div.category {
-    margin: 0.1rem;
-    margin-top: 2rem; }
-    body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item {
-      padding: 0.5rem; }
-      body > div.container-fluid > div.row > div.col-12 > h1.head > div.category > div.item > div.item-inhoud {
-        border: 1px solid black;
-        padding: 0.5rem; }
+    min-height: 2rem; }
+    .cat > div > h1 {
+      margin: 0rem;
+      padding: 0rem;
+      width: 6.5rem;
+      font-size: 1rem; }
+    .cat > div > div {
+      margin: 0rem;
+      padding: 0rem;
+      width: 16.7rem;
+      text-align: right; }
+
+@media only screen and (max-width: 740px) {
+  .bestellijst {
+    margin: 0rem;
+    padding: 2%;
+    width: 96%;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .bestellijst > .bestel-item {
+      margin: 0rem;
+      padding: 0rem;
+      width: 100%;
+      align-items: stretch;
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch; }
+      .bestellijst > .bestel-item > a > img {
+        display: none !important;
+        visibility: none; } }
 
 div.admin-news-page {
   margin-top: 5vh;

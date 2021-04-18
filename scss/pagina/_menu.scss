@@ -1,19 +1,66 @@
-table {
-    display: table;
-    text-align: left;
+.menulijst {
+    @include margin(0rem,0rem,90%);
+    @include flexcenter(column,auto,stretch);
+    min-height: 10rem;
+
+    > .menu-item {
+        @include margin(0rem,0rem,100%);
+        @include flexcenter(row,center,stretch);
+        min-height: 3rem;
+        border-bottom: 1px solid $text;
+
+        > h1 {
+            @include margin(0rem,0rem,25%);
+            font-size: 1rem;
+        }
+
+        > .description {
+            @include margin(0rem,1rem,65%);
+            text-align: left;
+        }
+
+        > .price {
+            @include margin(0rem,0rem,10%);
+            text-align: right;
+        }
+    }
+
+    > .menu-head {
+
+        > h1 {
+            font-size: 1.3rem;
+        }
+
+        > span {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) {
+
+    .menulijst {
+        @include margin(0rem,0rem,90%);
+        @include flexcenter(column,auto,stretch);
+        min-height: 10rem;
+        > .menu-item {
+            @include margin(0rem,0rem,100%);
+            @include flexcenter(row,center,stretch);
+            min-height: 3rem;
     
-    > tbody {
-
-        > tr {
-            display: table-row;
-
-            > th {
-                display: table-cell;
-                padding: 0.5rem;
+            > h1 {
+                @include margin(0rem,0rem,26%);
+                font-size: 1rem;
             }
-            > td {
-                display: table-cell;
-                padding: 0.5rem;
+    
+            > .description {
+                @include margin(0rem,1.5%,51%);
+                text-align: left;
+            }
+    
+            > .price {
+                @include margin(0rem,0rem,20%);
+                text-align: right;
             }
         }
     }

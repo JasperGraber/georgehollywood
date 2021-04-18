@@ -1,45 +1,100 @@
-    // Bestellen - Order pagina
-    body>div.container-fluid>div.row>div.col-12 {
-        >div.banner-order {
-            @include banner (black, "../img/banner5.png", 0%);
-        }
+.bestellijst {
+    @include margin(0rem,0rem,100%);
+    @include flexcenter(row,stretch,stretch);
+    min-height: 10rem;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 
-        >div.banner-menu {
-            @include banner (black, "../img/banner6.png", 0%);
-        }
+    > .bestel-item {
+        @include flexcenter(row,stretch,stretch);
 
-        >h1.head {
-            @include flexcenter(column, center);
-            font-size : 3rem;
-            height    : 7vh;
-            margin-top: 2rem;
-            min-height: 5.56rem;
-            text-align: center;
+        > a {
+            @include margin(2%,0rem,96%);
+            @include flexcenter(column,stretch,stretch);
+            background: $main;
+            border: 1px solid $text;
+            border-radius: 10px;
+            color: $text;
+            min-height: 13rem;
+            position: relative;
+            text-decoration: none;
+            transition: .5s;
+            transition-timing-function: ease-in-out;
 
-            >img {
-                margin-top: 2rem;
-                width     : 100%;
-                max-width : 30rem;
+            &:hover {
+                background: $col2;
+                color: $black;
+                transition: .5s;
+                filter: blur(100%);
             }
 
-            >span {
-                @include flexcenter(row, center);
-                font-size : 1rem;
-                margin-top: 2rem;
+            > .item-img {
+                @include flexcenter(column,stretch,stretch);
+                border-radius: 10px 10px 0px 0px;
+                border-bottom: 1px solid $black;
+                margin: 0rem;
+                padding: 0rem;
+                width: 100%;
             }
 
-            >div.category {
-                margin    : 0.1rem;
-                margin-top: 2rem;
+            > h1 {
+                @include margin(0rem,1.5%,97%);
+                @include flexcenter(row,center,flex-start);
+                font-size: 1.3rem;
+            }
 
-                >div.item {
-                    padding: 0.5rem;
+            > span {
+                @include margin(0rem,1.5%,97%);
+                @include flexcenter(row,center,flex-start);
+                min-height: 2rem;
+            }
 
-                    >div.item-inhoud {
-                        border : 1px solid black;
-                        padding: 0.5rem;
-                    }
-                }
+            > .price {
+                @include margin(0rem,2%,96%);
+                @include flexcenter(row,flex-end,flex-end);
+                bottom: 0;
+                font-size: 1.3rem;
+                position: absolute;
             }
         }
     }
+}
+
+.cat {
+    @include margin(3rem 0 0 0,0rem,90%);
+    @include flexcenter(column,center,center);
+    min-height: 10rem;
+
+    > div {
+        @include margin(0rem,0rem,100%);
+        @include flexcenter(row,center,center);
+        min-height: 2rem;
+
+        > h1 {
+            @include margin(0rem,0rem,6.5rem);
+            font-size: 1rem;
+        }
+
+        > div {
+            @include margin(0rem,0rem,16.7rem);
+            text-align: right;
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .bestellijst {
+        @include margin(0rem,2%,96%);
+        @include flexcenter(column,stretch,center);
+
+        > .bestel-item {
+            @include margin(0rem,0rem,100%);
+            @include flexcenter(row,stretch,stretch);
+
+            > a > img {
+                display: none !important;
+                visibility: none;
+            }
+        }
+    }
+}

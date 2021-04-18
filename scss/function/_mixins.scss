@@ -1,8 +1,8 @@
-@mixin flexcenter ($richting, $align){
+@mixin flexcenter ($richting, $align, $justify){
     align-items: $align; //center, normal, stretch, left, right
     display: flex;
     flex-direction: $richting; //column, column-reverse, row, row-reverse
-    justify-content: center;
+    justify-content: $justify;
 }
 
 @mixin margin ($margin, $padding, $width){
