@@ -1,7 +1,9 @@
 .menulijst {
-    @include margin(0rem,0rem,90%);
-    @include flexcenter(column,auto,stretch);
+    @include margin(2%,0rem,96%);
+    @include flexcenter(column,center,center);
     min-height: 10rem;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 
     > .menu-item {
         @include margin(0rem,0rem,100%);

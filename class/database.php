@@ -16,7 +16,7 @@
         }
 
         // Set Methode
-        function setData($select,$tables)
+        function setSelect($select,$tables)
         {
             $this->Sql = 'SELECT '.$select.' FROM '.$tables;
             return $this->Sql;

@@ -7,9 +7,9 @@
         $Menu->getBanner();
         $Menu->getTitle();
 
-    $setProduct = $db->setData('*','product');
+    $setProduct = $db->setSelect('*','product');
         $getProduct = $db->getMenulijst();
     
-    $setCategory = $db->setData('*','category');
+    $setCategory = $db->setSelect('*','category');
         $getCategory = $db->getCategory();
 ?>

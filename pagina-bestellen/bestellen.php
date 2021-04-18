@@ -9,9 +9,9 @@
         $Order->getBanner();
         $Order->getTitle();
 
-    $setProduct = $db->setData('*','product');
+    $setProduct = $db->setSelect('*','product');
         $getProduct = $db->getBestellijst();
     
-    $setCategory = $db->setData('*','category');
+    $setCategory = $db->setSelect('*','category');
         $getCategory = $db->getCategory();
 ?>
