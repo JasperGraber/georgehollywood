@@ -142,5 +142,98 @@
                 echo 'Geen items in Category';
             }
         }
+
+        // Get Methode
+        function setRegister($email,$password)
+        {
+            // Maak een select-query om te controleren of de gebruiker al bestaat.
+            $result = mysqli_query($this->DB, $this->Sql);
+
+            // Maak variabelen van de input uit het formulier
+            $email = strtolower(sanitize($_POST["email"]));
+            $wachtwoord = sanitize($_POST["password"]);
+            $wachtwoord = sanitize($_POST["password"]);
+        }
+
+        // Get Methode
+        function setLogin($email,$password)
+        {
+            // Maak een select-query om te controleren of de gebruiker al bestaat.
+            $result = mysqli_query($this->DB, $this->Sql);
+            
+            // Als een van de velden leeg is, of allebei de velden leeg zijn.
+            if (empty($email) && empty($password)){
+                
+                // Melding van lege velden
+                echo "Er is een van de velden niet ingevuld, probeer het opnieuw";
+                
+                // Locatie
+                header("Refresh: 3; url=./index.php?content=logon");
+                
+            } else if (mysqli_num_rows($result) == 1 ) {
+
+                //gebruikersnaam bestaat, maak er een aray van
+                $record = mysqli_fetch_assoc($result);
+                
+                // Zet wachtwoord uit database om naar variabel
+                $hash = $record["password"];
+                
+                // als encrypt wachtwoord klopt met ingevulde wachtwoord
+                if (password_verify ($password, $hash)) {
+                        
+                    // Selecteer userrole uit de database
+                    // $userrole = $record["userrole"];
+                    
+                    // start de sessie met de volgende variabellen
+                    session_start();
+
+                    // variabellen
+                    // $_SESSION["id"] = $record["id"];
+                    $_SESSION["email"] = $record["email"];
+                    $_SESSION["password"] = $record["password"];
+
+                    var_dump($_SESSION);
+                    // $_SESSION["userrole"] = $record["userrole"];
+                    // $_SESSION["hoi"] = "Ik zeg Hoi!";
+
+                    // Switch per userrole, stuur de gebruiker door naar:
+                    // switch ($userrole) {
+                    //     case 'klant':
+                    //     header("Refresh: 0; url=../log.php?content=profiel");
+                    // break;
+                    //     case 'marketing':
+                    //     header("Refresh: 0; url=../log.php?content=profiel");
+                    // break;
+                    //     case 'admin':
+                    //     header("Refresh: 0; url=../log.php?content=profiel");
+                    // break;
+                    //     case 'root':
+                    //     header("Refresh: 0; url=../log.php?content=profiel");
+                    // break;
+                    //     default:
+                        
+                    //     header("Refresh: 0; url=../index.php?content=watishet");
+                    // break;
+                    // }
+                        
+                } else {
+            
+                    // Melding van fout wachtwoord
+                    echo "Het opgegeven wachtwoord is niet bekend, probeer het opnieuw";
+                    
+                    // Locatie
+                    header("Refresh: 3; url=../index.php?content=inloggen");
+                }
+                
+            } else {
+                
+                // gebruikersnaam bestaat niet
+                echo "Opgegeven Email is onbekend, of gegevens zijn niet ingevuld";
+                    
+                // Locatie
+                header("Refresh: 5; url=../index.php?content=inloggen");
+            }
+
+        }
     }
 ?>

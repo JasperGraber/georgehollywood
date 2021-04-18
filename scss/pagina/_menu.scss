@@ -45,6 +45,7 @@
         @include margin(0rem,0rem,90%);
         @include flexcenter(column,auto,stretch);
         min-height: 10rem;
+        
         > .menu-item {
             @include margin(0rem,0rem,100%);
             @include flexcenter(row,center,stretch);

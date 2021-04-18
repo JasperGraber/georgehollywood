@@ -4,12 +4,12 @@
 
     require_once './class/head.php';
     $Menu = new Head ('menu','Menu');
-        $Menu->getBanner();
-        $Menu->getTitle();
+    $Menu->getBanner();
+    $Menu->getTitle();
 
     $setProduct = $db->setSelect('*','product');
-        $getProduct = $db->getMenulijst();
+    $getProduct = $db->getMenulijst();
     
     $setCategory = $db->setSelect('*','category');
-        $getCategory = $db->getCategory();
+    $getCategory = $db->getCategory();
 ?>

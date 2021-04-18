@@ -6,12 +6,14 @@
     require_once './class/head.php';
 
     $Order = new Head ('order','Bestellen');
-        $Order->getBanner();
-        $Order->getTitle();
-
+    $Order->getBanner();
+    $Order->getTitle();
+?>
+<a href="./index.php?content=logon">Inloggen</a>
+<?php
     $setProduct = $db->setSelect('*','product');
-        $getProduct = $db->getBestellijst();
+    $getProduct = $db->getBestellijst();
     
     $setCategory = $db->setSelect('*','category');
-        $getCategory = $db->getCategory();
+    $getCategory = $db->getCategory();
 ?>
