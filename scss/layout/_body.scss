@@ -1,14 +1,83 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html, body {
+    @include margin(0rem,0rem,100%);
+    background: $main;
+    color: $text;
+    font-family: $normalfont, 'Times New Roman', sans-serif;
     font-size: 18px;
-    font-family: 'Libre Baskerville', serif;
-    overflow-x: hidden;
+    min-height: 100%;
+
+    > content {
+        @include flexcenter(column,center,center);
+        @include margin(0rem,0rem,100%);
+        margin-bottom: 3rem;
+    }
 }
 
 body * {
     display: block;
+}
+
+.head {
+    @include flexcenter(column,center,center);
+    margin-top: 3%;
+    height: 7vh;
+    min-height: 100px;
+    text-align: center;
+    
+    > svg {
+        margin-top: 2rem;
+        width: 20rem;
+    }
+}
+
+#Streep{
+    fill: $col3;
+}
+
+@media only screen and (max-width: 740px) {
+    html, body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 259px) {
+    html:before {
+        @include flexcenter(column,center,center);
+        @include margin(0rem,0rem,100%);
+        background: linear-gradient(to bottom, $black 0%, $alpha 5%, $alpha 95%, $black 100%);
+        background-repeat: no-repeat;
+        background-position: center 5%;
+        background-size: 100%;
+        color: $text;
+        content: 'Apparaat te klein';
+        fill: $text;
+        font-family: $normalfont, 'Times New Roman', sans-serif;
+        font-size: 18px;
+        height: 100vh;
+    }
+        
+    body {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 389px) {
+    html:before {
+        @include flexcenter(column,center,center);
+        @include margin(0rem,0rem,100%);
+        background: linear-gradient(to bottom, $black 0%, $alpha 5%, $alpha 95%, $black 100%);
+        background-repeat: no-repeat;
+        background-position: center 5%;
+        background-size: 100%;
+        color: $text;
+        content: 'Apparaat te klein';
+        fill: $text;
+        font-family: $normalfont, 'Times New Roman', sans-serif;
+        font-size: 18px;
+        height: 100vh;
+    }
+        
+    body {
+        display: none;
+    }
 }

@@ -1,14 +1,3 @@
-.head {
-    @include flexcenter(column,center,center);
-    margin-top: 3%;
-
-    > svg {
-        height:3rem;
-        width: 25%;
-        min-width: 21.66Rem;
-    }
-}
-
 .content {
     @include margin(0rem,0rem,100%);
     @include flexcenter(column,center,center);

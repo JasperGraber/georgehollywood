@@ -19,7 +19,7 @@
         function getTitle()
         {
             echo '</div><h1 class="head">'.$this->Title;
-            include("./img/streep.svg");
+            include("./img/icons/streep.svg");
             echo '</h1>';
         }
     }

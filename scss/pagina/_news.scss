@@ -158,13 +158,13 @@ div.add-category-page {
 
 // nieuwsberichten.php
 div.news-page {
+    @include margin(0rem,0rem,100%);
     font-family: "Libre Baskerville", serif;
     background-image: url("../img/news_banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: -20px;
     div.banner {
         display: flex;
         justify-content: center;
@@ -197,6 +197,10 @@ div.news-page {
         padding: 0px;
         div.categories {
             background-color: #333;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 8rem;
+            z-index: 0;
             a.categories-button {
                 color: white;
                 text-decoration: none;
@@ -304,7 +308,9 @@ div.article-page {
         div.banner {
             display: flex;
             justify-content: center;
-            img {}
+            img {
+                
+            }
             div.custom-hr {
                 background-color: #333;
                 height: 2px;
