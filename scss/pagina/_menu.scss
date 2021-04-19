@@ -42,7 +42,7 @@
 @media only screen and (max-width: 740px) {
 
     .menulijst {
-        @include margin(0rem,0rem,90%);
+        @include margin(0rem,0rem,100%);
         @include flexcenter(column,auto,stretch);
         min-height: 10rem;
         

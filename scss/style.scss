@@ -1,18 +1,21 @@
 // Importeren Mixins
 @import 'function/mixins';
 @import 'function/vars';
+@import 'function/col';
 
 // Importeren Layout
 @import 'layout/body';
-@import 'layout/nav';
+@import 'layout/navbar';
 @import 'layout/banner';
+@import 'layout/button';
+@import 'layout/footer';
 
 // Importeren Pagina's
 @import 'pagina/home';
-@import 'pagina/contact';
 @import 'pagina/menu';
 @import 'pagina/reservate';
 @import 'pagina/order';
 @import 'pagina/news';
+@import 'pagina/contact';
 @import 'pagina/login';
 @import 'pagina/logon';

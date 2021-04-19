@@ -1,5 +1,3 @@
-</div>
-</div>
 <?php
 include("./scripts/connect_db.php");
 include("./scripts/functions.php");

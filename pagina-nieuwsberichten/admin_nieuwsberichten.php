@@ -1,5 +1,3 @@
-</div>
-</div>
 <div class="admin-news-page">
     <div class="header">
         <h1>Admin pagina</h1>

@@ -1,5 +1,3 @@
-</div>
-</div>
 <div class="add-news-page">
     <div class="header">
         <h1>Artikel toevoegen</h1>

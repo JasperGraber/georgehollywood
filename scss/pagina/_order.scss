@@ -61,7 +61,7 @@
 }
 
 .cat {
-    @include margin(3rem 0 0 0,0rem,90%);
+    @include margin(3rem 0rem 0rem 0rem,0rem,100%);
     @include flexcenter(column,center,center);
     min-height: 10rem;
 
@@ -84,7 +84,7 @@
 
 @media only screen and (max-width: 740px) {
     .bestellijst {
-        @include margin(0rem,2%,96%);
+        @include margin(0rem,0rem,100%);
         @include flexcenter(column,stretch,center);
 
         > .bestel-item {

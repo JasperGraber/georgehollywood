@@ -1,5 +1,3 @@
-</div>
-</div>
 <div class="add-category-page">
     <div class="header">
         <h1>Categorieën beheren</h1>

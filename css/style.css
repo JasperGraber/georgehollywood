@@ -1,29 +1,377 @@
-html,
-body {
+.col-1 {
+  flex: 0 0 auto;
+  max-width: 8.33%;
+  width: 8.33%; }
+
+.col-2 {
+  flex: 0 0 auto;
+  max-width: 16.66%;
+  width: 16.66%; }
+
+.col-3 {
+  flex: 0 0 auto;
+  max-width: 25%;
+  width: 25%; }
+
+.col-4 {
+  flex: 0 0 auto;
+  max-width: 33.33%;
+  width: 33.33%; }
+
+.col-5 {
+  flex: 0 0 auto;
+  max-width: 41.66%;
+  width: 41.66%; }
+
+.col-6 {
+  flex: 0 0 auto;
+  max-width: 50%;
+  width: 50%; }
+
+.col-7 {
+  flex: 0 0 auto;
+  max-width: 58.33%;
+  width: 58.33%; }
+
+.col-8 {
+  flex: 0 0 auto;
+  max-width: 66.66%;
+  width: 66.66%; }
+
+.col-9 {
+  flex: 0 0 auto;
+  max-width: 75%;
+  width: 75%; }
+
+.col-10 {
+  flex: 0 0 auto;
+  max-width: 83.33%;
+  width: 83.33%; }
+
+.col-11 {
+  flex: 0 0 auto;
+  max-width: 91.66%;
+  width: 91.66%; }
+
+.col-12 {
+  flex: 0 0 auto;
+  max-width: 100%;
+  width: 100%; }
+
+@media only screen and (max-width: 740px) {
+  .col-sm-1 {
+    flex: 0 0 auto;
+    max-width: 8.33%;
+    width: 8.33%; }
+  .col-sm-2 {
+    flex: 0 0 auto;
+    max-width: 16.66%;
+    width: 16.66%; }
+  .col-sm-3 {
+    flex: 0 0 auto;
+    max-width: 25%;
+    width: 25%; }
+  .col-sm-4 {
+    flex: 0 0 auto;
+    max-width: 33.33%;
+    width: 33.33%; }
+  .col-sm-5 {
+    flex: 0 0 auto;
+    max-width: 41.66%;
+    width: 41.66%; }
+  .col-sm-6 {
+    flex: 0 0 auto;
+    max-width: 50%;
+    width: 50%; }
+  .col-sm-7 {
+    flex: 0 0 auto;
+    max-width: 58.33%;
+    width: 58.33%; }
+  .col-sm-8 {
+    flex: 0 0 auto;
+    max-width: 66.66%;
+    width: 66.66%; }
+  .col-sm-9 {
+    flex: 0 0 auto;
+    max-width: 75%;
+    width: 75%; }
+  .col-sm-10 {
+    flex: 0 0 auto;
+    max-width: 83.33%;
+    width: 83.33%; }
+  .col-sm-11 {
+    flex: 0 0 auto;
+    max-width: 91.66%;
+    width: 91.66%; }
+  .col-sm-12 {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 100%; } }
+
+@media only screen and (min-width: 1920px) {
+  .col-lg-1 {
+    flex: 0 0 auto;
+    max-width: 8.33%;
+    width: 8.33%; }
+  .col-lg-2 {
+    flex: 0 0 auto;
+    max-width: 16.66%;
+    width: 16.66%; }
+  .col-lg-3 {
+    flex: 0 0 auto;
+    max-width: 25%;
+    width: 25%; }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    max-width: 33.33%;
+    width: 33.33%; }
+  .col-lg-5 {
+    flex: 0 0 auto;
+    max-width: 41.66%;
+    width: 41.66%; }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    max-width: 50%;
+    width: 50%; }
+  .col-lg-7 {
+    flex: 0 0 auto;
+    max-width: 58.33%;
+    width: 58.33%; }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    max-width: 66.66%;
+    width: 66.66%; }
+  .col-lg-9 {
+    flex: 0 0 auto;
+    max-width: 75%;
+    width: 75%; }
+  .col-lg-10 {
+    flex: 0 0 auto;
+    max-width: 83.33%;
+    width: 83.33%; }
+  .col-lg-11 {
+    flex: 0 0 auto;
+    max-width: 91.66%;
+    width: 91.66%; }
+  .col-lg-12 {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 100%; } }
+
+html, body {
+  margin: 0rem;
+  padding: 0rem;
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  background: white;
+  color: #333333;
+  font-family: "Libre Baskerville", "Times New Roman", sans-serif;
   font-size: 18px;
-  font-family: 'Libre Baskerville', serif;
-  overflow-x: hidden; }
+  min-height: 100%; }
+  html > content, body > content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    margin-bottom: 3rem; }
 
 body * {
   display: block; }
 
-.topnav {
-  padding: 5px;
-  height: 70px;
-  background-color: white;
-  overflow: hidden; }
-  .topnav a {
-    float: left;
-    color: black;
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 125%; }
+.head {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3%;
+  height: 7vh;
+  min-height: 100px;
+  text-align: center; }
+  .head > svg {
+    margin-top: 2rem;
+    width: 20rem; }
+
+#Streep {
+  fill: #ff8000; }
+
+@media only screen and (max-width: 740px) {
+  html, body {
+    font-size: 12px; } }
+
+@media only screen and (max-width: 259px) {
+  html:before {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, black 100%);
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 100%;
+    color: #333333;
+    content: 'Apparaat te klein';
+    fill: #333333;
+    font-family: "Libre Baskerville", "Times New Roman", sans-serif;
+    font-size: 18px;
+    height: 100vh; }
+  body {
+    display: none; } }
+
+@media only screen and (max-height: 389px) {
+  html:before {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, black 100%);
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 100%;
+    color: #333333;
+    content: 'Apparaat te klein';
+    fill: #333333;
+    font-family: "Libre Baskerville", "Times New Roman", sans-serif;
+    font-size: 18px;
+    height: 100vh; }
+  body {
+    display: none; } }
+
+header {
+  position: relative;
+  height: 8rem; }
+  header > nav {
+    background: white;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 2; }
+    header > nav > ul {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0rem;
+      padding: 0rem;
+      width: 100%;
+      list-style-type: none; }
+      header > nav > ul > li {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0rem;
+        padding: 0rem;
+        width: 33%; }
+        header > nav > ul > li > a {
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin: 0rem;
+          padding: 0rem;
+          width: 100%;
+          color: #333333;
+          font-size: 1.1rem;
+          height: 8rem;
+          text-decoration: none;
+          transition: .5s;
+          transition-timing-function: ease-in-out; }
+          header > nav > ul > li > a:hover {
+            background-color: rgba(255, 128, 0, 0.2);
+            color: black;
+            text-decoration: none;
+            transition: .5s; }
+          header > nav > ul > li > a > div.svg {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%; }
+            header > nav > ul > li > a > div.svg > svg {
+              max-width: 16rem;
+              width: 90%; }
+          header > nav > ul > li > a > span {
+            display: none; }
+      header > nav > ul > #pc {
+        display: block; }
+      header > nav > ul > #tel {
+        display: none; }
+
+@media only screen and (max-width: 740px) {
+  header {
+    height: 12rem; }
+    header > nav > ul {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      header > nav > ul > li {
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%; }
+        header > nav > ul > li#center > a {
+          height: 8rem;
+          margin-top: 1rem;
+          width: 100%; }
+          header > nav > ul > li#center > a > div.svg {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%; }
+            header > nav > ul > li#center > a > div.svg > svg {
+              width: 15rem; }
+        header > nav > ul > li > a {
+          margin: 0rem;
+          padding: 0rem;
+          width: 100%;
+          height: 3rem; }
+        header > nav > ul > li > ul {
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin: 0rem;
+          padding: 0rem;
+          width: 100%;
+          display: none; }
+          header > nav > ul > li > ul > li {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0rem;
+            padding: 0rem;
+            width: 100%; }
+            header > nav > ul > li > ul > li > a {
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              margin: 0rem;
+              padding: 0rem;
+              width: 100%;
+              color: #333333;
+              font-size: 1.1rem;
+              height: 3.5rem;
+              text-decoration: none; }
+              header > nav > ul > li > ul > li > a:hover {
+                background-color: rgba(255, 128, 0, 0.2);
+                color: black;
+                text-decoration: none;
+                transition: .5s; }
+      header > nav > ul > #pc {
+        display: none; }
+      header > nav > ul > #tel {
+        display: block; } }
 
 .banner-home {
   background-color: black;
@@ -43,6 +391,37 @@ body * {
 .banner-menu {
   background-color: black;
   background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner/banner6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
+.banner-reservation {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner/banner13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%;
+  background-size: 100%; }
+
+.banner-reservation_lunch {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner/banner14.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,16 +464,150 @@ body * {
   height: 48vh;
   width: 100%; }
 
-.head {
+.banner-user {
+  background-color: black;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 99%, black 100%), url("../img/banner/banner11.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  filter: grayscale(0%);
+  margin: 0rem;
+  padding: 0rem;
+  height: 48vh;
+  width: 100%; }
+
+.button1 {
+  text-decoration: none; }
+  .button1 > div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0rem 1.2rem;
+    padding: 0rem;
+    width: 11.11rem;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
+    color: #333333;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 3rem;
+    text-decoration: none;
+    transition: .5s; }
+    .button1 > div:hover {
+      background: #ff8000;
+      color: white;
+      transform: scale(1.1); }
+
+.button2 {
+  text-decoration: none; }
+  .button2 > div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 1.2rem;
+    padding: 0rem;
+    width: 7rem;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2), 0 11px 21px 0 rgba(255, 166, 220, 0.004);
+    color: #333333;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 3rem;
+    text-decoration: none;
+    transition: .5s; }
+    .button2 > div:hover {
+      background: #ff8000;
+      color: white;
+      transform: scale(1.1); }
+
+@media only screen and (max-width: 740px) {
+  a.button1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    text-decoration: none; }
+    a.button1 > div {
+      margin: 0.5rem 1rem;
+      padding: 0rem;
+      width: 90%;
+      background: white;
+      color: #333333;
+      height: 3rem; }
+      a.button1 > div:hover {
+        background: #ff8000;
+        color: white; }
+  a.button2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    text-decoration: none; }
+    a.button2 > div {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0.5rem 0rem;
+      padding: 0rem;
+      width: 90%;
+      background: white;
+      color: #333333;
+      height: 3rem; }
+      a.button2 > div:hover {
+        background: #ff8000;
+        color: white; } }
+
+footer {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 3%; }
-  .head > svg {
-    height: 3rem;
-    width: 25%;
-    min-width: 21.66Rem; }
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  min-height: 13rem; }
+  footer > em {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center; }
+  footer > svg {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    max-height: 375px;
+    max-width: 4000px; }
+
+@media only screen and (max-width: 740px) {
+  footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    min-height: 3rem;
+    text-align: center; } }
 
 .content {
   margin: 0rem;
@@ -138,48 +651,6 @@ body * {
     flex-direction: column;
     justify-content: center;
     min-height: 13.33rem; } }
-
-div.contact-route div.contactgegevens {
-  margin-top: 5vh; }
-  div.contact-route div.contactgegevens div.header h1 {
-    color: #333;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box {
-    margin-top: 3vh;
-    text-decoration: none;
-    color: #333;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    border: 1px solid #333;
-    height: 5rem;
-    width: 100%;
-    background-color: white;
-    transition: background-color 0.7s ease;
-    box-shadow: 0px 0px 5px #333; }
-  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box:hover {
-    color: white;
-    background-color: #333; }
-
-div.contact-route div.parkeergelegenheid {
-  margin-top: 5vh; }
-  div.contact-route div.parkeergelegenheid div.header h1 {
-    color: #333;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 2.1rem; }
-
-div.contact-route div.google-maps {
-  background-color: #e3e3e3;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%); }
 
 .menulijst {
   margin: 2%;
@@ -226,7 +697,7 @@ div.contact-route div.google-maps {
   .menulijst {
     margin: 0rem;
     padding: 0rem;
-    width: 90%;
+    width: 100%;
     align-items: auto;
     display: flex;
     flex-direction: column;
@@ -541,9 +1012,9 @@ div.contact-route div.google-maps {
         position: absolute; }
 
 .cat {
-  margin: 3rem 0 0 0;
+  margin: 3rem 0rem 0rem 0rem;
   padding: 0rem;
-  width: 90%;
+  width: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -572,8 +1043,8 @@ div.contact-route div.google-maps {
 @media only screen and (max-width: 740px) {
   .bestellijst {
     margin: 0rem;
-    padding: 2%;
-    width: 96%;
+    padding: 0rem;
+    width: 100%;
     align-items: stretch;
     display: flex;
     flex-direction: column;
@@ -703,13 +1174,15 @@ div.add-category-page {
         background-color: #1a1a1a; }
 
 div.news-page {
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
   font-family: "Libre Baskerville", serif;
   background-image: url("../img/news_banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  margin-bottom: -20px; }
+  background-attachment: fixed; }
   div.news-page div.banner {
     display: flex;
     justify-content: center; }
@@ -736,7 +1209,11 @@ div.news-page {
     max-width: 1000px;
     padding: 0px; }
     div.news-page div.articles div.categories {
-      background-color: #333; }
+      background-color: #333;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 8rem;
+      z-index: 0; }
       div.news-page div.articles div.categories a.categories-button {
         color: white;
         text-decoration: none;
@@ -828,6 +1305,48 @@ div.article-page {
         margin-left: 10%;
         margin-top: 30px;
         margin-bottom: 30px; }
+
+div.contact-route div.contactgegevens {
+  margin-top: 5vh; }
+  div.contact-route div.contactgegevens div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box {
+    margin-top: 3vh;
+    text-decoration: none;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 1px solid #333;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.7s ease;
+    box-shadow: 0px 0px 5px #333; }
+  div.contact-route div.contactgegevens div.container-cards div.row div.cards a.button-box:hover {
+    color: white;
+    background-color: #333; }
+
+div.contact-route div.parkeergelegenheid {
+  margin-top: 5vh; }
+  div.contact-route div.parkeergelegenheid div.header h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.1rem; }
+
+div.contact-route div.google-maps {
+  background-color: #e3e3e3;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%); }
 
 .header-login {
   padding-left: 42.5%;
