@@ -11,7 +11,7 @@
     $email = sanitize($_POST["email-c"]);
     $phone_number = sanitize($_POST["phone-number"]);
 
-    if(empty($_POST["firstname"]) && empty($_POST["lastname"]) && empty($_POST["email-c"]) && empty($_POST["phone-number"]))
+    if(empty($_POST["firstname"]) || empty($_POST["lastname"]) || empty($_POST["email-c"]) || empty($_POST["phone-number"]) )
     {
         header("Location: ./index.php?content=message&alert=leeg");
     } 
