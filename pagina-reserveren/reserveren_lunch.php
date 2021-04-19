@@ -12,14 +12,6 @@
     <div class="row">
         <div class="col-12">
 
-            <?php
-                require_once './class/head.php';
-
-                $Reservation = new Head ('reservation_lunch','Reservation Lunch');
-                $Reservation->getBanner();
-                $Reservation->getTitle();
-            ?>
-
             <div class="content-reserveren-lunch">
                 <div class="row">
                     <div class="col-reserveren-6">
