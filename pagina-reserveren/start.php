@@ -1,15 +1,6 @@
 <div class="container-fluid px-0">
       <div class="row">
         <div class="col-12">
-
-            <?php
-                require_once './class/head.php';
-
-                $Reservation = new Head ('reservation','Reservation');
-                $Reservation->getBanner();
-                $Reservation->getTitle();
-            ?>
-
             <div class="content-start-reserveren">
                 <div class="row">
                     <div class="col-reserveren-6">

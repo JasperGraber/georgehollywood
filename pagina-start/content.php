@@ -20,10 +20,6 @@
         {
             require_once('pagina-nieuwsberichten/' . $_GET['content'] . '.php');
         }
-        elseif (file_exists('pagina-bestellen/' . $_GET['content'] . '.php'))
-        {
-            require_once('pagina-bestellen/' . $_GET['content'] . '.php');
-        }
         elseif (file_exists('pagina/' . $_GET['content'] . '.php'))
         {
             require_once('pagina/' . $_GET['content'] . '.php');

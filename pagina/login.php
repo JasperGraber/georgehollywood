@@ -1,9 +1,4 @@
-<?php
-    require_once './class/head.php';
-    $Login = new Head ('login','Login');
-        $Login->getBanner();
-        $Login->getTitle();
-?>
+
 <div class="row">
     <div class="col-6">
         <img src="./img/logo.svg" width="80%" alt="">

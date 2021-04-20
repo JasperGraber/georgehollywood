@@ -1,10 +1,3 @@
-<?php
-    require_once './class/head.php';
-
-    $Home = new Head ('home','Home');
-        $Home->getBanner();
-        $Home->getTitle();
-?>
 
 <div class="content">
     GEORGE likes to welcome you back home. We’ve missed you.<br>
