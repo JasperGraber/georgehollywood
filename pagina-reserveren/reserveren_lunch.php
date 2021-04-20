@@ -4,7 +4,6 @@
     </div>
     <h1 class="header-reserveren-lunch"> Lunch reserveren</h1>
     <div class="container-fluid">
-        <img src="../img/streep.svg" alt="underline" class="header-streep-reserveren">
     </div>
 </div>
 
