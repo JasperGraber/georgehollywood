@@ -411,49 +411,6 @@ footer {
     min-height: 3rem;
     text-align: center; } }
 
-.content {
-  margin: 0rem;
-  padding: 0rem;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 16vh;
-  min-height: 12.7778rem;
-  text-align: center; }
-
-.buttons {
-  margin: 0rem;
-  padding: 0rem;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 15vh;
-  text-align: center; }
-
-@media only screen and (max-width: 740px) {
-  .content {
-    margin: 0rem;
-    padding: 0rem;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 13.33rem; }
-  .buttons {
-    margin: 0rem;
-    padding: 0rem;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 13.33rem; } }
-
 .hoofd-start-reserveren {
   padding-top: 2.5%;
   padding-bottom: 1.25%; }
