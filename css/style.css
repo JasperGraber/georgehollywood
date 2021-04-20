@@ -246,11 +246,10 @@ body * {
 
 header {
   position: relative;
-  height: 8rem; }
+  height: 4rem; }
   header > nav {
     background: white;
-    border-bottom: 1px solid black;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 2; }
     header > nav > ul {
@@ -263,153 +262,24 @@ header {
       width: 100%;
       list-style-type: none; }
       header > nav > ul > li {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 0rem;
-        padding: 0rem;
         width: 33%; }
         header > nav > ul > li > a {
+          margin: 0rem;
+          padding: 0rem;
+          width: 100%;
           align-items: center;
           display: flex;
           flex-direction: row;
           justify-content: center;
-          margin: 0rem;
-          padding: 0rem;
-          width: 100%;
-          color: #333333;
+          color: black;
           font-size: 1.1rem;
-          height: 8rem;
-          text-decoration: none;
-          transition: .5s;
-          transition-timing-function: ease-in-out; }
+          height: 3rem;
+          text-decoration: none; }
           header > nav > ul > li > a:hover {
             background-color: rgba(255, 128, 0, 0.2);
-            color: black;
-            text-decoration: none;
-            transition: .5s; }
-          header > nav > ul > li > a > div.svg {
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            width: 100%; }
-            header > nav > ul > li > a > div.svg > svg {
-              max-width: 16rem;
-              width: 90%; }
-          header > nav > ul > li > a > span {
-            display: none; }
+            color: black; }
       header > nav > ul > #pc {
         display: block; }
-      header > nav > ul > #tel {
-        display: none; }
-
-@media only screen and (max-width: 740px) {
-  header {
-    height: 12rem; }
-    header > nav > ul {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      header > nav > ul > li {
-        margin: 0rem;
-        padding: 0rem;
-        width: 100%; }
-        header > nav > ul > li#center > a {
-          height: 8rem;
-          margin-top: 1rem;
-          width: 100%; }
-          header > nav > ul > li#center > a > div.svg {
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            width: 100%; }
-            header > nav > ul > li#center > a > div.svg > svg {
-              width: 15rem; }
-        header > nav > ul > li > a {
-          margin: 0rem;
-          padding: 0rem;
-          width: 100%;
-          height: 3rem; }
-        header > nav > ul > li > ul {
-          align-items: center;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          margin: 0rem;
-          padding: 0rem;
-          width: 100%;
-          display: none; }
-          header > nav > ul > li > ul > li {
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin: 0rem;
-            padding: 0rem;
-            width: 100%; }
-            header > nav > ul > li > ul > li > a {
-              align-items: center;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              margin: 0rem;
-              padding: 0rem;
-              width: 100%;
-              color: #333333;
-              font-size: 1.1rem;
-              height: 3.5rem;
-              text-decoration: none; }
-              header > nav > ul > li > ul > li > a:hover {
-                background-color: rgba(255, 128, 0, 0.2);
-                color: black;
-                text-decoration: none;
-                transition: .5s; }
-      header > nav > ul > #pc {
-        display: none; }
-      header > nav > ul > #tel {
-        display: block; } }
-
-footer {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0rem;
-  padding: 0rem;
-  width: 100%;
-  min-height: 13rem; }
-  footer > em {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: center; }
-  footer > svg {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 0rem;
-    padding: 0rem;
-    width: 100%;
-    max-height: 375px;
-    max-width: 4000px; }
-
-@media only screen and (max-width: 740px) {
-  footer {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0rem;
-    padding: 0rem;
-    width: 100%;
-    min-height: 3rem;
-    text-align: center; } }
 
 .hoofd-start-reserveren {
   padding-top: 2.5%;
