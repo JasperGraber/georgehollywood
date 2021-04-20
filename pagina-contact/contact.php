@@ -3,7 +3,6 @@
     <div class="contactgegevens container">
         <div class="header">
             <h1>Contactgegevens</h1>
-            <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
         </div>
         <div class="container-cards">
             <div class="row">
@@ -29,7 +28,6 @@
     <div class="parkeergelegenheid container">
         <div class="header">
             <h1>Parkeergelegenheid</h1>
-            <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
         </div>
         <div class="container-cards">
             <div class="row">
@@ -54,7 +52,6 @@
     <div class="header routebeschrijving">
         <div class="container">
             <h1>Routebeschrijving</h1>
-            <img src="../img/streep.svg" alt="underline" class="img-fluid underline-img">
             <br>
             <img src="../img/sports-car.svg" alt="auto" width="40px" style="filter: invert(15%) sepia(0%) saturate(1946%) hue-rotate(136deg) brightness(99%) contrast(84%);">
             <p>Neem afslag 11 (Amsterdam -Overamstel) richting de s111 op de A10.
