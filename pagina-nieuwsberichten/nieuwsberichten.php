@@ -12,7 +12,6 @@ $result = mysqli_query($conn, $sql);
             <h1>Nieuwsberichten</h1>
             <br>
             <div class="row">
-                <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
             </div>
         </div>
     </div>

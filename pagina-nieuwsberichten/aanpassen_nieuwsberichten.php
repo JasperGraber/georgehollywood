@@ -13,7 +13,6 @@ $record = mysqli_fetch_assoc($result);
         <h1>Artikel wijzigen</h1>
         <br>
         <div class="row">
-            <img src="../img/streep.svg" alt="streep" class="streep img-fluid" draggable="false">
         </div>
     </div>
     <div class="container">
