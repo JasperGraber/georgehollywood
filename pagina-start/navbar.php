@@ -1,10 +1,10 @@
 <nav>
-    <ul id="mainmenu">
-        <li><a href="./index.php?content=home">Home</a></li>
-        <li><a href="./index.php?content=admin_nieuwsberichten">Admin</a></li>
-        <li><a href="./index.php?content=start">Reservation</a></li>
-        <li><a href="./index.php?content=nieuwsberichten">News</a></li>
-        <li><a href="./index.php?content=contact">Contact</a></li>
-        <li><a href="./index.php?content=login">Login</a></li>
-    </ul>
+    <ul class="topnav">
+                    <li><a class="active" href="./index.php?content=home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="right"><a href="#about">Inloggen</a></li>
+                    <li class="right"><a href="./index.php?content=Registreren">Registreren</a></li>
+                  
+                  </ul>
 </nav>

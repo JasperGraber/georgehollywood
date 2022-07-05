@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Title of the Page -->
-    <title>George Hollywood</title>
+    <title>Gaby's project</title>
   </head>
 
   <body>

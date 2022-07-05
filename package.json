@@ -1,22 +1,16 @@
 {
-  "name": "George",
+  "name": "project-gaby",
   "version": "1.0.0",
-  "description": "George-Hollywood",
+  "description": "project-gaby",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch scss -o css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MBO-Utrecht/menu-styling-sass-RiDiCage.git"
-  },
-  "author": "RiDiCage",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MBO-Utrecht/menu-styling-sass-RiDiCage/issues"
-  },
-  "homepage": "https://github.com/MBO-Utrecht/menu-styling-sass-RiDiCage#readme",
+
+  "author": "Gabrielle spits",
+  "license": "",
+
   "devDependencies": {
     "foundation-sites": "^6.6.3",
     "node-sass": "^5.0.0"
